@@ -1,0 +1,69 @@
+# Prefer US English and use UTF-8
+#export LC_ALL="en_US.UTF-8"
+#export LANG="en_US"
+
+# Path to your dotfiles.
+export DOTFILES="${HOME}/dotfiles"
+
+# Zsh
+export ZSH_CUSTOM="${HOME}/.oh-my-zsh/custom"
+
+# Krew is the plugin manager for kubectl command-line tool
+# https://krew.sigs.k8s.io/
+export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
+
+# Rust Cargo binaries
+# export CARGO_HOME=/path/to/your/custom/location
+# export RUSTUP_HOME=/path/to/your/custom/location
+export PATH="${HOME}/.cargo/bin:$PATH"
+
+# Golang
+export GOPATH="${HOME}/go"
+export PATH="$GOPATH/bin:$PATH"
+
+# Mise
+export PATH="$HOME/.local/bin:$PATH"
+
+# starship
+export STARSHIP_CONFIG="${HOME}/.config/starship/starship.toml"
+export STARSHIP_CACHE="${HOME}/.starship/cache"
+
+# Freedesktop.org variables
+# export XDG_CONFIG_HOME=$HOME/.config
+# export XDG_DATA_HOME=$HOME/.local/share
+# export XDG_CACHE_HOME=$HOME/.cache
+
+# Default Apps
+export EDITOR='nano'
+#export VISUAL=$EDITOR
+#export TERMINAL="kitty"
+#export BROWSER="firefox"
+#export VIDEO="mpv"
+#export COLORTERM="truecolor"
+
+# Console Do Not Track (DNT)
+# https://consoledonottrack.com/
+export DO_NOT_TRACK=1
+
+# disables statistics that brew collects
+# Learn more about what you are opting in to at
+# https://docs.brew.sh/Analytics
+export HOMEBREW_NO_ANALYTICS=1
+
+# stop .NET telemetry
+export DOTNET_CLI_TELEMETRY_OPTOUT=1
+
+# GPG
+export GNUPGHOME="${XDG_DATA_HOME}/gnupg"
+export GPG_TTY=$(tty)
+
+# Kubernetes
+# Set the default kube context if present
+DEFAULT_KUBE_CONTEXTS="$HOME/.kube/config"
+if [ -f "${DEFAULT_KUBE_CONTEXTS}" ]
+then
+  export KUBECONFIG="$DEFAULT_KUBE_CONTEXTS"
+fi
+
+# ASDF
+export ASDF_DIR="$HOME/.asdf"

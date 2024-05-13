@@ -1,0 +1,76 @@
+alias h='htop'
+alias r='ranger'
+alias c='clear'
+alias x='exit'
+alias w='watch'
+alias ll='exa -alF'
+alias la='ls -A'
+alias l='ls -CF'
+alias bat='batcat'
+alias news='newsboat'
+alias wt='watch tsp'
+alias hosts='sudo $EDITOR /etc/hosts'
+alias dots='cd "${HOME}/dotfiles"'
+alias weather='curl wttr.in'
+
+# Machine info
+alias hdu='ncdu --color dark -rr -x --exclude .git --exclude node_modules'
+alias disk-usage='sudo ncdu --color dark -rr -x --exclude .git --exclude node_modules /'
+alias meminfo="free -m -l -t"
+alias cpufreq='watch grep \"cpu MHz\" /proc/cpuinfo'
+
+# tmux
+alias tl='tmux ls'
+alias ta='tmux attach'
+alias tat='tmux attach -t'
+alias tns='tmux new-session -s'
+
+# Python
+alias py='python'
+alias ipy='ipython'
+alias pvenv='python3 -m venv .venv && source .venv/bin/activate && pip install -U pip'
+alias pips='pip freeze'
+
+# Docker
+alias d='docker'
+alias dc='docker compose'
+alias dangling='docker rmi -f $(docker images -f "dangling=true" -q)'
+alias lzd='lazydocker'
+
+# kubernetes
+alias k='kubectl'
+alias kg='kubectl get'
+
+# terraform
+alias tf='terraform'
+
+# nvidia
+alias nv_compute_cap="nvidia-smi --query-gpu=compute_cap --format=csv"
+
+# Overrides
+alias rm='rm -rf'
+alias mkdir='mkdir -p'
+alias mkdd='mkdir $(date +%Y%m%d)' # create a dir with date from today
+alias cp='cp -r'
+alias du='du -kh'
+alias df='df -kTh'
+alias less='less -R'
+alias emacs='emacs -nw'
+
+# Date
+alias date_iso_8601='date "+%Y%m%dT%H%M%S"'
+alias date_clean='date "+%Y-%m-%d"'
+alias date_year='date "+%Y"'
+alias date_month='date "+%m"'
+alias date_week='date "+%V"'
+alias date_day='date "+%d"'
+alias date_hour='date "+%H"'
+alias date_minute='date "+%M"'
+alias date_second='date "+%S"'
+alias date_time='date "+%H:%M:%S"'
+
+# Git
+alias g='git'
+alias gs='git status'
+alias gps='git push'
+alias gpl='git pull'

@@ -1,0 +1,81 @@
+function extract() {
+	case $1 in
+		*.tar.gz|*.tgz) tar xzvf "$1" ;;
+		*.tar.xz) tar Jxvf "$1" ;;
+		*.zip) unzip "$1" ;;
+		*.lzh) lha e "$1" ;;
+		*.tar.bz2|*.tbz) tar xjvf "$1" ;;
+		*.tar.Z) tar zxvf "$1" ;;
+		*.gz) gzip -d "$1" ;;
+		*.bz2) bzip2 -dc "$1" ;;
+		*.Z) uncompress "$1" ;;
+		*.tar) tar xvf "$1" ;;
+		*.arj) unarj "$1" ;;
+	esac
+}
+
+# Create a new directory and enter it
+function mkcd() {
+
+	mkdir -p "$@" && cd "$_";
+}
+
+# Generate passwords
+function gen-pass() {
+  local len=${1:-32}
+  openssl rand -base64 256 | tr -d '\n/+='| cut -c -$len
+}
+
+# Generate authentication keys for SSH.
+function gen-ssh-keygen-ed25519() {
+  ssh-keygen -t ed25519 -o -a 100 -f ~/.ssh/keys/$1 -C "$2"
+}
+
+function gen-ssh-keygen-rsa() {
+  ssh-keygen -t rsa -o -a 100 -b 4096 -f ~/.ssh/keys/$1 -C "$2"
+}
+
+# Force delete a Kubernetes namespace
+function force_delete_namespace() {
+    local namespace=$1
+
+    # Check if the namespace exists and is in the Terminating state
+    if kubectl get namespace "$namespace" &> /dev/null; then
+        echo "Namespace $namespace exists and is in the Terminating state."
+
+        # Get the namespace details in JSON format
+        kubectl get namespace "$namespace" -o json > tmp.json
+
+        # Remove the finalizers from the namespace
+        sed -i 's/"kubernetes"//g' tmp.json
+
+        # Use kubectl to replace the namespace with the modified JSON
+        kubectl replace --raw "/api/v1/namespaces/$namespace/finalize" -f ./tmp.json
+
+        # Delete the temporary JSON file
+        rm ./tmp.json
+
+        # Force delete the namespace
+        kubectl delete namespace "$namespace" --force --grace-period=0 --ignore-not-found=true
+
+        echo "Namespace $namespace has been force deleted."
+    else
+        echo "Namespace $namespace does not exist or is not in the Terminating state."
+    fi
+}
+
+# colorized man output
+function man() {
+    env \
+        LESS_TERMCAP_mb=$(printf "\e[1;31m") \
+        LESS_TERMCAP_md=$(printf "\e[1;36m") \
+        LESS_TERMCAP_me=$(printf "\e[0m") \
+        LESS_TERMCAP_se=$(printf "\e[0m") \
+        LESS_TERMCAP_so=$(printf "\e[1;44;33m") \
+        LESS_TERMCAP_ue=$(printf "\e[0m") \
+        LESS_TERMCAP_us=$(printf "\e[1;32m") \
+        PAGER="${commands[less]:-$PAGER}" \
+        _NROFF_U=1 \
+        PATH="$HOME/bin:$PATH" \
+        man "$@"
+}
