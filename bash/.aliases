@@ -12,6 +12,8 @@ alias wt='watch tsp'
 alias hosts='sudo $EDITOR /etc/hosts'
 alias dots='cd "${HOME}/dotfiles"'
 alias weather='curl wttr.in'
+alias pbcopy='xclip -selection clipboard'
+alias pbpaste='xclip -selection clipboard -o'
 
 # Machine info
 alias hdu='ncdu --color dark -rr -x --exclude .git --exclude node_modules'
