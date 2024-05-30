@@ -4,6 +4,7 @@
 
 # Path to your dotfiles.
 export DOTFILES="${HOME}/dotfiles"
+export NOTE_DIR="${HOME}/notes"
 
 # Zsh
 export ZSH_CUSTOM="${HOME}/.oh-my-zsh/custom"
@@ -49,6 +50,7 @@ export DO_NOT_TRACK=1
 # Learn more about what you are opting in to at
 # https://docs.brew.sh/Analytics
 export HOMEBREW_NO_ANALYTICS=1
+export HOMEBREW_NO_AUTO_UPDATE=1
 
 # stop .NET telemetry
 export DOTNET_CLI_TELEMETRY_OPTOUT=1
@@ -67,3 +69,6 @@ fi
 
 # ASDF
 export ASDF_DIR="$HOME/.asdf"
+
+# Ripgrep
+export RIPGREP_CONFIG_PATH="$HOME/.config/ripgrep/.ripgreprc"
