@@ -1,0 +1,25 @@
+[alias]
+	a = add
+	br = branch
+	c = commit
+	cm = commit -m
+	co = checkout
+	d = diff
+	ds = diff --staged
+	p = push
+	pu = pull
+	r = restore
+	rs = restore --staged
+	st = status
+	sw = switch
+	rb = for-each-ref --sort=-committerdate --count=10 --format='%(refname:short)' refs/heads/
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+
+[core]
+	excludesfile = ~/.gitignore_global
+[color]
+	ui = true
+[init]
+	defaultBranch = main
+[push]
+	autoSetupRemote = true

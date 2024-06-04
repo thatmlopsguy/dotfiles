@@ -1,0 +1,29 @@
+# Editor specific files
+.vscode
+.idea
+
+# Platform-specific data
+.DS_Store
+Thumbs.db
+
+# Compiled files
+*.o
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.pch
+a.out
+
+# Python
+__pycache__/
+
+# Node/NPM/Yarn
+node_modules
+npm-error.log
+yarn-error.log
+
+# R
+.Rhistory
+
