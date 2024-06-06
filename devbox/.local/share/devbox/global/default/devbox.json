@@ -31,7 +31,8 @@
     "delta@latest",
     "kubernetes-helm@latest",
     "dapr-cli@latest",
-    "argocd@latest"
+    "argocd@latest",
+    "kyverno@latest"
   ],
   "shell": {
     "init_hook": [
