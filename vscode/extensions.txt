@@ -6,8 +6,12 @@ hashicorp.terraform
 inercia.vscode-k3d
 jetpack-io.devbox
 mhutchie.git-graph
+ms-azuretools.vscode-azurecontainerapps
+ms-azuretools.vscode-azureresourcegroups
+ms-azuretools.vscode-dapr
 ms-azuretools.vscode-docker
 ms-kubernetes-tools.kind-vscode
+ms-kubernetes-tools.vscode-aks-tools
 ms-kubernetes-tools.vscode-kubernetes-tools
 ms-python.debugpy
 ms-python.isort
