@@ -32,7 +32,9 @@
     "kubernetes-helm@latest",
     "dapr-cli@latest",
     "argocd@latest",
-    "kyverno@latest"
+    "kyverno@latest",
+    "velero@latest",
+    "kubeseal@latest"
   ],
   "shell": {
     "init_hook": [
