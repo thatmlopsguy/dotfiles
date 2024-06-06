@@ -45,6 +45,7 @@ alias kg='kubectl get'
 
 # terraform
 alias tf='terraform'
+alias tg='terragrunt'
 
 # nvidia
 alias nv_compute_cap="nvidia-smi --query-gpu=compute_cap --format=csv"
