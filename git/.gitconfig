@@ -26,3 +26,6 @@
 
 [includeIf "gitdir:~/code/github/"]
 	path = ~/.configs/git/github
+
+[includeIf "gitdir:~/code/azure/"]
+	path = ~/.configs/git/azure
