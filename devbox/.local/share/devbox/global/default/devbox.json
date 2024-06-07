@@ -34,7 +34,8 @@
     "argocd@latest",
     "kyverno@latest",
     "velero@latest",
-    "kubeseal@latest"
+    "kubeseal@latest",
+    "mosh@latest"
   ],
   "shell": {
     "init_hook": [
