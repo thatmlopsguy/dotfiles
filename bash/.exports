@@ -72,3 +72,11 @@ export ASDF_DIR="$HOME/.asdf"
 
 # Ripgrep
 export RIPGREP_CONFIG_PATH="$HOME/.config/ripgrep/.ripgreprc"
+
+# Use a python startup file if one exists
+if [[ -e $HOME/.pythonrc ]]; then export PYTHONSTARTUP=$HOME/.pythonrc; fi
+
+# daprd runtime
+if [ -d "$HOME/.dapr/bin" ]; then
+  export PATH="$HOME/.dapr/bin:$PATH"
+fi
