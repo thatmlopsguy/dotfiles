@@ -30,12 +30,19 @@
     "k9s@latest",
     "delta@latest",
     "kubernetes-helm@latest",
-    "dapr-cli@latest",
     "argocd@latest",
     "kyverno@latest",
     "velero@latest",
     "kubeseal@latest",
-    "mosh@latest"
+    "mosh@latest",
+    "trivy@latest",
+    "hadolint@latest",
+    "istioctl@latest",
+    "tfsec@latest",
+    "tflint@latest",
+    "terrascan@latest",
+    "terraform-docs@latest",
+    "opentofu@latest"
   ],
   "shell": {
     "init_hook": [
