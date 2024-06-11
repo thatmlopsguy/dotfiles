@@ -23,6 +23,7 @@
 [init]
 	defaultBranch = main
 [push]
+  default = current
 	autoSetupRemote = true
 
 [includeIf "gitdir:~/code/github/"]
