@@ -42,7 +42,8 @@
     "tflint@latest",
     "terrascan@latest",
     "terraform-docs@latest",
-    "opentofu@latest"
+    "opentofu@latest",
+    "adrs@latest"
   ],
   "shell": {
     "init_hook": [
