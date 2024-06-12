@@ -33,7 +33,7 @@
 	autoSetupRemote = true
 
 [includeIf "gitdir:~/code/github/"]
-	path = ~/.configs/git/github
+	path = ~/.config/git/github
 
 [includeIf "gitdir:~/code/azure/"]
-	path = ~/.configs/git/azure
+	path = ~/.config/git/azure
