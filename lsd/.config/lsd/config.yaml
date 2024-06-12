@@ -1,0 +1,12 @@
+# lsd configuration
+
+blocks:
+  - permission
+  - user
+  - date
+  - size
+  - name
+
+date: '+%Y %b %d %H:%M'
+
+size: short
