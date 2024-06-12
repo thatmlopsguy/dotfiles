@@ -45,7 +45,10 @@
     "opentofu@latest",
     "adrs@latest",
     "pandoc@latest",
-    "lynx@latest"
+    "lynx@latest",
+    "argo-rollouts@latest",
+    "kube-capacity@latest",
+    "popeye@latest"
   ],
   "shell": {
     "init_hook": [
