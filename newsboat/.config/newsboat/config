@@ -1,0 +1,44 @@
+#
+# ~/.config/newsboat/config
+#
+
+## colorschemes
+include "~/.config/newsboat/colours" 
+
+## configuration option: articlelist-format
+## description: This variable defines the format of entries in the article list. See the respective section in the documentation for more information on format strings.
+## parameter syntax: <format>
+# articlelist-format "%4i %f %D %6L  %?T?|%-17T|  ?%t"
+articlelist-format " %D %?T?|%-20T|  ?%t "
+
+## configuration option: refresh-on-startup
+## description: If yes, then all feeds will be reloaded when newsbeuter starts up. This is equivalent to the -r commandline option.
+## parameter syntax: [yes/no]
+refresh-on-startup yes
+
+## configuration option: auto-reload
+## description: If enabled, all feeds will be automatically reloaded at start up and then continuously after a certain time has passed (see reload-time).
+## parameter syntax: [yes/no]
+auto-reload yes
+
+## configuration option: reload-time
+## description: The number of minutes between automatic reloads.
+## parameter syntax: <number>
+reload-time 60
+
+## configuration option: confirm-exit
+## description: If set to yes, then newsbeuter will ask for confirmation whether the user really wants to quit newsbeuter.
+## parameter syntax: [yes/no]
+confirm-exit no
+
+## configuration option: bookmark-cmd
+## description: If set, then <bookmark-command> will be used as bookmarking plugin. See the documentation on bookmarking for further information.
+## parameter syntax: <bookmark-command>
+bookmark-cmd "~/.local/bin/bookmark.sh"
+
+## Macros
+macro m set browser "tsp mpv --geometry=800x600+0+0 %u"; open-in-browser ; set browser "xdg-open %u"
+
+## keybinds
+unbind-key ^B
+bind-key S bookmark
