@@ -50,7 +50,9 @@
     "kube-capacity@latest",
     "popeye@latest",
     "git-cliff@latest",
-    "cocogitto@latest"
+    "cocogitto@latest",
+    "shfmt@latest",
+    "shellcheck@latest"
   ],
   "shell": {
     "init_hook": [
