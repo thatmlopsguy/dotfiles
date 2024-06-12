@@ -1,0 +1,6 @@
+emacs
+feh
+mpv
+neofetch
+newsboat
+task-spooler
