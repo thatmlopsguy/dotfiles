@@ -87,7 +87,6 @@ plugins=(
   kubectl
   history
   # plugins below require install
-  # shellfirm # https://github.com/kaplanelad/shellfirm
   zsh-autosuggestions
   zsh-syntax-highlighting
   fast-syntax-highlighting
@@ -141,3 +140,9 @@ fi
 
 # starship
 # eval "$(starship init zsh)"
+
+# homebrew
+eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+
+# devbox
+eval "$(devbox global shellenv)"
