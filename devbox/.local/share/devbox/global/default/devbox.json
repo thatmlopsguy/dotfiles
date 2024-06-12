@@ -43,7 +43,9 @@
     "terrascan@latest",
     "terraform-docs@latest",
     "opentofu@latest",
-    "adrs@latest"
+    "adrs@latest",
+    "pandoc@latest",
+    "lynx@latest"
   ],
   "shell": {
     "init_hook": [

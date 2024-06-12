@@ -99,7 +99,7 @@ function rmd () {
 }
 
 # Cleans py[cod] and cache dirs in the current tree:
-pyclean () {
+function pyclean () {
   fd -I -H \
     '(__pycache__|\.(pytest_|mypy_)?cache|\.hypothesis\.py[cod]$)' \
   | xargs rm -rf

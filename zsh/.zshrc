@@ -129,6 +129,10 @@ if [ -f ~/.exports ]; then
     . ~/.exports
 fi
 
+if [ -f ~/.functions ]; then
+    . ~/.functions
+fi
+
 # asdf
 if [ -f ~/.asdf/asdf.sh ]; then
     . "$HOME/.asdf/asdf.sh"
