@@ -3,4 +3,9 @@
 krew update
 krew install ctx
 krew install ns
+krew install ktop
+krew install kubescape
+krew install oomd
+krew install doctor
+
 krew upgrade
