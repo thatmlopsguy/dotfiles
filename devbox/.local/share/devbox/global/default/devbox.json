@@ -48,7 +48,9 @@
     "lynx@latest",
     "argo-rollouts@latest",
     "kube-capacity@latest",
-    "popeye@latest"
+    "popeye@latest",
+    "git-cliff@latest",
+    "cocogitto@latest"
   ],
   "shell": {
     "init_hook": [
