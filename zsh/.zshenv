@@ -1,0 +1,2 @@
+# rustup:
+. "$HOME/.cargo/env"
