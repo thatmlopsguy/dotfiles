@@ -1,3 +1,7 @@
+#
+# ~/.aliases
+#
+
 alias h='htop'
 alias r='ranger'
 alias c='clear'

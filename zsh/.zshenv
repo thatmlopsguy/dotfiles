@@ -1,2 +1,6 @@
-# rustup:
+#
+# ~/.zshenv
+#
+
+# rustup
 . "$HOME/.cargo/env"
