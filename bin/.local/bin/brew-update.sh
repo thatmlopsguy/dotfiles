@@ -5,3 +5,5 @@ brew autoremove
 brew cleanup -s --prune=all
 brew missing
 brew doctor
+
+brew install arttor/tap/helmify
