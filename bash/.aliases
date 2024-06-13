@@ -37,6 +37,9 @@ alias ipy='ipython'
 alias pvenv='python3 -m venv .venv && source .venv/bin/activate && pip install -U pip'
 alias pips='pip freeze'
 
+# php
+alias sail='bash vendor/bin/sail'
+
 # Docker
 alias d='docker'
 alias dc='docker compose'
