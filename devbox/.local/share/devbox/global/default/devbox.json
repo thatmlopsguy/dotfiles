@@ -53,7 +53,8 @@
     "cocogitto@latest",
     "shfmt@latest",
     "shellcheck@latest",
-    "lsd@latest"
+    "lsd@latest",
+    "zoxide@latest"
   ],
   "shell": {
     "init_hook": [
