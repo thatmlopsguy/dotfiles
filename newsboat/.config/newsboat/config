@@ -3,7 +3,7 @@
 #
 
 ## colorschemes
-include "~/.config/newsboat/colours" 
+include "~/.config/newsboat/colors"
 
 ## configuration option: articlelist-format
 ## description: This variable defines the format of entries in the article list. See the respective section in the documentation for more information on format strings.
