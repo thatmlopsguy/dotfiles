@@ -67,6 +67,7 @@ alias du='du -kh'
 alias df='df -kTh'
 alias less='less -R'
 alias emacs='emacs -nw'
+alias rsync='rsync -azvP'
 
 # Date
 alias date_iso_8601='date "+%Y%m%dT%H%M%S"'
