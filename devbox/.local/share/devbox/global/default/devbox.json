@@ -54,7 +54,11 @@
     "shfmt@latest",
     "shellcheck@latest",
     "lsd@latest",
-    "zoxide@latest"
+    "zoxide@latest",
+    "mysql-client@latest",
+    "kompose@latest",
+    "nodejs@latest",
+    "vite@latest"
   ],
   "shell": {
     "init_hook": [
