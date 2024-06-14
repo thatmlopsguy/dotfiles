@@ -58,7 +58,8 @@
     "mysql-client@latest",
     "kompose@latest",
     "nodejs@latest",
-    "vite@latest"
+    "vite@latest",
+    "pnpm@latest"
   ],
   "shell": {
     "init_hook": [
