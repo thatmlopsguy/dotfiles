@@ -12,6 +12,11 @@ helm repo add devtron https://helm.devtron.ai
 helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
 helm repo add open-telemetry https://open-telemetry.github.io/opentelemetry-helm-charts
 helm repo add k8s-at-home https://k8s-at-home.com/charts
+helm repo add otomi https://otomi.io/otomi-core
+helm repo add katafygio https://bpineau.github.io/katafygio
 
 helm repo update
 helm repo list
+
+helm plugin install https://github.com/komodorio/helm-dashboard.git
+helm plugin update dashboard
