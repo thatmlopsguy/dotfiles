@@ -59,7 +59,8 @@
     "kompose@latest",
     "nodejs@latest",
     "vite@latest",
-    "pnpm@latest"
+    "pnpm@latest",
+    "helm-docs@latest"
   ],
   "shell": {
     "init_hook": [
