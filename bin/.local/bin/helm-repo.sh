@@ -14,6 +14,7 @@ helm repo add open-telemetry https://open-telemetry.github.io/opentelemetry-helm
 helm repo add k8s-at-home https://k8s-at-home.com/charts
 helm repo add otomi https://otomi.io/otomi-core
 helm repo add katafygio https://bpineau.github.io/katafygio
+helm repo add dragonfly https://dragonflyoss.github.io/helm-charts
 
 helm repo update
 helm repo list
