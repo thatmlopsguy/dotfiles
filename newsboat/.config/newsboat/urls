@@ -52,6 +52,8 @@ https://spacelift.io/rss                                      "Blog" "~Spacelift
 https://codefresh.io/feed/                                    "Blog" "~Codefresh"
 https://home.robusta.dev/blog/rss.xml                         "Blog" "~Robusta"
 https://www.pulumi.com/blog/rss.xml                           "Blog" "~Pulumi"
+https://blog.crossplane.io/rss/                               "Blog" "~Crossplane"
+https://feed.superorbital.io                                  "Blog" "~SuperOrbital"
 
 # ToTest
 #
