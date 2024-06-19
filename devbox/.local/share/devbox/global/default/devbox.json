@@ -60,7 +60,8 @@
     "nodejs@latest",
     "vite@latest",
     "pnpm@latest",
-    "helm-docs@latest"
+    "helm-docs@latest",
+    "terraform@latest"
   ],
   "shell": {
     "init_hook": [
