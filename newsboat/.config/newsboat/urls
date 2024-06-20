@@ -54,6 +54,8 @@ https://home.robusta.dev/blog/rss.xml                         "Blog" "~Robusta"
 https://www.pulumi.com/blog/rss.xml                           "Blog" "~Pulumi"
 https://blog.crossplane.io/rss/                               "Blog" "~Crossplane"
 https://feed.superorbital.io                                  "Blog" "~SuperOrbital"
+https://slack.engineering/feed                                "Blog" "~Slack"
+https://kodekloud.com/blog/rss/                               "Blog" "~KodeKloud"
 
 # ToTest
 #
@@ -240,7 +242,6 @@ https://shopify.engineering/blog.atom "EngineeringBlogs"
 https://medium.com/feed/shyp-engineering "EngineeringBlogs"
 https://www.sitepoint.com/feed/ "EngineeringBlogs"
 https://technology.skybettingandgaming.com/feed.xml "EngineeringBlogs"
-https://slack.engineering/feed "EngineeringBlogs"
 https://tech.small-improvements.com/rss "EngineeringBlogs"
 https://developers.soundcloud.com/blog.rss "EngineeringBlogs"
 http://engineering.speedledger.com/feed/ "EngineeringBlogs"
