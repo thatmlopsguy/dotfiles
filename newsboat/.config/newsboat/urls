@@ -57,6 +57,7 @@ https://feed.superorbital.io                                  "Blog" "~SuperOrbi
 https://slack.engineering/feed                                "Blog" "~Slack"
 https://kodekloud.com/blog/rss/                               "Blog" "~KodeKloud"
 https://platform9.com/feed                                    "Blog" "~Platform9"
+https://akuity.io/blog/rss.xml                                "Blog" "~Akuity"
 
 # ToTest
 #
@@ -75,6 +76,7 @@ https://jvns.ca/atom.xml                              "PersonalBlog"
 http://blog.cleancoder.com/atom.xml                   "PersonalBlog"
 https://realpython.com/atom.xml                       "PersonalBlog" "~realpython"
 https://piotrminkowski.com/feed/                      "PersonalBlog" "~Piotr's TechBlog"
+https://pradeepl.com/blog/index.xml                   "PersonalBlog" "~Pradeep Loganathan"
 
 
 "* Youtube ---------------------------------------------------------------------------------"
