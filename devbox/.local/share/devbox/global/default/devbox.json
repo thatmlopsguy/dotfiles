@@ -61,7 +61,8 @@
     "pnpm@latest",
     "helm-docs@latest",
     "terraform@latest",
-    "yq-go@latest"
+    "yq-go@latest",
+    "glasskube@latest"
   ],
   "shell": {
     "init_hook": [
