@@ -19,7 +19,6 @@
     "xsv@latest",
     "fd@latest",
     "jq@latest",
-    "yq@latest",
     "yt-dlp@latest",
     "htop@latest",
     "lazydocker@latest",
@@ -61,7 +60,8 @@
     "vite@latest",
     "pnpm@latest",
     "helm-docs@latest",
-    "terraform@latest"
+    "terraform@latest",
+    "yq-go@latest"
   ],
   "shell": {
     "init_hook": [
