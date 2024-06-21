@@ -48,7 +48,7 @@ helm repo add flagger https://flagger.app
 helm repo add keel https://charts.keel.sh
 helm repo add atlantis https://runatlantis.github.io/helm-charts
 helm repo add loft https://charts.loft.sh
-helm repo add lifecycle-toolkit https://charts.lifecycle.keptn.sh
+helm repo add keptn https://charts.lifecycle.keptn.sh/
 helm repo add openfeature https://open-feature.github.io/open-feature-operator/
 
 helm repo update
