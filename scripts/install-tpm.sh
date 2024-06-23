@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-echo '[*] Install tmp'
+echo '[*] Install tpm'
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm

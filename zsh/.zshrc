@@ -154,3 +154,6 @@ eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 
 # devbox
 eval "$(devbox global shellenv)"
+
+# zoxide
+eval "$(zoxide init zsh)"
