@@ -15,4 +15,4 @@ git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git "${Z
 git clone https://github.com/MichaelAquilina/zsh-autoswitch-virtualenv.git "${ZSH_CUSTOM}/plugins/autoswitch_virtualenv"
 
 echo '[*] Install themes oh-my-zsh'
-git clone https://github.com/romkatv/powerlevel10k.git "${ZSH_CUSTOM}/themes/powerlevel10k"
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "${ZSH_CUSTOM}/themes/powerlevel10k"
