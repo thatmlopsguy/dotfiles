@@ -1,11 +1,28 @@
 # Dotfiles
 
 My dotfiles and a list of software I use.
+
 These are for my use mainly for setting up/backing up different computers.
 
-## Tools to install
+Take anything you want, but at your own risk.
 
-The dotfiles are managed by `gnu stow`.
+## How to install
+
+The dotfiles are managed by `gnu stow`. Install [git](https://git-scm.com/) and [gnu stow](https://www.gnu.org/software/stow/).
+
+Clone repo to a new machine
+
+```bash
+git clone https://github.com/thatmlopsguy/dotfiles.git ~/.dotfiles
+```
+
+Run `bootstrap.sh` to symlink all the config with `stow`. 
+
+```bash
+export DOTFILES=~/.dotfiles
+cd $DOTFILES
+./bootstrap.sh
+```
 
 ## Utilities
 
@@ -26,3 +43,9 @@ The dotfiles are managed by `gnu stow`.
 - [duf](https://github.com/muesli/duf)
 - [lsd](https://github.com/lsd-rs/lsd)
 - [git delta](https://github.com/dandavison/delta)
+
+## References
+
+Articles and other links that helped me create these dotfiles:
+
+- [andrenbrandao/dotfiles](https://github.com/andrenbrandao/dotfiles/)
