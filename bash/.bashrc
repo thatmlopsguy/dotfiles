@@ -131,12 +131,8 @@ source "${XDG_CONFIG_HOME:-$HOME/.config}/asdf-direnv/bashrc"
 # starship
 eval "$(starship init bash)"
 
-# Set up fzf key bindings and fuzzy completion
-if [[ ! "$PATH" == *$HOME/.fzf/bin* ]]; then
-  PATH="${PATH:+${PATH}:}$HOME/.fzf/bin"
-fi
-
-eval "$(fzf --bash)"
+# Set up fzf, if it's installed
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
 # homebrew
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
