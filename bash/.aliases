@@ -2,6 +2,8 @@
 # ~/.aliases
 #
 
+alias ..='cd ..'
+
 alias h='htop'
 alias r='ranger'
 alias c='clear'
@@ -57,6 +59,10 @@ alias kns='kubens'
 
 # terraform
 alias tf='terraform'
+alias tapply='terraform apply'
+alias tfmt='terraform fmt'
+alias tinit='terraform init'
+alias tplan='terraform plan'
 alias tg='terragrunt'
 
 # nvidia
