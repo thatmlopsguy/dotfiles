@@ -53,6 +53,7 @@ alias lzd='lazydocker'
 alias k='kubectl'
 alias kg='kubectl get'
 alias kubescape='kubectl-kubescape'
+alias kns='kubens'
 
 # terraform
 alias tf='terraform'
