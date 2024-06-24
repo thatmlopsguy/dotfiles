@@ -24,6 +24,13 @@ cd $DOTFILES
 ./bootstrap.sh
 ```
 
+## Requirements
+
+Set zsh as your login shell:
+
+    chsh -s $(which zsh)
+
+
 ## Utilities
 
 - [asdf](https://asdf-vm.com/)
