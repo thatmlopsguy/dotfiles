@@ -52,6 +52,7 @@ helm repo add keptn https://charts.lifecycle.keptn.sh/
 helm repo add openfeature https://open-feature.github.io/open-feature-operator/
 helm repo add openebs https://openebs.github.io/openebs
 helm repo add signoz https://charts.signoz.io
+helm repo add dapr https://dapr.github.io/helm-charts/
 
 helm repo update
 helm repo list
