@@ -51,6 +51,7 @@ helm repo add loft https://charts.loft.sh
 helm repo add keptn https://charts.lifecycle.keptn.sh/
 helm repo add openfeature https://open-feature.github.io/open-feature-operator/
 helm repo add openebs https://openebs.github.io/openebs
+helm repo add signoz https://charts.signoz.io
 
 helm repo update
 helm repo list
