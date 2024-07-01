@@ -60,4 +60,5 @@ helm repo update
 helm repo list
 
 helm plugin install https://github.com/komodorio/helm-dashboard.git
+helm plugin install https://github.com/helm-unittest/helm-unittest.git
 helm plugin update dashboard
