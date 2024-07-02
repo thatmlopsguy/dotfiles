@@ -62,6 +62,7 @@ https://tech.trivago.com/index.xml                            "Blog" "~Trivago"
 https://observiq.com/blog/rss.xml                             "Blog" "~Observiq"
 https://www.confluent.io/rss.xml                              "Blog" "~Confluent"
 https://www.aspecto.io/feed                                   "Blog" "~Aspecto"
+https://thenewstack.io/blog/feed/                             "Blog" "~The New Stack"
 # ToTest
 #
 # TODO
