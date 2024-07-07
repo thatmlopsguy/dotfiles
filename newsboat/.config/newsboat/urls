@@ -61,7 +61,8 @@ https://akuity.io/blog/rss.xml                                "Blog" "~Akuity"
 https://tech.trivago.com/index.xml                            "Blog" "~Trivago"
 https://observiq.com/blog/rss.xml                             "Blog" "~Observiq"
 https://www.confluent.io/rss.xml                              "Blog" "~Confluent"
-
+https://www.aspecto.io/feed                                   "Blog" "~Aspecto"
+https://thenewstack.io/blog/feed/                             "Blog" "~The New Stack"
 # ToTest
 #
 # TODO
@@ -155,8 +156,6 @@ https://blog.developer.bazaarvoice.com/feed/ "EngineeringBlogs"
 https://benchling.engineering/feed "EngineeringBlogs"
 https://www.benefitfocus.com/rss.xml "EngineeringBlogs"
 https://www.bigeng.io/rss/ "EngineeringBlogs"
-https://engineering.bittorrent.com/feed/ "EngineeringBlogs"
-https://code.blender.org/rss "EngineeringBlogs"
 https://engineering.brandwatch.com/rss/ "EngineeringBlogs"
 https://capgemini.github.io/feed.xml "EngineeringBlogs"
 http://engineering.chartbeat.com/feed/ "EngineeringBlogs"

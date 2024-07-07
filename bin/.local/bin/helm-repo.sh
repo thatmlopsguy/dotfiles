@@ -55,9 +55,11 @@ helm repo add signoz https://charts.signoz.io
 helm repo add dapr https://dapr.github.io/helm-charts/
 helm repo add zipkin https://zipkin.io/zipkin-helm
 helm repo add radius https://radius.azurecr.io/helm/v1/repo
+helm repo add litmuschaos https://litmuschaos.github.io/litmus-helm/
 
 helm repo update
 helm repo list
 
 helm plugin install https://github.com/komodorio/helm-dashboard.git
+helm plugin install https://github.com/helm-unittest/helm-unittest.git
 helm plugin update dashboard
