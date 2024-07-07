@@ -1,3 +1,5 @@
 k9s/.config/k9s/config.yaml
 .stowrc
 git/.config/git/azure
+ssh/.ssh/config
+ssh/.ssh/keys
