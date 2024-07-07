@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# post-checkout: prompt user to apply code previously stashed from target branch
+
+commit=$(git rev-parse --short HEAD)
+stash=$(git stash list | grep $commit | head -n 1 |cut -d ":" -f 1)
+if [ -n "$stash" ]; then
+    echo ""
+    echo "🔍 Found code stashed on top of current commit"
+    git stash show $stash
+    echo ""
+    read -t 3 -n1 -p "👉 Apply $stash [y/N]? " doit < /dev/tty
+    case $doit in
+      [yY]* ) git stash apply $stash
+              ;;
+    esac
+fi

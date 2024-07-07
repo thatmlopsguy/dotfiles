@@ -6,6 +6,7 @@
 # Platform-specific data
 .DS_Store
 Thumbs.db
+.cache
 
 # Compiled files
 *.o
@@ -19,12 +20,19 @@ a.out
 
 # Python
 __pycache__/
+*.pyc
 
 # Node/NPM/Yarn
 node_modules
 npm-error.log
+npm-debug.log
 yarn-error.log
+yarn.lock
+/bower_components
 
 # R
 .Rhistory
 
+# Folders to ignore
+.hg
+.svn

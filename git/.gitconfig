@@ -1,6 +1,8 @@
 [alias]
+	aliases = config --get-regexp alias # list aliases
 	a = add
 	br = branch
+	branches = branch --all
 	c = commit
 	cm = commit -m
 	co = checkout
@@ -14,6 +16,7 @@
 	sw = switch
 	rb = for-each-ref --sort=-committerdate --count=10 --format='%(refname:short)' refs/heads/
     lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	tags = tag -l
 
 [core]
 	excludesfile = ~/.gitignore_global
@@ -24,6 +27,7 @@
 
 [init]
 	defaultBranch = main
+	templateDir = ~/.config/git/templates
 
 [commit]
   template = ~/.gitmessage
@@ -33,7 +37,7 @@
 	autoSetupRemote = true
 
 [includeIf "gitdir:~/code/github/"]
-	path = ~/.config/git/github
+	path = ~/.config/git/accounts/github
 
 [includeIf "gitdir:~/code/azure/"]
-	path = ~/.config/git/azure
+	path = ~/.config/git/accounts/azure
