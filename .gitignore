@@ -1,5 +1,5 @@
 k9s/.config/k9s/config.yaml
 .stowrc
-git/.config/git/azure
+git/.config/git/accounts/*
 ssh/.ssh/config
 ssh/.ssh/keys
