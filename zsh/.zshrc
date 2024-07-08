@@ -91,11 +91,11 @@ plugins=(
   kubectl
   history
   # plugins below require install
-  zsh-autosuggestions
+  # zsh-autosuggestions
   zsh-syntax-highlighting
   fast-syntax-highlighting
   zsh-autocomplete
-  autoswitch_virtualenv
+  # autoswitch_virtualenv
  )
 
 source $ZSH/oh-my-zsh.sh
