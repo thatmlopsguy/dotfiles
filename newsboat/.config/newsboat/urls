@@ -11,6 +11,12 @@
 # https://github.com/kilimchoi/engineering-blogs
 # https://devops-scanner.com/
 #
+# TODO
+# https://komodor.com/blog/
+# https://loft.sh/blog/
+# https://medium.com/chick-fil-atech/
+# https://blogit.michelin.io/
+# https://www.diagrid.io/blog
 
 "* Blogs -----------------------------------------------------------------------------------"
 https://aws.amazon.com/blogs/opensource/feed/                 "Blog" "~AWS"
@@ -63,13 +69,6 @@ https://observiq.com/blog/rss.xml                             "Blog" "~Observiq"
 https://www.confluent.io/rss.xml                              "Blog" "~Confluent"
 https://www.aspecto.io/feed                                   "Blog" "~Aspecto"
 https://thenewstack.io/blog/feed/                             "Blog" "~The New Stack"
-# ToTest
-#
-# TODO
-# https://komodor.com/blog/
-# https://loft.sh/blog/
-# https://medium.com/chick-fil-atech/
-# https://blogit.michelin.io/
 
 "* Research --------------------------------------------------------------------------------"
 https://blog.salesforceairesearch.com/rss/                    "Blog"
@@ -81,7 +80,6 @@ http://blog.cleancoder.com/atom.xml                   "PersonalBlog"
 https://realpython.com/atom.xml                       "PersonalBlog" "~realpython"
 https://piotrminkowski.com/feed/                      "PersonalBlog" "~Piotr's TechBlog"
 https://pradeepl.com/blog/index.xml                   "PersonalBlog" "~Pradeep Loganathan"
-
 
 "* Youtube ---------------------------------------------------------------------------------"
 # https://www.youtube.com/feeds/videos.xml?channel_id=
