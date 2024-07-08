@@ -41,7 +41,7 @@ alias pvenv='python3 -m venv .venv && source .venv/bin/activate && pip install -
 alias pips='pip freeze'
 
 # php
-alias sail='bash vendor/bin/sail'
+alias sail='sh $([ -f sail ] && echo sail || echo vendor/bin/sail)'
 alias art='php artisan'
 alias fresh='php artisan migrate:fresh --seed'
 alias seed='php artisan db:seed'
