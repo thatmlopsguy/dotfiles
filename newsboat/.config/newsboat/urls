@@ -80,6 +80,7 @@ http://blog.cleancoder.com/atom.xml                   "PersonalBlog"
 https://realpython.com/atom.xml                       "PersonalBlog" "~realpython"
 https://piotrminkowski.com/feed/                      "PersonalBlog" "~Piotr's TechBlog"
 https://pradeepl.com/blog/index.xml                   "PersonalBlog" "~Pradeep Loganathan"
+https://sylhare.github.io/feed.xml                    "PersonalBlog" "~Sylhare"
 
 "* Youtube ---------------------------------------------------------------------------------"
 # https://www.youtube.com/feeds/videos.xml?channel_id=
