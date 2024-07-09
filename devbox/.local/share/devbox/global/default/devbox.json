@@ -62,7 +62,8 @@
     "helm-docs@latest",
     "terraform@latest",
     "yq-go@latest",
-    "glasskube@latest"
+    "glasskube@latest",
+    "k6@latest"
   ],
   "shell": {
     "init_hook": [
