@@ -8,7 +8,7 @@
 
 # Path to your dotfiles.
 export DOTFILES="${HOME}/dotfiles"
-export NOTE_DIR="${HOME}/notes"
+export NOTE_DIR="${HOME}/documents/notes"
 
 # Zsh
 export ZSH_CUSTOM="${HOME}/.oh-my-zsh/custom"
