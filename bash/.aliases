@@ -60,6 +60,7 @@ alias k='kubectl'
 alias kg='kubectl get'
 alias kubescape='kubectl-kubescape'
 alias kns='kubens'
+alias kk='kubectl kustomize'
 
 # terraform
 alias tf='terraform'
