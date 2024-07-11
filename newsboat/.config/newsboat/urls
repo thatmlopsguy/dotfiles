@@ -81,6 +81,7 @@ https://realpython.com/atom.xml                       "PersonalBlog" "~realpytho
 https://piotrminkowski.com/feed/                      "PersonalBlog" "~Piotr's TechBlog"
 https://pradeepl.com/blog/index.xml                   "PersonalBlog" "~Pradeep Loganathan"
 https://sylhare.github.io/feed.xml                    "PersonalBlog" "~Sylhare"
+http://blog.pamelafox.org/feeds/posts/default         "PersonalBlog" "~Pamela Fox"
 
 "* Youtube ---------------------------------------------------------------------------------"
 # https://www.youtube.com/feeds/videos.xml?channel_id=
@@ -405,7 +406,6 @@ https://www.nateberkopec.com/feed.xml "EngineeringBlogs"
 https://fullstack.info/feed/ "EngineeringBlogs"
 https://oleb.net/blog/atom.xml "EngineeringBlogs"
 http://www.windytan.com/feeds/posts/default "EngineeringBlogs"
-http://blog.pamelafox.org/feeds/posts/default "EngineeringBlogs"
 http://feeds2.feedburner.com/patshaughnessy "EngineeringBlogs"
 https://feeds.feedburner.com/paul-irish "EngineeringBlogs"
 https://blog.pchudzik.com/index.xml "EngineeringBlogs"
