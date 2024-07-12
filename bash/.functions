@@ -30,17 +30,17 @@ function mkcd() {
 }
 
 # Generate passwords
-function gen-pass() {
+function gen_pass() {
   local len=${1:-32}
   openssl rand -base64 256 | tr -d '\n/+='| cut -c -$len
 }
 
 # Generate authentication keys for SSH.
-function gen-ssh-keygen-ed25519() {
+function gen_ssh_keygen_ed25519() {
   ssh-keygen -t ed25519 -o -a 100 -f ~/.ssh/keys/$1 -C "$2"
 }
 
-function gen-ssh-keygen-rsa() {
+function gen_ssh_keygen_rsa() {
   ssh-keygen -t rsa -o -a 100 -b 4096 -f ~/.ssh/keys/$1 -C "$2"
 }
 
@@ -107,4 +107,10 @@ function pyclean () {
   fd -I -H \
     '(__pycache__|\.(pytest_|mypy_)?cache|\.hypothesis\.py[cod]$)' \
   | xargs rm -rf
+}
+
+# Convert string to be compatible with kubernetes secrets
+function encode_to_base64() {
+  local secret="${1}"
+  echo -n $secret | base64
 }
