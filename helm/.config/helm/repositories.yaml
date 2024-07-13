@@ -523,3 +523,12 @@ repositories:
   password: ""
   url: https://storage.googleapis.com/seldon-charts
   username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: connaisseur
+  pass_credentials_all: false
+  password: ""
+  url: https://sse-secure-systems.github.io/connaisseur/charts
+  username: ""
