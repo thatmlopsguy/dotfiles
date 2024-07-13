@@ -64,7 +64,8 @@
     "yq-go@latest",
     "glasskube@latest",
     "k6@latest",
-    "litmusctl@latest"
+    "litmusctl@latest",
+    "argo@latest"
   ],
   "shell": {
     "init_hook": [
