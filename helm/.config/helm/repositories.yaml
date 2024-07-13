@@ -451,3 +451,12 @@ repositories:
   password: ""
   url: https://zipkin.io/zipkin-helm
   username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: openfunction
+  pass_credentials_all: false
+  password: ""
+  url: https://openfunction.github.io/charts
+  username: ""
