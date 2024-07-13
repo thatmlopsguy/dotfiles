@@ -469,3 +469,12 @@ repositories:
   password: ""
   url: https://kedacore.github.io/charts
   username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: litmuschaos
+  pass_credentials_all: false
+  password: ""
+  url: https://litmuschaos.github.io/litmus-helm/
+  username: ""

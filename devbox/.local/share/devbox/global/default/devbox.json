@@ -63,7 +63,8 @@
     "terraform@latest",
     "yq-go@latest",
     "glasskube@latest",
-    "k6@latest"
+    "k6@latest",
+    "litmusctl@latest"
   ],
   "shell": {
     "init_hook": [
