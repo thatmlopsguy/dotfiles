@@ -514,3 +514,12 @@ repositories:
   password: ""
   url: https://apache.github.io/incubator-devlake-helm-chart
   username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: seldonio
+  pass_credentials_all: false
+  password: ""
+  url: https://storage.googleapis.com/seldon-charts
+  username: ""

@@ -59,6 +59,7 @@ helm repo add litmuschaos https://litmuschaos.github.io/litmus-helm/
 helm repo add openfunction https://openfunction.github.io/charts
 helm repo add kedacore https://kedacore.github.io/charts
 helm repo add devlake https://apache.github.io/incubator-devlake-helm-chart
+helm repo add seldonio https://storage.googleapis.com/seldon-charts
 
 helm repo update
 helm repo list
