@@ -478,3 +478,30 @@ repositories:
   password: ""
   url: https://litmuschaos.github.io/litmus-helm/
   username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: aquasecurity
+  pass_credentials_all: false
+  password: ""
+  url: https://aquasecurity.github.io/helm-charts/
+  username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: strimzi
+  pass_credentials_all: false
+  password: ""
+  url: https://strimzi.io/charts
+  username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: crossplane-stable
+  pass_credentials_all: false
+  password: ""
+  url: https://charts.crossplane.io/stable
+  username: ""
