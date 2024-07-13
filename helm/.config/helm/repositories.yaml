@@ -505,3 +505,12 @@ repositories:
   password: ""
   url: https://charts.crossplane.io/stable
   username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: devlake
+  pass_credentials_all: false
+  password: ""
+  url: https://apache.github.io/incubator-devlake-helm-chart
+  username: ""
