@@ -83,6 +83,8 @@ https://pradeepl.com/blog/index.xml                   "PersonalBlog" "~Pradeep L
 https://sylhare.github.io/feed.xml                    "PersonalBlog" "~Sylhare"
 http://blog.pamelafox.org/feeds/posts/default         "PersonalBlog" "~Pamela Fox"
 https://tamerlan.dev/rss/                             "PersonalBlog" "~Tamerlan Gudabayev"
+https://blog.ediri.io/rss.xml                         "PersonalBlog" "~Engin Diri"
+https://anaisurl.com/rss/                             "PersonalBlog" "~Anais Urlichs"
 
 "* Youtube ---------------------------------------------------------------------------------"
 # https://www.youtube.com/feeds/videos.xml?channel_id=
