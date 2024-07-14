@@ -541,3 +541,21 @@ repositories:
   password: ""
   url: https://flagsmith.github.io/flagsmith-charts/
   username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: backstage
+  pass_credentials_all: false
+  password: ""
+  url: https://backstage.github.io/charts
+  username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: lakefs
+  pass_credentials_all: false
+  password: ""
+  url: https://charts.lakefs.io
+  username: ""

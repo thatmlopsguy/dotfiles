@@ -69,3 +69,10 @@ helm repo list
 helm plugin install https://github.com/komodorio/helm-dashboard.git
 helm plugin install https://github.com/helm-unittest/helm-unittest.git
 helm plugin update dashboard
+
+# S3: https://github.com/hypnoglow/helm-s3
+# helm plugin install https://github.com/hypnoglow/helm-s3.git;
+# GS:https://github.com/hayorov/helm-gcs
+# helm plugin install https://github.com/hayorov/helm-gcs.git
+# azblob: https://github.com/C123R/helm-blob
+# helm plugin install https://github.com/C123R/helm-blob.git
