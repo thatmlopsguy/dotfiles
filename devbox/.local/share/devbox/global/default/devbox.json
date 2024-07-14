@@ -65,7 +65,8 @@
     "glasskube@latest",
     "k6@latest",
     "litmusctl@latest",
-    "argo@latest"
+    "argo@latest",
+    "argocd-autopilot@latest"
   ],
   "shell": {
     "init_hook": [
