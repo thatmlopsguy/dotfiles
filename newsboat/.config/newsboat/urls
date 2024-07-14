@@ -85,6 +85,7 @@ http://blog.pamelafox.org/feeds/posts/default         "PersonalBlog" "~Pamela Fo
 https://tamerlan.dev/rss/                             "PersonalBlog" "~Tamerlan Gudabayev"
 https://blog.ediri.io/rss.xml                         "PersonalBlog" "~Engin Diri"
 https://anaisurl.com/rss/                             "PersonalBlog" "~Anais Urlichs"
+https://trstringer.com/feed.xml                       "PersonalBlog" "~Thomas Stringer"
 
 "* Youtube ---------------------------------------------------------------------------------"
 # https://www.youtube.com/feeds/videos.xml?channel_id=
