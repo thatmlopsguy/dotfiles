@@ -12,7 +12,6 @@ helm repo add devtron https://helm.devtron.ai
 helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
 helm repo add open-telemetry https://open-telemetry.github.io/opentelemetry-helm-charts
 helm repo add k8s-at-home https://k8s-at-home.com/charts
-helm repo add otomi https://otomi.io/otomi-core
 helm repo add katafygio https://bpineau.github.io/katafygio
 helm repo add dragonfly https://dragonflyoss.github.io/helm-charts
 helm repo add bitnami https://charts.bitnami.com/bitnami
@@ -33,7 +32,7 @@ helm repo add goauthentik https://charts.goauthentik.io/
 helm repo add jaegertracing https://jaegertracing.github.io/helm-charts
 helm repo add chartmuseum https://chartmuseum.github.io/charts
 helm repo add dex https://charts.dexidp.io
-helm repo add crossplane https://charts.crossplane.io/master/
+helm repo add crossplane-stable https://charts.crossplane.io/stable
 helm repo add renovate https://docs.renovatebot.com/helm-charts
 helm repo add falcosecurity https://falcosecurity.github.io/charts
 helm repo add kong https://charts.konghq.com
@@ -62,6 +61,10 @@ helm repo add devlake https://apache.github.io/incubator-devlake-helm-chart
 helm repo add seldonio https://storage.googleapis.com/seldon-charts
 helm repo add connaisseur https://sse-secure-systems.github.io/connaisseur/charts
 helm repo add flagsmith https://flagsmith.github.io/flagsmith-charts
+helm repo add kepler https://sustainable-computing-io.github.io/kepler-helm-chart
+helm repo add apl https://linode.github.io/apl-core/
+helm repo add lakefs https://charts.lakefs.io
+helm repo add aquasecurity https://aquasecurity.github.io/helm-charts/
 
 helm repo update
 helm repo list
