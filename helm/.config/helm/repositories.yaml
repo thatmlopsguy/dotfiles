@@ -559,3 +559,21 @@ repositories:
   password: ""
   url: https://charts.lakefs.io
   username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: apl
+  pass_credentials_all: false
+  password: ""
+  url: https://linode.github.io/apl-core/
+  username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: kepler
+  pass_credentials_all: false
+  password: ""
+  url: https://sustainable-computing-io.github.io/kepler-helm-chart
+  username: ""
