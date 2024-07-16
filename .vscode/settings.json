@@ -3,6 +3,7 @@
         "dapr",
         "dotfiles",
         "ncdu",
-        "nvitop"
+        "nvitop",
+        "venv"
     ]
 }
