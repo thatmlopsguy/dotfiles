@@ -1,0 +1,5 @@
+{
+  "azureResourceGroups.groupBy": "resourceType",
+  "dapr.paths.daprPath": "/usr/local/bin/dapr",
+  "adrManager.adrDirectory": "docs/adr",
+}
