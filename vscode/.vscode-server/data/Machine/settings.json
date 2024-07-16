@@ -1,31 +1,80 @@
 {
+  // VScode
+  "telemetry.telemetryLevel": "off",
+  "extensions.ignoreRecommendations": true,
   "azureResourceGroups.groupBy": "resourceType",
   // Dapr
   "dapr.paths.daprPath": "/usr/local/bin/dapr",
   // "dapr.paths.daprdPath": "~/.dapr/bin/daprd",
   "adrManager.adrDirectory": "docs/adr",
+  // git/github
+  "git.confirmSync": false,
   "github.gitProtocol": "ssh",
+  // Explorer
+  "explorer.autoReveal": true,
   // Editor
+  "editor.minimap.enabled": true,
+  "editor.wordWrap": "on",
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
-  "editor.acceptSuggestionOnEnter": "smart",
+  "editor.acceptSuggestionOnEnter": "on",
+  "editor.tabSize": 4,
+  "editor.fontSize": 14,
+  "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
+  "editor.rulers": [
+    120
+  ],
+  // Files
   "files.autoSave": "afterDelay",
   "files.exclude": {
-    "**/.venv": true
+    "**/.git": true,
+    "**/.DS_Store": true,
+    "**/bower_components/**": true,
+    "**/.venv": true,
+    "**/.devbox": true,
   },
   "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/.venv": true,
+    "**/.devbox": true,
+  },
   // Languages
   "[markdown]": {
     "editor.formatOnSave": true,
   },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[css]": {
+    "editor.formatOnSave": true,
+  },
+  "[javascript]": {
+    "editor.formatOnSave": false,
+  },
+  "[python]": {
+    "editor.tabSize": 4,
+    "terminal.activateEnvironment": false,
+  },
   "[terraform]": {
     "editor.defaultFormatter": "hashicorp.terraform",
     "editor.formatOnSave": true,
-    "editor.formatOnSaveMode": "file"
+    "editor.formatOnSaveMode": "file",
   },
   "[terraform-vars]": {
     "editor.defaultFormatter": "hashicorp.terraform",
     "editor.formatOnSave": true,
-    "editor.formatOnSaveMode": "file"
-  }
+    "editor.formatOnSaveMode": "file",
+  },
+  // Dictionary
+  "cSpell.language": "en,pt",
+  "cSpell.userWords": [
+    "daprd",
+  ],
 }
