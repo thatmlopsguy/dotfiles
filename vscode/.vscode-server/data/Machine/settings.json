@@ -5,9 +5,7 @@
   // "dapr.paths.daprdPath": "~/.dapr/bin/daprd",
   "adrManager.adrDirectory": "docs/adr",
   "github.gitProtocol": "ssh",
-  "[markdown]": {
-    "editor.formatOnSave": true,
-  },
+  // Editor
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "editor.acceptSuggestionOnEnter": "smart",
@@ -15,5 +13,19 @@
   "files.exclude": {
     "**/.venv": true
   },
-  "files.insertFinalNewline": true
+  "files.insertFinalNewline": true,
+  // Languages
+  "[markdown]": {
+    "editor.formatOnSave": true,
+  },
+  "[terraform]": {
+    "editor.defaultFormatter": "hashicorp.terraform",
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file"
+  },
+  "[terraform-vars]": {
+    "editor.defaultFormatter": "hashicorp.terraform",
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file"
+  }
 }
