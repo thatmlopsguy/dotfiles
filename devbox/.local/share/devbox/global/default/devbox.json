@@ -67,7 +67,10 @@
     "litmusctl@latest",
     "argo@latest",
     "argocd-autopilot@latest",
-    "kustomize@latest"
+    "kustomize@latest",
+    "chart-testing@latest",
+    "shellspec@latest",
+    "actionlint@latest"
   ],
   "shell": {
     "init_hook": [
