@@ -577,3 +577,12 @@ repositories:
   password: ""
   url: https://sustainable-computing-io.github.io/kepler-helm-chart
   username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: aso2
+  pass_credentials_all: false
+  password: ""
+  url: https://raw.githubusercontent.com/Azure/azure-service-operator/main/v2/charts
+  username: ""
