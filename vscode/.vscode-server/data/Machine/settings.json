@@ -1,13 +1,21 @@
 {
   // VScode
-  "telemetry.telemetryLevel": "off",
+  "redhat.telemetry.enabled": false,
   "extensions.ignoreRecommendations": true,
   "azureResourceGroups.groupBy": "resourceType",
+  // Terminal
+  "terminal.integrated.defaultProfile.linux": "zsh",
   // Dapr
   "dapr.paths.daprPath": "/usr/local/bin/dapr",
-  // "dapr.paths.daprdPath": "~/.dapr/bin/daprd",
+  /// "dapr.paths.daprdPath": "~/.dapr/bin/daprd",
   "adrManager.adrDirectory": "docs/adr",
   // git/github
+  "git.defaultBranchName": "main",
+  "git.branchProtection": [
+    "main"
+  ],
+  "git.inputValidationSubjectLength": 50,
+  "git.inputValidationLength": 72,
   "git.confirmSync": false,
   "github.gitProtocol": "ssh",
   // Explorer
@@ -76,5 +84,10 @@
   "cSpell.language": "en,pt",
   "cSpell.userWords": [
     "daprd",
+    "devbox"
   ],
+  "workbench.activityBar.location": "top",
+  "workbench.startupEditor": "none",
+  "window.autoDetectColorScheme": true,
+  "remoteHub.gitProtocol": "ssh",
 }
