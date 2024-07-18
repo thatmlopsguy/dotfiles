@@ -586,3 +586,12 @@ repositories:
   password: ""
   url: https://raw.githubusercontent.com/Azure/azure-service-operator/main/v2/charts
   username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: liqo
+  pass_credentials_all: false
+  password: ""
+  url: https://helm.liqo.io/
+  username: ""
