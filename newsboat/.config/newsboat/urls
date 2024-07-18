@@ -86,6 +86,7 @@ https://tamerlan.dev/rss/                             "PersonalBlog" "~Tamerlan 
 https://blog.ediri.io/rss.xml                         "PersonalBlog" "~Engin Diri"
 https://anaisurl.com/rss/                             "PersonalBlog" "~Anais Urlichs"
 https://trstringer.com/feed.xml                       "PersonalBlog" "~Thomas Stringer"
+https://christianhuth.de/rss/                         "PersonalBlog" "~christianhuth"
 
 "* Youtube ---------------------------------------------------------------------------------"
 # https://www.youtube.com/feeds/videos.xml?channel_id=
@@ -483,4 +484,3 @@ http://blog.klipse.tech//feed.xml "EngineeringBlogs"
 
 # Clojure
 # https://dragan.rocks/feed.xml "Clojure"
-
