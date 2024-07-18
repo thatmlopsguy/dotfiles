@@ -26,6 +26,9 @@ export PATH="${HOME}/.cargo/bin:$PATH"
 export GOPATH="${HOME}/go"
 export PATH="$GOPATH/bin:$PATH"
 
+# Node
+#export NVM_DIR="$HOME/.nvm"
+
 # Mise
 export PATH="$HOME/.local/bin:$PATH"
 
@@ -58,6 +61,9 @@ export HOMEBREW_NO_AUTO_UPDATE=1
 
 # stop .NET telemetry
 export DOTNET_CLI_TELEMETRY_OPTOUT=1
+
+# Docker
+export DOCKER_SCAN_SUGGEST=false
 
 # GPG
 export GNUPGHOME="${XDG_DATA_HOME}/.gnupg"
