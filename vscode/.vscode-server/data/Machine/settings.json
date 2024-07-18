@@ -5,6 +5,10 @@
   "azureResourceGroups.groupBy": "resourceType",
   // Terminal
   "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontWeight": "400",
+  "terminal.integrated.fontWeightBold": "500",
+  "terminal.integrated.lineHeight": 1.0,
   // Dapr
   "dapr.paths.daprPath": "/usr/local/bin/dapr",
   /// "dapr.paths.daprdPath": "~/.dapr/bin/daprd",
@@ -35,11 +39,23 @@
   // Files
   "files.autoSave": "afterDelay",
   "files.exclude": {
+    "_site": true,
     "**/.git": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/.sass-cache": true,
     "**/.DS_Store": true,
+    "**/node_modules": true,
     "**/bower_components/**": true,
     "**/.venv": true,
     "**/.devbox": true,
+    "**/.terraform": true,
+    "**/*.tfplan": true,
+    "**/CVS": true,
+  },
+  "files.associations": {
+    "*.tmpl": "html",
+    "*.html.erb": "html"
   },
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
@@ -53,6 +69,7 @@
   // Languages
   "[markdown]": {
     "editor.formatOnSave": true,
+    "files.trimTrailingWhitespace": false
   },
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
@@ -84,10 +101,13 @@
   "cSpell.language": "en,pt",
   "cSpell.userWords": [
     "daprd",
-    "devbox"
+    "devbox",
+    "kustomize"
   ],
+  // Workbench
   "workbench.activityBar.location": "top",
   "workbench.startupEditor": "none",
+  "workbench.iconTheme": "material-icon-theme",
   "window.autoDetectColorScheme": true,
   "remoteHub.gitProtocol": "ssh",
 }
