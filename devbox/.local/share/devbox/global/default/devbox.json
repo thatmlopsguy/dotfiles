@@ -70,7 +70,8 @@
     "kustomize@latest",
     "chart-testing@latest",
     "shellspec@latest",
-    "actionlint@latest"
+    "actionlint@latest",
+    "bfg-repo-cleaner@latest"
   ],
   "shell": {
     "init_hook": [
