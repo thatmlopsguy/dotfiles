@@ -1,3 +1,8 @@
+#
+# ~/.gitconfig
+#
+
+# https://github.com/GitAlias/gitalias
 [alias]
 	aliases = config --get-regexp alias # list aliases
 	a = add
@@ -17,6 +22,7 @@
 	rb = for-each-ref --sort=-committerdate --count=10 --format='%(refname:short)' refs/heads/
     lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 	tags = tag -l
+	alias-master-as-main = !git symbolic-ref refs/heads/main refs/heads/master && git symbolic-ref refs/remotes/origin/main refs/remotes/origin/master && git switch main
 
 [core]
 	excludesfile = ~/.gitignore_global
@@ -29,11 +35,14 @@
 	defaultBranch = main
 	templateDir = ~/.config/git/templates
 
+[help]
+    autocorrect = immediate
+
 [commit]
-  template = ~/.gitmessage
+	template = ~/.gitmessage
 
 [push]
-  default = current
+  	default = current
 	autoSetupRemote = true
 
 [includeIf "gitdir:~/code/github/"]
