@@ -71,7 +71,8 @@
     "chart-testing@latest",
     "shellspec@latest",
     "actionlint@latest",
-    "bfg-repo-cleaner@latest"
+    "bfg-repo-cleaner@latest",
+    "sops@latest"
   ],
   "shell": {
     "init_hook": [
