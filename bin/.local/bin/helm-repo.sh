@@ -72,6 +72,7 @@ helm repo list
 helm plugin install https://github.com/jkroepke/helm-secrets
 helm plugin install https://github.com/komodorio/helm-dashboard.git
 helm plugin install https://github.com/helm-unittest/helm-unittest.git
+helm plugin install https://github.com/jtyr/kubeconform-helm
 helm plugin update dashboard
 
 # S3: https://github.com/hypnoglow/helm-s3
