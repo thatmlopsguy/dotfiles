@@ -100,6 +100,11 @@
   // Dictionary
   "cSpell.language": "en,pt",
   "cSpell.userWords": [
+    "appset",
+    "argocd",
+    "argoproj",
+    "azurecr",
+    "dapr",
     "daprd",
     "devbox",
     "kustomize"
