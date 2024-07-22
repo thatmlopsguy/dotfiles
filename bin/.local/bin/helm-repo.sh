@@ -69,6 +69,7 @@ helm repo add aquasecurity https://aquasecurity.github.io/helm-charts/
 helm repo update
 helm repo list
 
+helm plugin install https://github.com/jkroepke/helm-secrets
 helm plugin install https://github.com/komodorio/helm-dashboard.git
 helm plugin install https://github.com/helm-unittest/helm-unittest.git
 helm plugin update dashboard
