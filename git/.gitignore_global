@@ -4,10 +4,30 @@
 .idea
 notes.txt
 
-# Platform-specific data
-.DS_Store
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Platform-specific
+## Windows
+# https://github.com/github/gitignore/blob/main/Global/Windows.gitignore
+[Dd]esktop.ini
 Thumbs.db
-.cache
+Thumbs.db:encryptable
+*.lnk
+
+## Linux
+# https://github.com/github/gitignore/blob/main/Global/Linux.gitignore
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+## macOS
+# https://github.com/github/gitignore/blob/main/Global/macOS.gitignore
+.DS_Store
+._*
 
 # Compiled files
 *.o
@@ -22,6 +42,7 @@ a.out
 # Python
 __pycache__/
 *.pyc
+.tox
 
 # Node/NPM/Yarn
 node_modules
