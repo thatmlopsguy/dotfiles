@@ -107,7 +107,10 @@
     "dapr",
     "daprd",
     "devbox",
-    "kustomize"
+    "helmlint",
+    "kubeconform",
+    "kustomize",
+    "otel"
   ],
   // Workbench
   "workbench.activityBar.location": "top",
