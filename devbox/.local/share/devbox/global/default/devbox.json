@@ -72,7 +72,8 @@
     "shellspec@latest",
     "actionlint@latest",
     "bfg-repo-cleaner@latest",
-    "sops@latest"
+    "sops@latest",
+    "vcluster@latest"
   ],
   "shell": {
     "init_hook": [
