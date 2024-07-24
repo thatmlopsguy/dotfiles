@@ -73,7 +73,8 @@
     "actionlint@latest",
     "bfg-repo-cleaner@latest",
     "sops@latest",
-    "vcluster@latest"
+    "vcluster@latest",
+    "eksctl@latest"
   ],
   "shell": {
     "init_hook": [
