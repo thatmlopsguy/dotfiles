@@ -65,6 +65,10 @@ helm repo add kepler https://sustainable-computing-io.github.io/kepler-helm-char
 helm repo add apl https://linode.github.io/apl-core/
 helm repo add lakefs https://charts.lakefs.io
 helm repo add aquasecurity https://aquasecurity.github.io/helm-charts/
+helm repo add slo-reporting https://colenio.github.io/slo-reporting/
+helm repo add sloth https://slok.github.io/sloth
+helm repo add rlex https://rlex.github.io/helm-charts
+
 
 helm repo update
 helm repo list
