@@ -7,3 +7,4 @@ brew missing
 brew doctor
 
 brew install arttor/tap/helmify
+brew install openslo/openslo/oslo
