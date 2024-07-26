@@ -112,7 +112,8 @@
     "kubeconform",
     "kustomize",
     "otel",
-    "readyz"
+    "readyz",
+    "shellcheck"
   ],
   // Workbench
   "workbench.activityBar.location": "top",
@@ -120,4 +121,5 @@
   "workbench.iconTheme": "material-icon-theme",
   "window.autoDetectColorScheme": true,
   "remoteHub.gitProtocol": "ssh",
+  "update.showReleaseNotes": false,
 }
