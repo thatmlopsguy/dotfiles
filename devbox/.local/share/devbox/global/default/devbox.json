@@ -74,7 +74,8 @@
     "bfg-repo-cleaner@latest",
     "sops@latest",
     "vcluster@latest",
-    "eksctl@latest"
+    "eksctl@latest",
+    "sloth@latest"
   ],
   "shell": {
     "init_hook": [
