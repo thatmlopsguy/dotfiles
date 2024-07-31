@@ -121,6 +121,7 @@
     "kubelet",
     "kuberay",
     "kustomize",
+    "kyverno",
     "milvus",
     "onnx",
     "otel",
@@ -129,7 +130,8 @@
     "rollouts",
     "rstudio",
     "scikit",
-    "shellcheck"
+    "shellcheck",
+    "trivy"
   ],
   // Workbench
   "workbench.activityBar.location": "top",
