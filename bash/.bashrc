@@ -126,7 +126,7 @@ if [ -f ~/.asdf/asdf.sh ]; then
 fi
 
 # asdf direnv
-source "${XDG_CONFIG_HOME:-$HOME/.config}/asdf-direnv/bashrc"
+#source "${XDG_CONFIG_HOME:-$HOME/.config}/asdf-direnv/bashrc"
 
 # starship
 eval "$(starship init bash)"
