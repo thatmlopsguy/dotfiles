@@ -622,3 +622,12 @@ repositories:
   password: ""
   url: https://cloudnative-pg.github.io/charts
   username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: openfeature
+  pass_credentials_all: false
+  password: ""
+  url: https://open-feature.github.io/open-feature-operator
+  username: ""
