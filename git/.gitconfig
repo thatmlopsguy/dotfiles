@@ -20,7 +20,7 @@
 	st = status
 	sw = switch
 	rb = for-each-ref --sort=-committerdate --count=10 --format='%(refname:short)' refs/heads/
-    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 	tags = tag -l
 	alias-master-as-main = !git symbolic-ref refs/heads/main refs/heads/master && git symbolic-ref refs/remotes/origin/main refs/remotes/origin/master && git switch main
 
@@ -36,14 +36,15 @@
 	templateDir = ~/.config/git/templates
 
 [help]
-    autocorrect = immediate
+  autocorrect = immediate
 
 [commit]
-	template = ~/.gitmessage
+  template = ~/.gitmessage
 
 [push]
-  	default = current
+  default = current
 	autoSetupRemote = true
+  followTags = true
 
 [includeIf "gitdir:~/code/github/"]
 	path = ~/.config/git/accounts/github
