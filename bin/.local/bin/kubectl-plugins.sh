@@ -10,5 +10,6 @@ krew install doctor
 krew install tree
 krew install cost
 krew install kor
+krew install neat
 
 krew upgrade
