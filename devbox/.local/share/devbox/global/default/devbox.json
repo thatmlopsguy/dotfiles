@@ -76,7 +76,8 @@
     "vcluster@latest",
     "eksctl@latest",
     "sloth@latest",
-    "jid@latest"
+    "jid@latest",
+    "kics@latest"
   ],
   "shell": {
     "init_hook": [
