@@ -77,7 +77,8 @@
     "eksctl@latest",
     "sloth@latest",
     "jid@latest",
-    "kics@latest"
+    "kics@latest",
+    "kubernetes-polaris@latest"
   ],
   "shell": {
     "init_hook": [
