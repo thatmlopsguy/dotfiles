@@ -4,6 +4,7 @@
 "query:Blogs:tags # \"Blog\""
 "query:EngBlogs:tags # \"EngineeringBlogs\""
 "query:Personal Blogs:tags # \"PersonalBlog\""
+"query:Research Blogs:tags # \"ResearchBlog\""
 "query:YouTube - DevOps:tags # \"Youtube\""
 "query:YouTube - Programming :tags # \"YT-Programming\""
 # Get rss feeds
@@ -70,10 +71,12 @@ https://www.confluent.io/rss.xml                              "Blog" "~Confluent
 https://www.aspecto.io/feed                                   "Blog" "~Aspecto"
 https://thenewstack.io/blog/feed/                             "Blog" "~The New Stack"
 https://opentofu.org/blog/rss.xml                             "Blog" "~OpenTofu"
+https://sysdig.com/feed/                                      "Blog" "~Sysdig"
 
 "* Research --------------------------------------------------------------------------------"
-https://blog.salesforceairesearch.com/rss/                    "Blog"
-https://deepmind.google/blog/rss.xml                          "Blog"
+https://blog.salesforceairesearch.com/rss/                    "ResearchBlog" "~Salesforce"
+https://deepmind.google/blog/rss.xml                          "ResearchBlog" "~Deepmind"
+https://blog.roboflow.com/rss/                                "ResearchBlog" "~Roboflow"
 
 "* Personal Blogs --------------------------------------------------------------------------"
 https://jvns.ca/atom.xml                              "PersonalBlog"
