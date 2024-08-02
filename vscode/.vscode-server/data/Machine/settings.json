@@ -104,6 +104,7 @@
     "argocd",
     "argoproj",
     "azurecr",
+    "cloudnative",
     "dapr",
     "daprd",
     "devbox",
@@ -127,12 +128,15 @@
     "openfeature",
     "otel",
     "promtail",
+    "pyroscope",
+    "pyrra",
     "pytest",
     "readyz",
     "rollouts",
     "rstudio",
     "scikit",
     "shellcheck",
+    "thanos",
     "trivy"
   ],
   // Workbench
