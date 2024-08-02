@@ -51,6 +51,7 @@
     "**/.devbox": true,
     "**/.terraform": true,
     "**/*.tfplan": true,
+    "**/*.swp": true,
     "**/CVS": true,
   },
   "files.associations": {

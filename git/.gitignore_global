@@ -4,6 +4,9 @@
 .idea
 notes.txt
 
+# vim
+*.swp
+
 # Sublime Text
 *.sublime-project
 *.sublime-workspace
