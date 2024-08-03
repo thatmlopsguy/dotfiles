@@ -78,7 +78,8 @@
     "sloth@latest",
     "jid@latest",
     "kics@latest",
-    "kubernetes-polaris@latest"
+    "kubernetes-polaris@latest",
+    "cosign@latest"
   ],
   "shell": {
     "init_hook": [
