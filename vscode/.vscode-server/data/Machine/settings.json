@@ -101,6 +101,7 @@
   // Dictionary
   "cSpell.language": "en,pt",
   "cSpell.userWords": [
+    "alertmanager",
     "appset",
     "argocd",
     "argoproj",
@@ -113,6 +114,7 @@
     "healthz",
     "helmlint",
     "istio",
+    "jaegertracing",
     "keda",
     "keras",
     "keycloak",
