@@ -79,7 +79,8 @@
     "jid@latest",
     "kics@latest",
     "kubernetes-polaris@latest",
-    "cosign@latest"
+    "cosign@latest",
+    "timoni@latest"
   ],
   "shell": {
     "init_hook": [
