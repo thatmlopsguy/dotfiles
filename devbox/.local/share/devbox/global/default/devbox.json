@@ -81,7 +81,8 @@
     "kubernetes-polaris@latest",
     "cosign@latest",
     "timoni@latest",
-    "thefuck@latest"
+    "thefuck@latest",
+    "hyperfine@latest"
   ],
   "shell": {
     "init_hook": [
