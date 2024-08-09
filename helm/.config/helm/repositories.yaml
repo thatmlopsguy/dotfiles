@@ -676,3 +676,21 @@ repositories:
     password: ""
     url: https://kubernetes.github.io/dashboard/
     username: ""
+  - caFile: ""
+    certFile: ""
+    insecure_skip_tls_verify: false
+    keyFile: ""
+    name: cortex-helm
+    pass_credentials_all: false
+    password: ""
+    url: https://cortexproject.github.io/cortex-helm-chart
+    username: ""
+  - caFile: ""
+    certFile: ""
+    insecure_skip_tls_verify: false
+    keyFile: ""
+    name: seaweedfs
+    pass_credentials_all: false
+    password: ""
+    url: https://seaweedfs.github.io/seaweedfs/helm
+    username: ""
