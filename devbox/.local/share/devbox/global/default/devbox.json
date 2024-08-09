@@ -80,7 +80,8 @@
     "kics@latest",
     "kubernetes-polaris@latest",
     "cosign@latest",
-    "timoni@latest"
+    "timoni@latest",
+    "thefuck@latest"
   ],
   "shell": {
     "init_hook": [
