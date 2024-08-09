@@ -140,9 +140,11 @@
     "rollouts",
     "rstudio",
     "scikit",
+    "seaweedfs",
     "shellcheck",
     "thanos",
-    "trivy"
+    "trivy",
+    "Velero"
   ],
   // Workbench
   "workbench.activityBar.location": "top",
