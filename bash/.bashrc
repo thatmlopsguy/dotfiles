@@ -136,3 +136,9 @@ eval "$(starship init bash)"
 
 # homebrew
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+
+# devbox
+eval "$(devbox global shellenv)"
+
+# thefuck
+eval $(thefuck --alias)
