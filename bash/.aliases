@@ -21,12 +21,16 @@ alias dev='cd "${HOME}/code"'
 alias weather='curl wttr.in'
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
+alias fzf="fzf --preview 'bat --style=numbers --color=always --line-range :500 {}'"
 
 # Machine info
 alias hdu='ncdu --color dark -rr -x --exclude .git --exclude node_modules'
 alias disk-usage='sudo ncdu --color dark -rr -x --exclude .git --exclude node_modules /'
 alias meminfo="free -m -l -t"
 alias cpufreq='watch grep \"cpu MHz\" /proc/cpuinfo'
+
+# homebrew
+alias bclean='brew cleanup -s'
 
 # tmux
 alias tl='tmux ls'
