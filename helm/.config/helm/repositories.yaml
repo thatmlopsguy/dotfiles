@@ -712,3 +712,12 @@ repositories:
   password: ""
   url: https://milvus-io.github.io/milvus-helm/
   username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: deepflow
+  pass_credentials_all: false
+  password: ""
+  url: https://deepflowio.github.io/deepflow
+  username: ""
