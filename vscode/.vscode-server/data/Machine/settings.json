@@ -107,6 +107,8 @@
     "argoproj",
     "azurecr",
     "cloudnative",
+    "connaissuer",
+    "containerd",
     "cookiecutter",
     "cuda",
     "cudnn",
@@ -151,6 +153,7 @@
     "trivy",
     "vcluster",
     "velero",
+    "venv",
     "websockets"
   ],
   // Workbench
