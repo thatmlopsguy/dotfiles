@@ -2,12 +2,16 @@ charliermarsh.ruff
 davidanson.vscode-markdownlint
 editorconfig.editorconfig
 exiasr.hadolint
+golang.go
 hashicorp.terraform
 inercia.vscode-k3d
 jetpack-io.devbox
+mechatroner.rainbow-csv
 mhutchie.git-graph
+mongodb.mongodb-vscode
 ms-azuretools.vscode-azurecontainerapps
 ms-azuretools.vscode-azureresourcegroups
+ms-azuretools.vscode-azureterraform
 ms-azuretools.vscode-dapr
 ms-azuretools.vscode-docker
 ms-kubernetes-tools.kind-vscode
@@ -24,5 +28,9 @@ ms-vscode.remote-explorer
 njpwerner.autodocstring
 rangav.vscode-thunder-client
 redhat.vscode-yaml
+rust-lang.rust-analyzer
+stevenchen.vscode-adr-manager
 streetsidesoftware.code-spell-checker
 streetsidesoftware.code-spell-checker-portuguese
+tim-koehler.helm-intellisense
+yzhang.markdown-all-in-one
