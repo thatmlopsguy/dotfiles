@@ -1,13 +1,11 @@
 {
-  "cSpell.words": [
-    "connaisseur",
-    "dapr",
-    "dotfiles",
-    "flagsmith",
-    "ncdu",
-    "nvitop",
-    "openfunction",
-    "seldonio",
-    "venv"
-  ]
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/npm/.global-modules": true
+  }
 }
