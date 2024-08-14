@@ -72,6 +72,7 @@ https://www.aspecto.io/feed                                   "Blog" "~Aspecto"
 https://thenewstack.io/blog/feed/                             "Blog" "~The New Stack"
 https://opentofu.org/blog/rss.xml                             "Blog" "~OpenTofu"
 https://sysdig.com/feed/                                      "Blog" "~Sysdig"
+https://blog.px.dev/rss.xml                                   "Blog" "~Pixie"
 
 "* Research --------------------------------------------------------------------------------"
 https://blog.salesforceairesearch.com/rss/                    "ResearchBlog" "~Salesforce"
