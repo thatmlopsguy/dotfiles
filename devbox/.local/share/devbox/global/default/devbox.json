@@ -82,7 +82,9 @@
     "cosign@latest",
     "timoni@latest",
     "thefuck@latest",
-    "hyperfine@latest"
+    "hyperfine@latest",
+    "gitu@latest",
+    "dbmate@latest"
   ],
   "shell": {
     "init_hook": [
