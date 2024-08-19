@@ -115,6 +115,7 @@
     "dapr",
     "daprd",
     "devbox",
+    "filebeat",
     "gitops",
     "healthz",
     "helmlint",
@@ -137,7 +138,9 @@
     "minio",
     "onnx",
     "openfeature",
+    "opentelemetry",
     "otel",
+    "otlp",
     "papertrail",
     "promtail",
     "pyroscope",
@@ -149,12 +152,14 @@
     "scikit",
     "seaweedfs",
     "shellcheck",
+    "signoz",
     "thanos",
     "trivy",
     "vcluster",
     "velero",
     "venv",
-    "websockets"
+    "websockets",
+    "zpages"
   ],
   // Workbench
   "workbench.activityBar.location": "top",
