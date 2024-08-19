@@ -84,7 +84,8 @@
     "thefuck@latest",
     "hyperfine@latest",
     "gitu@latest",
-    "dbmate@latest"
+    "dbmate@latest",
+    "neovim@latest"
   ],
   "shell": {
     "init_hook": [
