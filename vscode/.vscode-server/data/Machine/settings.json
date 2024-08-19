@@ -53,6 +53,7 @@
     "**/*.tfplan": true,
     "**/*.swp": true,
     "**/CVS": true,
+    "**/__pycache__": true
   },
   "files.associations": {
     "*.tmpl": "html",
@@ -115,6 +116,7 @@
     "dapr",
     "daprd",
     "devbox",
+    "fastapi",
     "filebeat",
     "gitops",
     "healthz",
@@ -146,6 +148,7 @@
     "pyroscope",
     "pyrra",
     "pytest",
+    "quarkus",
     "readyz",
     "rollouts",
     "rstudio",
@@ -153,6 +156,7 @@
     "seaweedfs",
     "shellcheck",
     "signoz",
+    "sqlmodel",
     "thanos",
     "trivy",
     "vcluster",
