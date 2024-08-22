@@ -107,6 +107,7 @@
     "argocd",
     "argoproj",
     "azurecr",
+    "azuremonitor",
     "cloudnative",
     "connaissuer",
     "containerd",
