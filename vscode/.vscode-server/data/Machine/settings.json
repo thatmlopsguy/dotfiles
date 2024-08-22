@@ -53,7 +53,8 @@
     "**/*.tfplan": true,
     "**/*.swp": true,
     "**/CVS": true,
-    "**/__pycache__": true
+    "**/__pycache__": true,
+    "**/.ipynb_checkpoints": true
   },
   "files.associations": {
     "*.tmpl": "html",
@@ -67,6 +68,7 @@
     "**/dist": true,
     "**/.venv": true,
     "**/.devbox": true,
+    "**/.ipynb_checkpoints": true
   },
   // Languages
   "[markdown]": {
@@ -124,6 +126,7 @@
     "gitops",
     "healthz",
     "helmlint",
+    "ipynb",
     "istio",
     "jaegertracing",
     "keda",
@@ -151,6 +154,7 @@
     "pandoc",
     "papertrail",
     "promtail",
+    "pycache",
     "pyroscope",
     "pyrra",
     "pytest",
