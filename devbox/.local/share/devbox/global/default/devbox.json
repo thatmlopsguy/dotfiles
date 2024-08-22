@@ -85,7 +85,9 @@
     "hyperfine@latest",
     "gitu@latest",
     "dbmate@latest",
-    "neovim@latest"
+    "neovim@latest",
+    "quarkus@latest",
+    "oxker@latest"
   ],
   "shell": {
     "init_hook": [
