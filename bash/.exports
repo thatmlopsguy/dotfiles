@@ -66,6 +66,9 @@ export DOTNET_CLI_TELEMETRY_OPTOUT=1
 # Docker
 export DOCKER_SCAN_SUGGEST=false
 
+# Shopify
+export SHOPIFY_CLI_NO_ANALYTICS=1
+
 # GPG
 export GNUPGHOME="${XDG_DATA_HOME}/.gnupg"
 export GPG_TTY=$(tty)
