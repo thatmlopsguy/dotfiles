@@ -89,7 +89,8 @@
     "quarkus@latest",
     "oxker@latest",
     "ngrok@latest",
-    "act@latest"
+    "act@latest",
+    "btop@latest"
   ],
   "shell": {
     "init_hook": [
