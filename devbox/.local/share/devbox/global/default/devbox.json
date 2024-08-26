@@ -87,7 +87,9 @@
     "dbmate@latest",
     "neovim@latest",
     "quarkus@latest",
-    "oxker@latest"
+    "oxker@latest",
+    "ngrok@latest",
+    "act@latest"
   ],
   "shell": {
     "init_hook": [
