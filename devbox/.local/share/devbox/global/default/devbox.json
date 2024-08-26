@@ -90,7 +90,8 @@
     "oxker@latest",
     "ngrok@latest",
     "act@latest",
-    "btop@latest"
+    "btop@latest",
+    "fastfetch@latest"
   ],
   "shell": {
     "init_hook": [
