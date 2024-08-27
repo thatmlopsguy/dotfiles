@@ -721,3 +721,12 @@ repositories:
   password: ""
   url: https://deepflowio.github.io/deepflow
   username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: ngrok
+  pass_credentials_all: false
+  password: ""
+  url: https://ngrok.github.io/kubernetes-ingress-controller
+  username: ""

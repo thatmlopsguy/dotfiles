@@ -149,6 +149,7 @@
     "mailgun",
     "milvus",
     "minio",
+    "ngrok",
     "onnx",
     "openfeature",
     "opentelemetry",
