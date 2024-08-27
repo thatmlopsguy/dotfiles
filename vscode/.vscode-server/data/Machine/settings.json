@@ -146,6 +146,7 @@
     "kustomization",
     "kustomize",
     "kyverno",
+    "laravel",
     "mailgun",
     "milvus",
     "minio",
