@@ -7,11 +7,13 @@
 "query:Research Blogs:tags # \"ResearchBlog\""
 "query:YouTube - DevOps:tags # \"Youtube\""
 "query:YouTube - Programming :tags # \"YT-Programming\""
+"query:Newsletter :tags # \"Newsletter\""
 # Get rss feeds
 # https://getrssfeed.com/
 # https://github.com/kilimchoi/engineering-blogs
 # https://devops-scanner.com/
-#
+# https://kill-the-newsletter.com/
+
 # TODO
 # https://komodor.com/blog/
 # https://loft.sh/blog/
@@ -93,6 +95,7 @@ https://anaisurl.com/rss/                             "PersonalBlog" "~Anais Url
 https://trstringer.com/feed.xml                       "PersonalBlog" "~Thomas Stringer"
 https://christianhuth.de/rss/                         "PersonalBlog" "~christianhuth"
 https://adamj.eu/tech/atom.xml                        "PersonalBlog" "~Adam Johnson"
+https://soatok.blog/feed/                             "PersonalBlog" "~Dhole Moments"
 
 "* Youtube ---------------------------------------------------------------------------------"
 # https://www.youtube.com/feeds/videos.xml?channel_id=
@@ -154,6 +157,9 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCvkM2esSMJTZVtPo8NVtP4g "YT
 https://www.youtube.com/feeds/videos.xml?channel_id=UCuudpdbKmQWq2PPzYgVCWlA "YT-Programming" "~Indently"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC4JX40jDee_tINbkjycV4Sg "YT-Programming" "~Tech With Tim"
 
+"* Newsletters -----------------------------------------------------------------------------"
+https://lwkd.info/feed.xml                                                   "Newsletter" "~LWKD"
+https://www.cncf.io/feed/?post_type=lf_kubeweekly                            "Newsletter" "~KubeWeekly"
 
 "* Others ----------------------------------------------------------------------------------"
 https://8thlight.com/blog/feed/atom.xml "EngineeringBlogs"
