@@ -91,7 +91,8 @@
     "ngrok@latest",
     "act@latest",
     "btop@latest",
-    "fastfetch@latest"
+    "fastfetch@latest",
+    "kubecolor@latest"
   ],
   "shell": {
     "init_hook": [
