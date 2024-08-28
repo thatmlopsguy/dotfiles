@@ -2,6 +2,9 @@
 # ~/.zshrc
 #
 
+# devbox
+eval "$(devbox global shellenv)"
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -55,10 +58,10 @@ ZSH_THEME="agnoster"
 # DISABLE_LS_COLORS="true"
 
 # Uncomment the following line to disable auto-setting terminal title.
-# DISABLE_AUTO_TITLE="true"
+DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-ENABLE_CORRECTION="true"
+# ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # You can also set it to another string to have that shown instead of the default red dots.
@@ -152,9 +155,6 @@ eval "$(starship init zsh)"
 
 # homebrew
 eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
-
-# devbox
-eval "$(devbox global shellenv)"
 
 # thefuck
 eval "$(thefuck --alias)"
