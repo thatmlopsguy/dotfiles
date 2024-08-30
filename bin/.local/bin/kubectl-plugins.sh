@@ -1,5 +1,7 @@
 #! /usr/bin/env bash
 
+set -Eeuo pipefail
+
 krew update
 krew install ctx
 krew install ns
@@ -11,5 +13,6 @@ krew install tree
 krew install cost
 krew install kor
 krew install neat
+krew install slice
 
 krew upgrade
