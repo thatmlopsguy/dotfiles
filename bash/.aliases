@@ -9,10 +9,10 @@ alias r='ranger'
 alias c='clear'
 alias x='exit'
 alias w='watch'
-alias ll='exa -alF'
+alias ls='lsd'
+alias ll='eza --long --no-permissions --no-user --time-style=long-iso --total-size'
 alias la='ls -A'
 alias l='ls -CF'
-#alias bat='batcat'
 alias news='newsboat'
 alias wt='watch tsp'
 alias hosts='sudo $EDITOR /etc/hosts'
@@ -23,6 +23,10 @@ alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
 alias fzf="fzf --preview 'bat --style=numbers --color=always --line-range :500 {}'"
 alias lpath='echo $PATH | tr ":" "\n"' # list the PATH separated by new lines
+
+if [ -x "$(command -v nvim)" ]; then
+    alias vim=nvim
+fi
 
 # Machine info
 alias hdu='ncdu --color dark -rr -x --exclude .git --exclude node_modules'
@@ -61,7 +65,7 @@ alias dangling='docker rmi -f $(docker images -f "dangling=true" -q)'
 alias lzd='lazydocker'
 
 # kubernetes
-alias k='kubectl'
+alias k='kubecolor'
 alias kg='kubectl get'
 alias kubescape='kubectl-kubescape'
 alias kns='kubens'
