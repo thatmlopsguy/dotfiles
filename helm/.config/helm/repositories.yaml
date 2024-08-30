@@ -730,3 +730,12 @@ repositories:
   password: ""
   url: https://ngrok.github.io/kubernetes-ingress-controller
   username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: cdf
+  pass_credentials_all: false
+  password: ""
+  url: https://cdfoundation.github.io/tekton-helm-chart/
+  username: ""

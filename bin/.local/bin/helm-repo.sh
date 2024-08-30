@@ -69,6 +69,7 @@ helm repo add slo-reporting https://colenio.github.io/slo-reporting/
 helm repo add sloth https://slok.github.io/sloth
 helm repo add rlex https://rlex.github.io/helm-charts
 helm repo add ngrok https://ngrok.github.io/kubernetes-ingress-controller
+helm repo add cdf https://cdfoundation.github.io/tekton-helm-chart/
 
 helm repo update
 helm repo list
