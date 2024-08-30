@@ -29,6 +29,11 @@ function mkcd() {
 	mkdir -p "$@" && cd "$_";
 }
 
+# Copy w/ progress
+function cp_p () {
+  rsync -WavP --human-readable --progress $1 $2
+}
+
 # Generate passwords
 function gen_pass() {
   local len=${1:-32}
