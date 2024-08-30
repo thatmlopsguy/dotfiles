@@ -1,0 +1,3 @@
+# First, include any systemwide bindings and variable
+# assignments from /etc/Inputrc
+$include /etc/inputrc
