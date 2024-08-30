@@ -2,6 +2,11 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
+# Find if it's linux what we are running
+[ "$(uname -s)" == "Darwin" ] && IS_MAC_OS=true
+[ "$(uname -s)" == "Linux" ] && IS_LINUX_OS=true
+[[ "$(uname -r)" =~ "WSL" ]] && IS_WSL=true
+
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
