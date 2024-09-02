@@ -93,7 +93,9 @@ export FZF_DEFAULT_COMMAND="fd --type file --color=always"
 export FZF_DEFAULT_OPTS="--ansi"
 
 # Use a python startup file if one exists
-if [[ -e $HOME/.pythonrc ]]; then export PYTHONSTARTUP=$HOME/.pythonrc; fi
+if [[ -e $HOME/.pythonrc ]]; then
+  export PYTHONSTARTUP="$HOME/.pythonrc"
+fi
 
 # daprd runtime
 if [ -d "$HOME/.dapr/bin" ]; then
