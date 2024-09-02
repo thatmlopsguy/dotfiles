@@ -92,7 +92,8 @@
     "btop@latest",
     "fastfetch@latest",
     "kubecolor@latest",
-    "zellij@latest"
+    "zellij@latest",
+    "viddy@latest"
   ],
   "shell": {
     "init_hook": [
