@@ -43,6 +43,9 @@ alias ta='tmux attach'
 alias tat='tmux attach -t'
 alias tns='tmux new-session -s'
 
+# zellij
+alias z='zellij'
+
 # Python
 alias py='python'
 alias ipy='ipython'

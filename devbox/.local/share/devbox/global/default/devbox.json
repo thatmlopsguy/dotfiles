@@ -91,7 +91,8 @@
     "act@latest",
     "btop@latest",
     "fastfetch@latest",
-    "kubecolor@latest"
+    "kubecolor@latest",
+    "zellij@latest"
   ],
   "shell": {
     "init_hook": [
