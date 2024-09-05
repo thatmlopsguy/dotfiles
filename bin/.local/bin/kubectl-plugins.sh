@@ -14,5 +14,6 @@ krew install cost
 krew install kor
 krew install neat
 krew install slice
+krew install score
 
 krew upgrade
