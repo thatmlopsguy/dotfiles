@@ -93,7 +93,9 @@
     "fastfetch@latest",
     "kubecolor@latest",
     "zellij@latest",
-    "viddy@latest"
+    "viddy@latest",
+    "protoc-gen-doc@latest",
+    "protolint@latest"
   ],
   "shell": {
     "init_hook": [
