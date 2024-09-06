@@ -150,6 +150,7 @@
     "mailgun",
     "milvus",
     "minio",
+    "mlflow",
     "ngrok",
     "onnx",
     "openfeature",
