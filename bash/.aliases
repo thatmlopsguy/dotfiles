@@ -45,6 +45,7 @@ alias tns='tmux new-session -s'
 
 # zellij
 alias z='zellij'
+alias zn='zellij --layout ~/.config/zellij/layouts/news.kdl' # --session news' # attach news'
 
 # Python
 alias py='python'
@@ -114,3 +115,4 @@ alias g='git'
 alias gs='git status'
 alias gps='git push'
 alias gpl='git pull'
+alias track='git branch --set-upstream-to=origin/$(git symbolic-ref --short HEAD)'
