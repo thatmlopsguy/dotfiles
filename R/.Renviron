@@ -1,0 +1,1 @@
+R_BROWSER=${R_BROWSER-'firefox'}
