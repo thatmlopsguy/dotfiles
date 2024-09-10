@@ -10,6 +10,7 @@
 "query:Newsletter :tags # \"Newsletter\""
 # Get rss feeds
 # https://getrssfeed.com/
+# https://lighthouseapp.io/tools/feed-finder
 # https://github.com/kilimchoi/engineering-blogs
 # https://devops-scanner.com/
 # https://kill-the-newsletter.com/
@@ -18,7 +19,6 @@
 # https://komodor.com/blog/
 # https://loft.sh/blog/
 # https://medium.com/chick-fil-atech/
-# https://blogit.michelin.io/
 # https://www.diagrid.io/blog
 
 "* Blogs -----------------------------------------------------------------------------------"
@@ -75,6 +75,7 @@ https://thenewstack.io/blog/feed/                             "Blog" "~The New S
 https://opentofu.org/blog/rss.xml                             "Blog" "~OpenTofu"
 https://sysdig.com/feed/                                      "Blog" "~Sysdig"
 https://blog.px.dev/rss.xml                                   "Blog" "~Pixie"
+https://medium.com/feed/chick-fil-atech                       "Blog" "~chick-fil-atech"
 
 "* Research --------------------------------------------------------------------------------"
 https://blog.salesforceairesearch.com/rss/                    "ResearchBlog" "~Salesforce"
