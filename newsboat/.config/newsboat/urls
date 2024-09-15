@@ -81,6 +81,7 @@ https://medium.com/feed/chick-fil-atech                       "Blog" "~chick-fil
 https://blog.salesforceairesearch.com/rss/                    "ResearchBlog" "~Salesforce"
 https://deepmind.google/blog/rss.xml                          "ResearchBlog" "~Deepmind"
 https://blog.roboflow.com/rss/                                "ResearchBlog" "~Roboflow"
+https://pytorch.org/feed.xml                                  "ResearchBlog" "~pytorch"
 
 "* Personal Blogs --------------------------------------------------------------------------"
 https://jvns.ca/atom.xml                              "PersonalBlog"
