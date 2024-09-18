@@ -1,4 +1,5 @@
 extensions.txt
 install-extensions.sh
 backup-extensions.sh
+sync-vscode-server.sh
 README.md
