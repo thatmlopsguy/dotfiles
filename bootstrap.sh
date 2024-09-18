@@ -1,5 +1,12 @@
 #!/usr/bin/env bash
 
+if command -v stow &>/dev/null; then
+    echo "GNU Stow is installed."
+else
+    echo "GNU Stow is not installed. Please install it using your package manager."
+    exit 1
+fi
+
 if [[ -z $STOW_FOLDERS ]]; then
     STOW_FOLDERS="git,tmux,zsh,bin"
 fi

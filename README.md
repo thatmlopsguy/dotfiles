@@ -16,7 +16,7 @@ Clone repo to a new machine
 git clone https://github.com/thatmlopsguy/dotfiles.git ~/.dotfiles
 ```
 
-Run `bootstrap.sh` to symlink all the config with `stow`. 
+Run `bootstrap.sh` to symlink all the config with `stow`.
 
 ```bash
 export DOTFILES=~/.dotfiles
@@ -28,8 +28,9 @@ cd $DOTFILES
 
 Set zsh as your login shell:
 
-    chsh -s $(which zsh)
-
+```sh
+chsh -s $(which zsh)
+```
 
 ## Utilities
 
