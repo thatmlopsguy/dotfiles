@@ -1,3 +1,5 @@
 !
 ! ~/.Xresources
 !
+! https://github.com/lsd-rs/lsd
+URxvt*font:    xft:Hack Nerd Font:style=Regular:size=11
