@@ -21,4 +21,4 @@ done < packages.txt
 # Cleanup
 sudo apt autoremove -y \
   && sudo apt autoclean \
-  && sudo rm -rf /var/lib/{apt,dpkg,cache,log}/
+  && sudo rm -rf /var/lib/{apt,cache,log}/*
