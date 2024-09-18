@@ -93,7 +93,8 @@
     "viddy@latest",
     "protoc-gen-doc@latest",
     "protolint@latest",
-    "kubectl@latest"
+    "kubectl@latest",
+    "awscli2@latest"
   ],
   "shell": {
     "init_hook": [
