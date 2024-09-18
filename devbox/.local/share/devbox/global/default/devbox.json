@@ -6,9 +6,6 @@
     "lf@latest",
     "azure-cli@latest",
     "tmux@latest",
-    "zsh-completions@latest",
-    "zsh-autocomplete@latest",
-    "oh-my-zsh@latest",
     "fzf@latest",
     "stow@latest",
     "ranger@latest",
@@ -95,7 +92,8 @@
     "zellij@latest",
     "viddy@latest",
     "protoc-gen-doc@latest",
-    "protolint@latest"
+    "protolint@latest",
+    "kubectl@latest"
   ],
   "shell": {
     "init_hook": [
