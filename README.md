@@ -32,6 +32,8 @@ Set zsh as your login shell:
 chsh -s $(which zsh)
 ```
 
+A [Nerd Font](https://www.nerdfonts.com/) installed and enabled in your terminal (for example, try the FiraCode Nerd Font).
+
 ## Utilities
 
 - [asdf](https://asdf-vm.com/)
