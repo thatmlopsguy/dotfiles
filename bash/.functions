@@ -130,3 +130,15 @@ function encode_to_base64() {
 
   echo -n $secret | base64
 }
+
+# Create python venv and update pip
+function makevenv() {
+    python -m venv .venv
+    source .venv/bin/activate
+    python -m pip install --upgrade pip
+}
+
+# Lolz
+function joke() {
+  curl -s -H "Accept: application/json" https://icanhazdadjoke.com/ | jq ".joke";
+}

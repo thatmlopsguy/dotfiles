@@ -46,6 +46,7 @@ a.out
 __pycache__/
 *.pyc
 .tox
+*.venv
 
 # Node/NPM/Yarn
 node_modules
