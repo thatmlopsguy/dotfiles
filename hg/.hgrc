@@ -1,2 +1,6 @@
 [ui]
 verbose = True
+merge = internal:merge
+
+[alias]
+shortlog = commitcount
