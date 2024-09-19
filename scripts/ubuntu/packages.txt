@@ -10,6 +10,7 @@ git
 golang
 g++
 make
+net-tools
 nvtop
 ncdu
 python3-pip
