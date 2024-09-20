@@ -73,6 +73,7 @@ helm repo add cdf https://cdfoundation.github.io/tekton-helm-chart
 helm repo add crowdstrike https://crowdstrike.github.io/falcon-helm
 helm repo add splunk-otel-collector-chart https://signalfx.github.io/splunk-otel-collector-chart
 helm repo add qualys-helm-chart https://qualys.github.io/Qualys-Helm-Charts
+helm repo add tika https://apache.jfrog.io/artifactory/tika
 
 helm repo update
 helm repo list

@@ -811,3 +811,12 @@ repositories:
   password: ""
   url: https://qualys.github.io/Qualys-Helm-Charts
   username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: tika
+  pass_credentials_all: false
+  password: ""
+  url: https://apache.jfrog.io/artifactory/tika
+  username: ""
