@@ -214,4 +214,6 @@
   "window.autoDetectColorScheme": true,
   "update.showReleaseNotes": false,
   "security.workspace.trust.untrustedFiles": "open",
+  "workbench.editor.editorActionsLocation": "titleBar",
+  "workbench.statusBar.visible": false,
 }
