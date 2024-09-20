@@ -1,0 +1,6 @@
+/* userChrome.css */
+
+/* Hide the tab bar */
+#TabsToolbar {
+  visibility: collapse !important;
+}
