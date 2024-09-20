@@ -34,6 +34,8 @@ chsh -s $(which zsh)
 
 A [Nerd Font](https://www.nerdfonts.com/) installed and enabled in your terminal (for example, try the FiraCode Nerd Font).
 
+Visit `https://webinstall.dev/nerdfont` and follow the instructions to install the Nerd Font.
+
 ## Utilities
 
 - [asdf](https://asdf-vm.com/)
