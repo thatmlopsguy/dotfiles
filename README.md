@@ -38,23 +38,39 @@ Visit `https://webinstall.dev/nerdfont` and follow the instructions to install t
 
 ## Utilities
 
-- [asdf](https://asdf-vm.com/)
+This is a long list, so here is a table of content with tl;dr summaries:
+
 - [Rust Utilities](https://rustutils.com/)
-- [bottom](https://github.com/ClementTsang/bottom)
-- [nvitop](https://github.com/XuehaiPan/nvitop)
-- [fzf](https://github.com/junegunn/fzf)
-- [homebrew](https://brew.sh/)
+- [starship](https://starship.rs/) - great cross shell prompt that requires no setup
+- [fzf](https://github.com/junegunn/fzf) - general-purpose fuzzy search
 - [lf](https://github.com/gokcehan/lf) - terminal file manager
 - [yazi](https://github.com/sxyazi/yazi) - terminal file manager
-- [fastfetch](https://github.com/fastfetch-cli/fastfetch)
-- [Tokei](https://github.com/XAMPPRocky/tokei)
-- [procs](https://github.com/dalance/procs)
-- [tealdeer](https://github.com/dbrgn/tealdeer)
-- [fd](https://github.com/sharkdp/fd)
-- [dust](https://github.com/bootandy/dust)
-- [duf](https://github.com/muesli/duf)
-- [lsd](https://github.com/lsd-rs/lsd)
-- [git delta](https://github.com/dandavison/delta)
+- [tokei](https://github.com/XAMPPRocky/tokei) - count your code, quickly (replacement for cloc).
+- [procs](https://github.com/dalance/procs) - modern replacement for ps written in Rust
+- [tealdeer](https://github.com/dbrgn/tealdeer) - fast implementation of tldr in Rust
+- [fd](https://github.com/sharkdp/fd)- like find but better
+- [dust](https://github.com/bootandy/dust) - more intuitive version of du in rust
+- [duf](https://github.com/muesli/duf) - a better 'df' alternative 
+- [lsd](https://github.com/lsd-rs/lsd) - next gen ls command 
+- [git delta](https://github.com/dandavison/delta) - diff viewer with syntax highlighting
+- [ripgrep (rg)](https://github.com/BurntSushi/ripgrep) - like grep but better
+
+### package manager
+
+- [asdf](https://asdf-vm.com/) - multiple Runtime Version Manager
+- [homebrew](https://brew.sh/)
+- [devbox](https://www.jetify.com/devbox) - package manager using Nix
+
+### system monitoring tools
+
+- [fastfetch](https://github.com/fastfetch-cli/fastfetch) - neofetch like system information tool
+- [htop](https://htop.dev/)
+- [btop](https://github.com/aristocratos/btop)
+- [nvitop](https://github.com/XuehaiPan/nvitop) - interactive NVIDIA-GPU process viewer
+- [ctop](https://github.com/bcicen/ctop) and [lazydocker](https://github.com/jesseduffield/lazydocker) for Docker
+- [ncdu](https://dev.yorhel.nl/ncdu) - disk usage analyzer
+- [bottom](https://github.com/ClementTsang/bottom)
+
 
 ## References
 
