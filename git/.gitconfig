@@ -4,7 +4,9 @@
 
 # https://github.com/GitAlias/gitalias
 [alias]
-	aliases = config --get-regexp alias # list aliases
+	git = !exec git
+	# list aliases
+	aliases = config --get-regexp alias 
 	a = add
 	br = branch
 	branches = branch --all
@@ -20,32 +22,73 @@
 	st = status
 	sw = switch
 	rb = for-each-ref --sort=-committerdate --count=10 --format='%(refname:short)' refs/heads/
-  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 	tags = tag -l
 	alias-master-as-main = !git symbolic-ref refs/heads/main refs/heads/master && git symbolic-ref refs/remotes/origin/main refs/remotes/origin/master && git switch main
-  clone-with-submodules = '!git clone --recurse-submodules'
+	clone-with-submodules = '!git clone --recurse-submodules'
+	squash = "!f(){ git reset --soft HEAD~${1} && git commit --edit -m\"$(git log --format=%B --reverse HEAD..HEAD@{1})\"; };f"
+	# delete merged local branches
+	bclean = "!f(){ git branch --merged ${1-main} | grep -v " ${1-main}$" | xargs -r git branch -d; }; f"
+	# temporarily ignore a file
+	ignore = update-index --assume-unchanged
+	unignore = update-index --no-assume-unchanged
+	ignored = !git ls-files -v | grep "^[[:lower:]]"
 
 [core]
 	excludesfile = ~/.gitignore_global
-  #attributesfile = ~/.gitattributes
+	pager = delta
+  	#attributesfile = ~/.gitattributes
+
+[interactive]
+    diffFilter = delta --color-only
+
+[delta]
+    navigate = true    # use n and N to move between diff sections
+	line-numbers = true
+	# vscode
+	# https://dandavison.github.io/delta/tips-and-tricks/using-delta-with-vscode.html
+	hyperlinks = true
+	hyperlinks-file-link-format = "vscode://file/{path}:{line}"
+    # delta detects terminal colors automatically; set one of these to disable auto-detection
+    # dark = true
+    # light = true
+
+[merge]
+    conflictstyle = diff3
+
+[diff]
+    colorMoved = default
 
 [color]
-	ui = true
+	ui = auto
+
+[color "branch"]
+    current = yellow reverse
+    local = yellow
+    remote = green
+
+[color "status"]
+    added = yellow
+    changed = green
+    untracked = cyan
 
 [init]
 	defaultBranch = main
 	templateDir = ~/.config/git/templates
 
 [help]
-  autocorrect = immediate
+	autocorrect = immediate
+
+[credential]
+    helper = cache --timeout=28800 # 8 hours
 
 [commit]
-  template = ~/.gitmessage
+	template = ~/.gitmessage
 
 [push]
-  default = current
+	default = current
 	autoSetupRemote = true
-  followTags = true
+	followTags = true
 
 [includeIf "gitdir:~/code/github/"]
 	path = ~/.config/git/accounts/github
