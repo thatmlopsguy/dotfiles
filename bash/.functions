@@ -138,6 +138,11 @@ function makevenv() {
     python -m pip install --upgrade pip
 }
 
+# Allow to install pip without venv
+function gpip() {
+  PIP_REQUIRE_VIRTUALENV="" pip "$@"
+}
+
 # Lolz
 function joke() {
   curl -s -H "Accept: application/json" https://icanhazdadjoke.com/ | jq ".joke";
