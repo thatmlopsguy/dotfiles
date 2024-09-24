@@ -95,7 +95,8 @@
     "protolint@latest",
     "kubectl@latest",
     "awscli2@latest",
-    "k3d@latest"
+    "k3d@latest",
+    "terragrunt@latest"
   ],
   "shell": {
     "init_hook": [
