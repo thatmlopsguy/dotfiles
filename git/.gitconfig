@@ -6,7 +6,7 @@
 [alias]
 	git = !exec git
 	# list aliases
-	aliases = config --get-regexp alias 
+	aliases = config --get-regexp alias
 	a = add
 	br = branch
 	branches = branch --all
@@ -37,40 +37,40 @@
 [core]
 	excludesfile = ~/.gitignore_global
 	pager = delta
-  	#attributesfile = ~/.gitattributes
+  #attributesfile = ~/.gitattributes
 
 [interactive]
-    diffFilter = delta --color-only
+  diffFilter = delta --color-only
 
 [delta]
-    navigate = true    # use n and N to move between diff sections
+  navigate = true    # use n and N to move between diff sections
 	line-numbers = true
 	# vscode
 	# https://dandavison.github.io/delta/tips-and-tricks/using-delta-with-vscode.html
 	hyperlinks = true
 	hyperlinks-file-link-format = "vscode://file/{path}:{line}"
-    # delta detects terminal colors automatically; set one of these to disable auto-detection
-    # dark = true
-    # light = true
+  # delta detects terminal colors automatically; set one of these to disable auto-detection
+  # dark = true
+  # light = true
 
 [merge]
-    conflictstyle = diff3
+  conflictstyle = diff3
 
 [diff]
-    colorMoved = default
+  colorMoved = default
 
 [color]
 	ui = auto
 
 [color "branch"]
-    current = yellow reverse
-    local = yellow
-    remote = green
+  current = yellow reverse
+  local = yellow
+  remote = green
 
 [color "status"]
-    added = yellow
-    changed = green
-    untracked = cyan
+  added = yellow
+  changed = green
+  untracked = cyan
 
 [init]
 	defaultBranch = main
@@ -80,7 +80,7 @@
 	autocorrect = immediate
 
 [credential]
-    helper = cache --timeout=28800 # 8 hours
+  helper = cache --timeout=28800 # 8 hours
 
 [commit]
 	template = ~/.gitmessage

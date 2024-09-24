@@ -50,8 +50,8 @@ This is a long list, so here is a table of content with tl;dr summaries:
 - [tealdeer](https://github.com/dbrgn/tealdeer) - fast implementation of tldr in Rust
 - [fd](https://github.com/sharkdp/fd)- like find but better
 - [dust](https://github.com/bootandy/dust) - more intuitive version of du in rust
-- [duf](https://github.com/muesli/duf) - a better 'df' alternative 
-- [lsd](https://github.com/lsd-rs/lsd) - next gen ls command 
+- [duf](https://github.com/muesli/duf) - a better 'df' alternative
+- [lsd](https://github.com/lsd-rs/lsd) - next gen ls command
 - [git delta](https://github.com/dandavison/delta) - diff viewer with syntax highlighting
 - [ripgrep (rg)](https://github.com/BurntSushi/ripgrep) - like grep but better
 
@@ -70,7 +70,6 @@ This is a long list, so here is a table of content with tl;dr summaries:
 - [ctop](https://github.com/bcicen/ctop) and [lazydocker](https://github.com/jesseduffield/lazydocker) for Docker
 - [ncdu](https://dev.yorhel.nl/ncdu) - disk usage analyzer
 - [bottom](https://github.com/ClementTsang/bottom)
-
 
 ## References
 
