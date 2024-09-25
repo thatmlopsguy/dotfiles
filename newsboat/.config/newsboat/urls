@@ -20,6 +20,8 @@
 # https://loft.sh/blog/
 # https://medium.com/chick-fil-atech/
 # https://www.diagrid.io/blog
+# https://cast.ai/blog
+# https://checkmarx.com/blog/
 
 "* Blogs -----------------------------------------------------------------------------------"
 https://aws.amazon.com/blogs/opensource/feed/                 "Blog" "~AWS"
@@ -78,6 +80,7 @@ https://blog.px.dev/rss.xml                                   "Blog" "~Pixie"
 https://medium.com/feed/chick-fil-atech                       "Blog" "~chick-fil-atech"
 https://www.getambassador.io/feed.xml                         "Blog" "~Ambassador"
 https://www.infracloud.io/feed.xml                            "Blog" "~Infracloud"
+https://snyk.io/blog/feed/                                    "Blog" "~Snyk"
 
 "* Research --------------------------------------------------------------------------------"
 https://blog.salesforceairesearch.com/rss/                    "ResearchBlog" "~Salesforce"
@@ -242,9 +245,6 @@ http://blog.memsql.com/feed/ "EngineeringBlogs"
 https://mesosphere.com/feed/ "EngineeringBlogs"
 https://engineering.mixpanel.com/feed/ "EngineeringBlogs"
 https://blog.moove-it.com/rss "EngineeringBlogs"
-http://planet.mozilla.org/ateam/atom.xml "EngineeringBlogs"
-https://hacks.mozilla.org/feed/ "EngineeringBlogs"
-http://planet.mozilla.org/releng/atom.xml "EngineeringBlogs"
 https://open.nytimes.com/feed "EngineeringBlogs"
 https://engblog.nextdoor.com/feed "EngineeringBlogs"
 https://nordicapis.com/feed/ "EngineeringBlogs"
@@ -470,7 +470,6 @@ http://www.tjmaher.com/feeds/posts/default "EngineeringBlogs"
 https://vladmihalcea.com/feed/ "EngineeringBlogs"
 http://www.wilfred.me.uk/rss.xml "EngineeringBlogs"
 http://www.afronski.pl/feed.xml "EngineeringBlogs"
-https://www.yegor256.com/rss.xml "EngineeringBlogs"
 http://yifan.lu/feed.xml "EngineeringBlogs"
 https://zachholman.com/atom.xml "EngineeringBlogs"
 https://zolmeister.com/feeds/posts/default "EngineeringBlogs"
