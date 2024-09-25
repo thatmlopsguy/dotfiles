@@ -96,7 +96,8 @@
     "kubectl@latest",
     "awscli2@latest",
     "k3d@latest",
-    "terragrunt@latest"
+    "terragrunt@latest",
+    "snyk@latest"
   ],
   "shell": {
     "init_hook": [
