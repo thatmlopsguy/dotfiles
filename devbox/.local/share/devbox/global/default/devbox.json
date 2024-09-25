@@ -97,7 +97,8 @@
     "awscli2@latest",
     "k3d@latest",
     "terragrunt@latest",
-    "snyk@latest"
+    "snyk@latest",
+    "lefthook@latest"
   ],
   "shell": {
     "init_hook": [
