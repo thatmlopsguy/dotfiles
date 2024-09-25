@@ -820,3 +820,12 @@ repositories:
   password: ""
   url: https://apache.jfrog.io/artifactory/tika
   username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: snyk-charts
+  pass_credentials_all: false
+  password: ""
+  url: https://snyk.github.io/kubernetes-monitor
+  username: ""
