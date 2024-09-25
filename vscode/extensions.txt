@@ -1,3 +1,4 @@
+amazonwebservices.aws-toolkit-vscode
 charliermarsh.ruff
 davidanson.vscode-markdownlint
 editorconfig.editorconfig
