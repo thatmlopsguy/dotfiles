@@ -116,3 +116,6 @@ alias gs='git status'
 alias gps='git push'
 alias gpl='git pull'
 alias track='git branch --set-upstream-to=origin/$(git symbolic-ref --short HEAD)'
+
+# Utilities
+alias it-tools='docker run -d --name it-tools --restart unless-stopped -p 8765:80 corentinth/it-tools:latest'
