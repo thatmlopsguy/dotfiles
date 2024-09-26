@@ -99,7 +99,8 @@
     "terragrunt@latest",
     "snyk@latest",
     "lefthook@latest",
-    "atlantis@latest"
+    "atlantis@latest",
+    "clusterctl@latest"
   ],
   "shell": {
     "init_hook": [
