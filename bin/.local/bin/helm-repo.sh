@@ -75,6 +75,7 @@ helm repo add splunk-otel-collector-chart https://signalfx.github.io/splunk-otel
 helm repo add qualys-helm-chart https://qualys.github.io/Qualys-Helm-Charts
 helm repo add tika https://apache.jfrog.io/artifactory/tika
 helm repo add snyk-charts https://snyk.github.io/kubernetes-monitor
+helm repo add cilium https://helm.cilium.io
 
 helm repo update
 helm repo list
