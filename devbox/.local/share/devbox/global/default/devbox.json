@@ -98,7 +98,8 @@
     "k3d@latest",
     "terragrunt@latest",
     "snyk@latest",
-    "lefthook@latest"
+    "lefthook@latest",
+    "atlantis@latest"
   ],
   "shell": {
     "init_hook": [
