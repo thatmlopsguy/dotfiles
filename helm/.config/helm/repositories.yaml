@@ -847,3 +847,12 @@ repositories:
   password: ""
   url: https://kubernetes-sigs.github.io/cluster-api-operator
   username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: projectcalico
+  pass_credentials_all: false
+  password: ""
+  url: https://docs.tigera.io/calico/charts
+  username: ""
