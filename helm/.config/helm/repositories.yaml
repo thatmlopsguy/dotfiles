@@ -838,3 +838,12 @@ repositories:
   password: ""
   url: https://helm.cilium.io
   username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: capi-operator
+  pass_credentials_all: false
+  password: ""
+  url: https://kubernetes-sigs.github.io/cluster-api-operator
+  username: ""

@@ -76,6 +76,7 @@ helm repo add qualys-helm-chart https://qualys.github.io/Qualys-Helm-Charts
 helm repo add tika https://apache.jfrog.io/artifactory/tika
 helm repo add snyk-charts https://snyk.github.io/kubernetes-monitor
 helm repo add cilium https://helm.cilium.io
+helm repo add capi-operator https://kubernetes-sigs.github.io/cluster-api-operator
 
 helm repo update
 helm repo list
