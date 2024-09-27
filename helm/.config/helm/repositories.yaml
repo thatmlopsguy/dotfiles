@@ -856,3 +856,12 @@ repositories:
   password: ""
   url: https://docs.tigera.io/calico/charts
   username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: projectsveltos
+  pass_credentials_all: false
+  password: ""
+  url: https://projectsveltos.github.io/helm-charts
+  username: ""
