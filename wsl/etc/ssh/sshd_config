@@ -1,0 +1,22 @@
+# Use key pairs
+PubkeyAuthentication yes
+
+PasswordAuthentication no
+PermitEmptyPasswords no
+
+# Disable root user logins
+PermitRootLogin no
+AllowUsers new-user
+
+# Allow connection only from ipv4
+AddressFamily inet
+
+# Limit to only 3 connection tries
+MaxAuthTries 3
+
+# Disable pam
+UsePAM no
+
+# Disable tcp and x11 forwarding
+AllowTcpForwarding no
+X11Forwarding no
