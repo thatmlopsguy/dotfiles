@@ -79,6 +79,7 @@ helm repo add cilium https://helm.cilium.io
 helm repo add capi-operator https://kubernetes-sigs.github.io/cluster-api-operator
 helm repo add projectcalico https://docs.tigera.io/calico/charts
 helm repo add projectsveltos https://projectsveltos.github.io/helm-charts
+helm repo add kuberay https://ray-project.github.io/kuberay-helm
 
 helm repo update
 helm repo list
