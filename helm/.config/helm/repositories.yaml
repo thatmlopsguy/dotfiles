@@ -874,3 +874,12 @@ repositories:
   password: ""
   url: https://ray-project.github.io/kuberay-helm
   username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: eks
+  pass_credentials_all: false
+  password: ""
+  url: https://aws.github.io/eks-charts
+  username: ""
