@@ -81,6 +81,7 @@ helm repo add projectcalico https://docs.tigera.io/calico/charts
 helm repo add projectsveltos https://projectsveltos.github.io/helm-charts
 helm repo add kuberay https://ray-project.github.io/kuberay-helm
 helm repo add eks https://aws.github.io/eks-charts
+helm repo add localstack-repo https://helm.localstack.cloud
 
 helm repo update
 helm repo list
@@ -97,3 +98,6 @@ helm plugin update dashboard
 # helm plugin install https://github.com/hayorov/helm-gcs.git
 # azblob: https://github.com/C123R/helm-blob
 # helm plugin install https://github.com/C123R/helm-blob.git
+
+# OCI
+# oci://public.ecr.aws/aws-controllers-k8s/ack-chart

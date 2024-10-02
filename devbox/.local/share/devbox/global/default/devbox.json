@@ -100,7 +100,9 @@
     "snyk@latest",
     "lefthook@latest",
     "atlantis@latest",
-    "clusterctl@latest"
+    "clusterctl@latest",
+    "hclfmt@latest",
+    "localstack@latest"
   ],
   "shell": {
     "init_hook": [
