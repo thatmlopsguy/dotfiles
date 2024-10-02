@@ -101,7 +101,6 @@
     "lefthook@latest",
     "atlantis@latest",
     "clusterctl@latest",
-    "hclfmt@latest",
     "localstack@latest"
   ],
   "shell": {
