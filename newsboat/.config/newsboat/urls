@@ -81,6 +81,9 @@ https://medium.com/feed/chick-fil-atech                       "Blog" "~chick-fil
 https://www.getambassador.io/feed.xml                         "Blog" "~Ambassador"
 https://www.infracloud.io/feed.xml                            "Blog" "~Infracloud"
 https://snyk.io/blog/feed/                                    "Blog" "~Snyk"
+https://chronosphere.io/blog-hub/feed/                        "Blog" "~Chronosphere"
+https://jfrog.com/blog/feed/                                  "Blog" "~Jfrog"
+https://kubernetes.io/feed.xml                                "Blog" "~Kubernetes"
 
 "* Research --------------------------------------------------------------------------------"
 https://blog.salesforceairesearch.com/rss/                    "ResearchBlog" "~Salesforce"
