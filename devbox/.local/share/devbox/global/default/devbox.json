@@ -101,7 +101,9 @@
     "lefthook@latest",
     "atlantis@latest",
     "clusterctl@latest",
-    "localstack@latest"
+    "localstack@latest",
+    "age@latest",
+    "rage@latest"
   ],
   "shell": {
     "init_hook": [
