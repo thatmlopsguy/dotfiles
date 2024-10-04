@@ -1,6 +1,7 @@
 # Editor specific files
 .vscode/*
 !.vscode/settings.json
+!.vscode/extensions.json
 .idea
 notes.txt
 
@@ -65,6 +66,7 @@ yarn.lock
 
 # Local .terraform directories
 **/.terraform/*
+*.lock.hcl
 
 # .tfstate files
 *.tfstate
