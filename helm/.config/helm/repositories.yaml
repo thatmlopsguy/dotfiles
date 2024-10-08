@@ -892,3 +892,21 @@ repositories:
   password: ""
   url: https://helm.localstack.cloud
   username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: secrets-store-csi-driver
+  pass_credentials_all: false
+  password: ""
+  url: https://kubernetes-sigs.github.io/secrets-store-csi-driver/charts
+  username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: aws-secrets-manager
+  pass_credentials_all: false
+  password: ""
+  url: https://aws.github.io/secrets-store-csi-driver-provider-aws
+  username: ""
