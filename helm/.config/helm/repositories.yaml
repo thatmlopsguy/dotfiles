@@ -910,3 +910,30 @@ repositories:
   password: ""
   url: https://aws.github.io/secrets-store-csi-driver-provider-aws
   username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: aws-efs-csi-driver
+  pass_credentials_all: false
+  password: ""
+  url: https://kubernetes-sigs.github.io/aws-efs-csi-driver
+  username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: aws-fsx-csi-driver
+  pass_credentials_all: false
+  password: ""
+  url: https://kubernetes-sigs.github.io/aws-fsx-csi-driver
+  username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: aws-ebs-csi-driver
+  pass_credentials_all: false
+  password: ""
+  url: https://kubernetes-sigs.github.io/aws-ebs-csi-driver
+  username: ""
