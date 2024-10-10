@@ -103,7 +103,8 @@
     "clusterctl@latest",
     "localstack@latest",
     "age@latest",
-    "rage@latest"
+    "rage@latest",
+    "lychee@latest"
   ],
   "shell": {
     "init_hook": [
