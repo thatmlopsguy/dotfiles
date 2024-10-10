@@ -81,6 +81,7 @@ helm repo add projectcalico https://docs.tigera.io/calico/charts
 helm repo add projectsveltos https://projectsveltos.github.io/helm-charts
 helm repo add kuberay https://ray-project.github.io/kuberay-helm
 helm repo add secrets-store-csi-driver https://kubernetes-sigs.github.io/secrets-store-csi-driver/charts
+helm repo add descheduler https://kubernetes-sigs.github.io/descheduler
 helm repo add eraser https://eraser-dev.github.io/eraser/charts
 # AWS
 helm repo add eks https://aws.github.io/eks-charts
