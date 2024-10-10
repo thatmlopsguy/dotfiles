@@ -80,10 +80,11 @@ helm repo add capi-operator https://kubernetes-sigs.github.io/cluster-api-operat
 helm repo add projectcalico https://docs.tigera.io/calico/charts
 helm repo add projectsveltos https://projectsveltos.github.io/helm-charts
 helm repo add kuberay https://ray-project.github.io/kuberay-helm
+helm repo add secrets-store-csi-driver https://kubernetes-sigs.github.io/secrets-store-csi-driver/charts
+helm repo add eraser https://eraser-dev.github.io/eraser/charts
 # AWS
 helm repo add eks https://aws.github.io/eks-charts
 helm repo add localstack-repo https://helm.localstack.cloud
-helm repo add secrets-store-csi-driver https://kubernetes-sigs.github.io/secrets-store-csi-driver/charts
 helm repo add aws-secrets-manager https://aws.github.io/secrets-store-csi-driver-provider-aws
 helm repo add aws-efs-csi-driver https://kubernetes-sigs.github.io/aws-efs-csi-driver
 helm repo add aws-fsx-csi-driver https://kubernetes-sigs.github.io/aws-fsx-csi-driver

@@ -937,3 +937,12 @@ repositories:
   password: ""
   url: https://kubernetes-sigs.github.io/aws-ebs-csi-driver
   username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: eraser
+  pass_credentials_all: false
+  password: ""
+  url: https://eraser-dev.github.io/eraser/charts
+  username: ""
