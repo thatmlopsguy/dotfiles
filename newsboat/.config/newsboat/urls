@@ -83,7 +83,10 @@ https://snyk.io/blog/feed/                                    "Blog" "~Snyk"
 https://chronosphere.io/blog-hub/feed/                        "Blog" "~Chronosphere"
 https://jfrog.com/blog/feed/                                  "Blog" "~Jfrog"
 https://kubernetes.io/feed.xml                                "Blog" "~Kubernetes"
+
+"* Data ------------------------------------------------------------------------------------"
 https://blog.timescale.com/feed                               "Blog" "~Timescale"
+https://altinity.com/feed/                                    "Blog" "~Altinity"
 
 "* Research --------------------------------------------------------------------------------"
 https://huggingface.co/blog/feed.xml                          "ResearchBlog" "~Huggingface"
