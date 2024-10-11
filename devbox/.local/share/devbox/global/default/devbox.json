@@ -4,7 +4,6 @@
     "ripgrep@latest",
     "kind@latest",
     "lf@latest",
-    "azure-cli@latest",
     "tmux@latest",
     "fzf@latest",
     "stow@latest",

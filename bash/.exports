@@ -95,7 +95,7 @@ export FZF_DEFAULT_COMMAND="fd --type file --color=always"
 export FZF_DEFAULT_OPTS="--ansi"
 
 # python
-# pip only runs in a virtual environment 
+# pip only runs in a virtual environment
 export PIP_REQUIRE_VIRTUALENV=true
 # Use a python startup file if one exists
 if [[ -e $HOME/.pythonrc ]]; then
