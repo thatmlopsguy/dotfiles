@@ -18,7 +18,6 @@
 # TODO
 # https://komodor.com/blog/
 # https://loft.sh/blog/
-# https://medium.com/chick-fil-atech/
 # https://www.diagrid.io/blog
 # https://cast.ai/blog
 # https://checkmarx.com/blog/
@@ -84,8 +83,10 @@ https://snyk.io/blog/feed/                                    "Blog" "~Snyk"
 https://chronosphere.io/blog-hub/feed/                        "Blog" "~Chronosphere"
 https://jfrog.com/blog/feed/                                  "Blog" "~Jfrog"
 https://kubernetes.io/feed.xml                                "Blog" "~Kubernetes"
+https://blog.timescale.com/feed                               "Blog" "~Timescale"
 
 "* Research --------------------------------------------------------------------------------"
+https://huggingface.co/blog/feed.xml                          "ResearchBlog" "~Huggingface"
 https://blog.salesforceairesearch.com/rss/                    "ResearchBlog" "~Salesforce"
 https://deepmind.google/blog/rss.xml                          "ResearchBlog" "~Deepmind"
 https://blog.roboflow.com/rss/                                "ResearchBlog" "~Roboflow"
@@ -248,7 +249,6 @@ http://blog.memsql.com/feed/ "EngineeringBlogs"
 https://mesosphere.com/feed/ "EngineeringBlogs"
 https://engineering.mixpanel.com/feed/ "EngineeringBlogs"
 https://blog.moove-it.com/rss "EngineeringBlogs"
-https://open.nytimes.com/feed "EngineeringBlogs"
 https://engblog.nextdoor.com/feed "EngineeringBlogs"
 https://nordicapis.com/feed/ "EngineeringBlogs"
 https://blog.novoda.com/rss/ "EngineeringBlogs"
@@ -294,7 +294,6 @@ https://engineroom.teamwork.com/feed "EngineeringBlogs"
 http://techblog.thescore.com/feed.xml "EngineeringBlogs"
 https://feeds.feedburner.com/GiantRobotsSmashingIntoOtherGiantRobots "EngineeringBlogs"
 https://www.thoughtworks.com/rss/insights.xml "EngineeringBlogs"
-https://blog.timescale.com/feed "EngineeringBlogs"
 https://www.toptal.com/blog.rss "EngineeringBlogs"
 https://engineering.tumblr.com/rss "EngineeringBlogs"
 https://www.twilio.com/blog/feed "EngineeringBlogs"
