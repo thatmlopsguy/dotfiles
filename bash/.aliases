@@ -28,7 +28,7 @@ if [ -x "$(command -v nvim)" ]; then
     alias vim=nvim
 fi
 
-# Machine info
+# machine info
 alias hdu='ncdu --color dark -rr -x --exclude .git --exclude node_modules'
 alias disk-usage='sudo ncdu --color dark -rr -x --exclude .git --exclude node_modules /'
 alias meminfo="free -m -l -t"
@@ -62,7 +62,7 @@ alias seed='php artisan db:seed'
 # nodejs, npm, pnpm
 alias pn='pnpm'
 
-# Docker
+# docker
 alias d='docker'
 alias dc='docker compose'
 alias dangling='docker rmi -f $(docker images -f "dangling=true" -q)'
@@ -87,7 +87,7 @@ alias tg='terragrunt'
 # nvidia
 alias nv_compute_cap="nvidia-smi --query-gpu=compute_cap --format=csv"
 
-# Overrides
+# overrides
 alias rm='rm -rf'
 alias mkdir='mkdir -p'
 alias mkdd='mkdir $(date +%Y%m%d)' # create a dir with date from today
@@ -98,7 +98,7 @@ alias less='less -R'
 alias emacs='emacs -nw'
 alias rsync='rsync -azvP'
 
-# Date
+# date
 alias date_iso_8601='date "+%Y%m%dT%H%M%S"'
 alias date_clean='date "+%Y-%m-%d"'
 alias date_year='date "+%Y"'
@@ -110,7 +110,7 @@ alias date_minute='date "+%M"'
 alias date_second='date "+%S"'
 alias date_time='date "+%H:%M:%S"'
 
-# Git
+# git
 alias g='git'
 alias gs='git status'
 alias gps='git push'
@@ -123,5 +123,6 @@ alias it-tools='docker run -d --name it-tools --restart unless-stopped -p 8765:8
 # wsl
 alias dzi='find . -name "*Zone.Identifier" -type f -delete'
 
-#aws
+# aws
 alias aws_id='aws sts get-caller-identity'
+alias aws_s3='aws s3 ls'
