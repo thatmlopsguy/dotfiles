@@ -103,7 +103,9 @@
     "localstack@latest",
     "age@latest",
     "rage@latest",
-    "lychee@latest"
+    "lychee@latest",
+    "jp@latest",
+    "hey@latest"
   ],
   "shell": {
     "init_hook": [
