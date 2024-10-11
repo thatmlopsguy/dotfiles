@@ -1,4 +1,9 @@
 #! /usr/bin/env bash
+#
+# Check
+#
+# Artifacts - https://artifacthub.io
+# Operator - https://operatorhub.io
 
 helm repo add paralus https://paralus.github.io/helm-charts
 helm repo add nats https://nats-io.github.io/k8s/helm/charts
