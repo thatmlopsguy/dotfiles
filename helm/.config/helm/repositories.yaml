@@ -955,3 +955,12 @@ repositories:
   password: ""
   url: https://kubernetes-sigs.github.io/descheduler
   username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: sentry
+  pass_credentials_all: false
+  password: ""
+  url: https://sentry-kubernetes.github.io/charts
+  username: ""
