@@ -105,7 +105,8 @@
     "rage@latest",
     "lychee@latest",
     "jp@latest",
-    "hey@latest"
+    "hey@latest",
+    "eks-node-viewer@latest"
   ],
   "shell": {
     "init_hook": [

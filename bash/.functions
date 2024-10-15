@@ -147,3 +147,11 @@ function gpip() {
 function joke() {
   curl -s -H "Accept: application/json" https://icanhazdadjoke.com/ | jq ".joke";
 }
+
+# EKS OIDC
+function eks_oidc() {
+  local name=$1
+  local region=$2
+
+  aws eks describe-cluster --name $name --region $region --query "cluster.identity.oidc.issuer"
+}
