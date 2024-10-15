@@ -155,3 +155,11 @@ function eks_oidc() {
 
   aws eks describe-cluster --name $name --region $region --query "cluster.identity.oidc.issuer"
 }
+
+# hardeneks
+# https://github.com/aws-samples/hardeneks
+function harden_eks() {
+  source "${HOME}/.venv/bin/activate"
+
+  hardeneks --config "${HOME}/.config/hardeneks/config.yaml" "$@"
+}
