@@ -982,3 +982,12 @@ repositories:
   password: ""
   url: https://infracloudio.github.io/charts
   username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: metrics-server
+  pass_credentials_all: false
+  password: ""
+  url: https://kubernetes-sigs.github.io/metrics-server
+  username: ""

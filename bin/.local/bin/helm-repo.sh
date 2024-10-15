@@ -87,6 +87,7 @@ helm repo add projectsveltos https://projectsveltos.github.io/helm-charts
 helm repo add kuberay https://ray-project.github.io/kuberay-helm
 helm repo add secrets-store-csi-driver https://kubernetes-sigs.github.io/secrets-store-csi-driver/charts
 helm repo add descheduler https://kubernetes-sigs.github.io/descheduler
+helm repo add metrics-server https://kubernetes-sigs.github.io/metrics-server
 helm repo add eraser https://eraser-dev.github.io/eraser/charts
 helm repo add sentry https://sentry-kubernetes.github.io/charts
 helm repo add openfaas https://openfaas.github.io/faas-netes
