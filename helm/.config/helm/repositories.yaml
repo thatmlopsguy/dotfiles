@@ -964,3 +964,12 @@ repositories:
   password: ""
   url: https://sentry-kubernetes.github.io/charts
   username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: openfaas
+  pass_credentials_all: false
+  password: ""
+  url: https://openfaas.github.io/faas-netes
+  username: ""
