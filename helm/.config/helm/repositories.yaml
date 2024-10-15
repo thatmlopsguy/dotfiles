@@ -973,3 +973,12 @@ repositories:
   password: ""
   url: https://openfaas.github.io/faas-netes
   username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: infracloud-charts
+  pass_credentials_all: false
+  password: ""
+  url: https://infracloudio.github.io/charts
+  username: ""
