@@ -80,6 +80,7 @@ https://www.getambassador.io/feed.xml                         "Blog" "~Ambassado
 https://www.infracloud.io/feed.xml                            "Blog" "~Infracloud"
 https://chronosphere.io/blog-hub/feed/                        "Blog" "~Chronosphere"
 https://kubernetes.io/feed.xml                                "Blog" "~Kubernetes"
+https://blog.upbound.io/feed                                  "Blog" "~Upbound"
 
 "* Security --------------------------------------------------------------------------------"
 https://www.armosec.io/blog/feed/                             "Blog" "~Armosec"
@@ -167,6 +168,7 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UC4pLFely0-Odea4B2NL1nWA "Yo
 https://www.youtube.com/feeds/videos.xml?channel_id=UCi-1nnN0eC9nRleXdZA6ncg "Youtube" "~Kubesimplify"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC8HJWaWkF_9QvymViuX94Zw "Youtube" "~CookNCode"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCDlhC4hMJzEHSzH1iWaCjmg "Youtube" "~TeKanAid"
+https://www.youtube.com/feeds/videos.xml?channel_id=UCH1e-9v5Vy93t2-Ne-eHAoQ "Youtube" "~Infracloud"
 
 "* Programming -----------------------------------------------------------------------------"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC8butISFwT-Wl7EV0hUK0BQ "YT-Programming" "~FreeCodeCamp"
