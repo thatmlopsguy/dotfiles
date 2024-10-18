@@ -1000,3 +1000,12 @@ repositories:
   password: ""
   url: https://kubereboot.github.io/charts
   username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: vm
+  pass_credentials_all: false
+  password: ""
+  url: https://victoriametrics.github.io/helm-charts
+  username: ""

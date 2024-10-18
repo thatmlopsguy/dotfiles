@@ -93,6 +93,7 @@ helm repo add sentry https://sentry-kubernetes.github.io/charts
 helm repo add openfaas https://openfaas.github.io/faas-netes
 helm repo add infracloud-charts https://infracloudio.github.io/charts
 helm repo add kubereboot https://kubereboot.github.io/charts
+helm repo add vm https://victoriametrics.github.io/helm-charts
 # AWS
 helm repo add eks https://aws.github.io/eks-charts
 helm repo add localstack-repo https://helm.localstack.cloud
