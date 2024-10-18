@@ -1,0 +1,31 @@
+plugins:
+  duplik8s-pod:
+    shortCut: Ctrl-T
+    description: Duplicate Pod
+    scopes:
+      - po
+    command: kubectl
+    background: true
+    args:
+      - duplicate
+      - pod
+      - $NAME
+      - -n
+      - $NAMESPACE
+      - --context
+      - $CONTEXT
+  duplik8s-deploy:
+    shortCut: Ctrl-T
+    description: Duplicate Deployment
+    scopes:
+      - deploy
+    command: kubectl
+    background: true
+    args:
+      - duplicate
+      - deploy
+      - $NAME
+      - -n
+      - $NAMESPACE
+      - --context
+      - $CONTEXT
