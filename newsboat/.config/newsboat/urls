@@ -83,6 +83,9 @@ https://chronosphere.io/blog-hub/feed/                        "Blog" "~Chronosph
 https://kubernetes.io/feed.xml                                "Blog" "~Kubernetes"
 https://blog.upbound.io/feed                                  "Blog" "~Upbound"
 https://cilium.io/blog/rss.xml                                "Blog" "~Cilium"
+https://blog.kubecost.com/feed.xml                            "Blog" "~Kubecost"
+https://www.opencost.io/blog/rss.xml                          "Blog" "~Opencost"
+https://www.cncf.io/blog/feed/                                "Blog" "~CNCF"
 
 "* Security --------------------------------------------------------------------------------"
 https://www.armosec.io/blog/feed/                             "Blog" "~Armosec"
