@@ -106,7 +106,8 @@
     "lychee@latest",
     "jp@latest",
     "hey@latest",
-    "eks-node-viewer@latest"
+    "eks-node-viewer@latest",
+    "copilot-cli@latest"
   ],
   "shell": {
     "init_hook": [
