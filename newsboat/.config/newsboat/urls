@@ -21,6 +21,7 @@
 # https://www.diagrid.io/blog
 # https://cast.ai/blog
 # https://checkmarx.com/blog/
+# https://tetrate.io/blog/
 
 "* Blogs -----------------------------------------------------------------------------------"
 https://aws.amazon.com/blogs/opensource/feed/                 "Blog" "~AWS"
@@ -81,6 +82,7 @@ https://www.infracloud.io/feed.xml                            "Blog" "~Infraclou
 https://chronosphere.io/blog-hub/feed/                        "Blog" "~Chronosphere"
 https://kubernetes.io/feed.xml                                "Blog" "~Kubernetes"
 https://blog.upbound.io/feed                                  "Blog" "~Upbound"
+https://cilium.io/blog/rss.xml                                "Blog" "~Cilium"
 
 "* Security --------------------------------------------------------------------------------"
 https://www.armosec.io/blog/feed/                             "Blog" "~Armosec"
