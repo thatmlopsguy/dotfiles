@@ -1009,3 +1009,12 @@ repositories:
   password: ""
   url: https://victoriametrics.github.io/helm-charts
   username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: weaviate
+  pass_credentials_all: false
+  password: ""
+  url: https://weaviate.github.io/weaviate-helm
+  username: ""
