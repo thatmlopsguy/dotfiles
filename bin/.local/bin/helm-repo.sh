@@ -84,7 +84,6 @@ helm repo add cilium https://helm.cilium.io
 helm repo add capi-operator https://kubernetes-sigs.github.io/cluster-api-operator
 helm repo add projectcalico https://docs.tigera.io/calico/charts
 helm repo add projectsveltos https://projectsveltos.github.io/helm-charts
-helm repo add kuberay https://ray-project.github.io/kuberay-helm
 helm repo add secrets-store-csi-driver https://kubernetes-sigs.github.io/secrets-store-csi-driver/charts
 helm repo add descheduler https://kubernetes-sigs.github.io/descheduler
 helm repo add metrics-server https://kubernetes-sigs.github.io/metrics-server
@@ -96,7 +95,15 @@ helm repo add kubereboot https://kubereboot.github.io/charts
 helm repo add vm https://victoriametrics.github.io/helm-charts
 helm repo add cluster-proportional-autoscaler https://kubernetes-sigs.github.io/cluster-proportional-autoscaler
 # ML
+helm repo add nvidia https://helm.ngc.nvidia.com/nvidia
+helm repo add kuberay https://ray-project.github.io/kuberay-helm
 helm repo add weaviate https://weaviate.github.io/weaviate-helm
+helm repo add milvus https://milvus-io.github.io/milvus-helm
+helm repo add ollama https://otwld.github.io/ollama-helm
+helm repo add llamaindex https://run-llama.github.io/helm-charts
+helm repo add langchain https://langchain-ai.github.io/helm
+helm repo add substratusai https://substratusai.github.io/helm
+helm repo add kubeai https://www.kubeai.org
 # AWS
 helm repo add eks https://aws.github.io/eks-charts
 helm repo add localstack-repo https://helm.localstack.cloud
@@ -104,6 +111,9 @@ helm repo add aws-secrets-manager https://aws.github.io/secrets-store-csi-driver
 helm repo add aws-efs-csi-driver https://kubernetes-sigs.github.io/aws-efs-csi-driver
 helm repo add aws-fsx-csi-driver https://kubernetes-sigs.github.io/aws-fsx-csi-driver
 helm repo add aws-ebs-csi-driver https://kubernetes-sigs.github.io/aws-ebs-csi-driver
+# Azure
+helm repo add azurefile-csi-driver https://raw.githubusercontent.com/kubernetes-sigs/azurefile-csi-driver/master/charts
+helm repo add blob-csi-driver https://raw.githubusercontent.com/kubernetes-sigs/blob-csi-driver/master/charts
 
 helm repo update
 helm repo list
