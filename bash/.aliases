@@ -130,3 +130,6 @@ alias aws_s3='aws s3 ls'
 
 # azure
 alias az_extensions="az extension list --output table --query '[].{Name:name}'"
+
+# dotnet/nuget
+alias nuget_config='$EDITOR "$HOME/.nuget/NuGet/NuGet.Config"'
