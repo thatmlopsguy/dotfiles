@@ -94,6 +94,7 @@ helm repo add infracloud-charts https://infracloudio.github.io/charts
 helm repo add kubereboot https://kubereboot.github.io/charts
 helm repo add vm https://victoriametrics.github.io/helm-charts
 helm repo add cluster-proportional-autoscaler https://kubernetes-sigs.github.io/cluster-proportional-autoscaler
+helm repo add bakito https://charts.bakito.net
 # ML
 helm repo add nvidia https://helm.ngc.nvidia.com/nvidia
 helm repo add kuberay https://ray-project.github.io/kuberay-helm
