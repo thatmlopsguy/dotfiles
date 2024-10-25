@@ -2,6 +2,9 @@
 # ~/.config/newsboat/urls
 #
 "query:Blogs:tags # \"Blog\""
+"query:CNCF:tags # \"cncf\""
+"query:Security:tags # \"security\""
+"query:Data:tags # \"data\""
 "query:EngBlogs:tags # \"EngineeringBlogs\""
 "query:Personal Blogs:tags # \"PersonalBlog\""
 "query:Research Blogs:tags # \"ResearchBlog\""
@@ -79,6 +82,25 @@ https://medium.com/feed/chick-fil-atech                       "Blog" "~chick-fil
 https://www.infracloud.io/feed.xml                            "Blog" "~Infracloud"
 https://chronosphere.io/blog-hub/feed/                        "Blog" "~Chronosphere"
 https://last9.io/rss.xml                                      "Blog" "~Last9"
+https://medium.com/feed/inside-wallapop                       "Blog" "~Wallapop"
+
+"* cncf ------------------------------------------------------------------------------------"
+https://kubernetes.io/feed.xml                                "cncf" "~Kubernetes"
+https://blog.crossplane.io/rss/                               "cncf" "~Crossplane"
+https://blog.upbound.io/feed                                  "cncf" "~Upbound"
+https://cilium.io/blog/rss.xml                                "cncf" "~Cilium"
+https://www.getambassador.io/feed.xml                         "cncf" "~Ambassador"
+https://blog.kubecost.com/feed.xml                            "cncf" "~Kubecost"
+https://www.opencost.io/blog/rss.xml                          "cncf" "~Opencost"
+https://www.cncf.io/blog/feed/                                "cncf" "~CNCF"
+https://linkerd.io/blog/feed.xml                              "cncf" "~Linkerd"
+https://blog.argoproj.io/feed                                 "cncf" "~Argo"
+https://blog.dapr.io/posts/index.xml                          "cncf" "~Dapr"
+https://keda.sh/blog/index.xml                                "cncf" "~Keda"
+https://kyverno.io/blog/index.xml                             "cncf" "~Kyverno"
+https://prometheus.io/blog/feed.xml                           "cncf" "~Prometheus"
+https://istio.io/latest/blog/feed.xml                         "cncf" "~Istio"
+https://medium.com/feed/kialiproject                          "cncf" "~Kiali"
 
 "* Security --------------------------------------------------------------------------------"
 https://www.armosec.io/blog/feed/                             "security" "~Armosec"
@@ -90,6 +112,7 @@ https://sysdig.com/feed/                                      "security" "~Sysdi
 "* Data ------------------------------------------------------------------------------------"
 https://blog.timescale.com/feed                               "data" "~Timescale"
 https://altinity.com/feed/                                    "data" "~Altinity"
+https://weaviate.io/blog/rss.xml                              "data" "~Weaviate"
 
 "* Research --------------------------------------------------------------------------------"
 https://huggingface.co/blog/feed.xml                          "ResearchBlog" "~Huggingface"
