@@ -105,6 +105,7 @@ helm repo add llamaindex https://run-llama.github.io/helm-charts
 helm repo add langchain https://langchain-ai.github.io/helm
 helm repo add substratusai https://substratusai.github.io/helm
 helm repo add kubeai https://www.kubeai.org
+helm repo add hugs https://raw.githubusercontent.com/huggingface/hugs-helm-chart/main/charts/hugs
 # AWS
 helm repo add eks https://aws.github.io/eks-charts
 helm repo add localstack-repo https://helm.localstack.cloud
