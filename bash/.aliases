@@ -129,6 +129,7 @@ alias aws_id='aws sts get-caller-identity'
 alias aws_s3='aws s3 ls'
 
 # azure
+alias az_id="az account show --query id -o tsv"
 alias az_extensions="az extension list --output table --query '[].{Name:name}'"
 
 # dotnet/nuget
