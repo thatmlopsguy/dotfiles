@@ -107,7 +107,9 @@
     "jp@latest",
     "hey@latest",
     "eks-node-viewer@latest",
-    "copilot-cli@latest"
+    "copilot-cli@latest",
+    "helmsman@latest",
+    "helmfile@latest"
   ],
   "shell": {
     "init_hook": [
