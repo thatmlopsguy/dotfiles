@@ -84,6 +84,7 @@ https://chronosphere.io/blog-hub/feed/                        "Blog" "~Chronosph
 https://last9.io/rss.xml                                      "Blog" "~Last9"
 https://medium.com/feed/inside-wallapop                       "Blog" "~Wallapop"
 https://blog.bytebytego.com/feed                              "Blog" "~Bytebytego"
+https://www.datadoghq.com/blog/index.xml                      "Blog" "~Datadog"
 
 "* cncf ------------------------------------------------------------------------------------"
 https://kubernetes.io/feed.xml                                "cncf" "~Kubernetes"
