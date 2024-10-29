@@ -95,3 +95,6 @@
 
 [includeIf "gitdir:~/code/azure/"]
 	path = ~/.config/git/accounts/azure
+
+[includeIf "gitdir:~/code/gitlab/"]
+	path = ~/.config/git/accounts/gitlab
