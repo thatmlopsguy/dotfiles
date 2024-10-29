@@ -83,6 +83,7 @@ https://www.infracloud.io/feed.xml                            "Blog" "~Infraclou
 https://chronosphere.io/blog-hub/feed/                        "Blog" "~Chronosphere"
 https://last9.io/rss.xml                                      "Blog" "~Last9"
 https://medium.com/feed/inside-wallapop                       "Blog" "~Wallapop"
+https://blog.bytebytego.com/feed                              "Blog" "~Bytebytego"
 
 "* cncf ------------------------------------------------------------------------------------"
 https://kubernetes.io/feed.xml                                "cncf" "~Kubernetes"
