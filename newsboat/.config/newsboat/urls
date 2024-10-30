@@ -208,6 +208,7 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UC4JX40jDee_tINbkjycV4Sg "YT
 "* Newsletters -----------------------------------------------------------------------------"
 https://lwkd.info/feed.xml                                                   "Newsletter" "~LWKD"
 https://www.cncf.io/feed/?post_type=lf_kubeweekly                            "Newsletter" "~KubeWeekly"
+https://www.lastweekinaws.com/newsletter/feed/                               "Newsletter" "~lastweekinaws"
 
 "* Others ----------------------------------------------------------------------------------"
 https://8thlight.com/blog/feed/atom.xml "EngineeringBlogs"
