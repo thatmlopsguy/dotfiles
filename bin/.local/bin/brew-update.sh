@@ -14,3 +14,4 @@ brew install openslo/openslo/oslo
 brew install fortio
 brew install azure-cli
 brew install datadog/mkat/managed-kubernetes-auditing-toolkit
+brew install gitversion
