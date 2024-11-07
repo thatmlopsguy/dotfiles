@@ -1144,3 +1144,21 @@ repositories:
   password: ""
   url: https://akeylesslabs.github.io/helm-charts
   username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: kraan
+  pass_credentials_all: false
+  password: ""
+  url: https://fidelity.github.io/kraan
+  username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: emberstack
+  pass_credentials_all: false
+  password: ""
+  url: https://emberstack.github.io/helm-charts
+  username: ""
