@@ -75,6 +75,7 @@ alias kubescape='kubectl-kubescape'
 alias kns='kubens'
 alias kk='kubectl kustomize'
 alias ktop='kubectl ktop'
+alias knodes='kubectl get node -o name | cut -d / -f 2'
 
 # terraform
 alias tf='terraform'
@@ -83,6 +84,7 @@ alias tfmt='terraform fmt'
 alias tinit='terraform init'
 alias tplan='terraform plan'
 alias tg='terragrunt'
+alias tf_state_list='terraform state list'
 
 # nvidia
 alias nv_compute_cap="nvidia-smi --query-gpu=compute_cap --format=csv"
