@@ -156,6 +156,15 @@ function eks_oidc() {
   aws eks describe-cluster --name $name --region $region --query "cluster.identity.oidc.issuer"
 }
 
+function aws_create_user() {
+  local name=$1
+
+  aws iam create-user --user-name $name
+  aws iam create-access-key --user-name $name
+}
+
+
+
 # hardeneks
 # https://github.com/aws-samples/hardeneks
 function harden_eks() {
