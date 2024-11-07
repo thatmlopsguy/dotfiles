@@ -127,6 +127,7 @@ alias dzi='find . -name "*Zone.Identifier" -type f -delete'
 alias aws_creds='$EDITOR "$HOME/.aws/credentials"'
 alias aws_id='aws sts get-caller-identity'
 alias aws_s3='aws s3 ls'
+alias aws_eks_cluster='eksctl get cluster'
 
 # azure
 alias az_extensions="az extension list --output table --query '[].{Name:name}'"
