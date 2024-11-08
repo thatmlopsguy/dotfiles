@@ -109,7 +109,8 @@
     "eks-node-viewer@latest",
     "copilot-cli@latest",
     "helmsman@latest",
-    "helmfile@latest"
+    "helmfile@latest",
+    "kubent@latest"
   ],
   "shell": {
     "init_hook": [
