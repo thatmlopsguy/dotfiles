@@ -85,6 +85,8 @@ alias tinit='terraform init'
 alias tplan='terraform plan'
 alias tg='terragrunt'
 alias tf_state_list='terraform state list'
+alias tf_ws_list='terraform workspace list'
+alias tf_ws_show='terraform workspace show'
 
 # nvidia
 alias nv_compute_cap="nvidia-smi --query-gpu=compute_cap --format=csv"
