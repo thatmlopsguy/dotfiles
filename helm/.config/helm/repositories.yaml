@@ -1162,3 +1162,12 @@ repositories:
   password: ""
   url: https://emberstack.github.io/helm-charts
   username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: perses
+  pass_credentials_all: false
+  password: ""
+  url: https://perses.github.io/helm-charts
+  username: ""
