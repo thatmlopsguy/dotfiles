@@ -30,6 +30,9 @@ export PATH="$GOPATH/bin:$PATH"
 #export NVM_DIR="$HOME/.nvm"
 export PATH="$HOME/.global-modules/bin:$PATH"
 
+# Angular
+export NG_CLI_ANALYTICS="false"
+
 # Mise
 export PATH="$HOME/.local/bin:$PATH"
 
@@ -107,5 +110,8 @@ if [ -d "$HOME/.dapr/bin" ]; then
   export PATH="$HOME/.dapr/bin:$PATH"
 fi
 
-# AWS
-# export AWS_REGION=us-east-2
+# AWS cli
+# export AWS_ACCESS_KEY_ID=
+# export AWS_SECRET_ACCESS_KEY=
+# export AWS_DEFAULT_REGION=us-west-2
+# export AWS_DEFAULT_OUTPUT="json"
