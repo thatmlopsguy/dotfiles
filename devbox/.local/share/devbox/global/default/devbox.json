@@ -51,7 +51,6 @@
     "zoxide@latest",
     "mysql-client@latest",
     "kompose@latest",
-    "nodejs@latest",
     "vite@latest",
     "pnpm@latest",
     "helm-docs@latest",
