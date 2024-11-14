@@ -109,7 +109,8 @@
     "copilot-cli@latest",
     "helmsman@latest",
     "helmfile@latest",
-    "kubent@latest"
+    "kubent@latest",
+    "azure-storage-azcopy@latest"
   ],
   "shell": {
     "init_hook": [
