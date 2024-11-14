@@ -1,2 +1,1 @@
-argocd-image-updater	https://github.com/thatmlopsguy/asdf-argocd-image-updater.git	0.14.0
-uv	https://github.com/b1-luettje/asdf-uv.git	0.2.26
+nodejs	https://github.com/asdf-vm/asdf-nodejs.git	23.2.0
