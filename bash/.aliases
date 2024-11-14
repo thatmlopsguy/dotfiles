@@ -61,6 +61,7 @@ alias seed='php artisan db:seed'
 
 # nodejs, npm, pnpm
 alias pn='pnpm'
+alias npm_install='npm install --verbose'
 
 # docker
 alias d='docker'
