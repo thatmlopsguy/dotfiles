@@ -30,3 +30,4 @@ poetry 1.8.2
 rye 0.29.0
 uv 0.2.26
 argocd-image-updater 0.14.0
+nodejs 22.11.0
