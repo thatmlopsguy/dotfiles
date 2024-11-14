@@ -87,6 +87,7 @@ https://blog.bytebytego.com/feed                              "Blog" "~Bytebyteg
 https://www.datadoghq.com/blog/index.xml                      "Blog" "~Datadog"
 https://platformengineering.org/blog/rss.xml                  "Blog" "~Platform Engineering"
 https://circleci.com/blog/feed.xml                            "Blog" "~CircleCI"
+https://blog.min.io/rss/                                      "Blog" "~Minio"
 
 "* cncf ------------------------------------------------------------------------------------"
 https://kubernetes.io/feed.xml                                "cncf" "~Kubernetes"
