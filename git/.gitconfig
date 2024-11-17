@@ -9,10 +9,10 @@
 	aliases = config --get-regexp alias
 	a = add
 	br = branch
-	branches = branch --all
 	c = commit
 	cm = commit -m
 	co = checkout
+	cr = clone ---recurse-submodules
 	d = diff
 	ds = diff --staged
 	p = push
@@ -24,8 +24,10 @@
 	rb = for-each-ref --sort=-committerdate --count=10 --format='%(refname:short)' refs/heads/
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 	tags = tag -l
+	branches = branch --all
+	remotes = remote -v
+	contributors = shortlog --summary --numbered
 	alias-master-as-main = !git symbolic-ref refs/heads/main refs/heads/master && git symbolic-ref refs/remotes/origin/main refs/remotes/origin/master && git switch main
-	clone-with-submodules = '!git clone --recurse-submodules'
 	squash = "!f(){ git reset --soft HEAD~${1} && git commit --edit -m\"$(git log --format=%B --reverse HEAD..HEAD@{1})\"; };f"
 	# delete merged local branches
 	bclean = "!f(){ git branch --merged ${1-main} | grep -v " ${1-main}$" | xargs -r git branch -d; }; f"

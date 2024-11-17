@@ -23,6 +23,7 @@ alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
 alias fzf="fzf --preview 'bat --style=numbers --color=always --line-range :500 {}'"
 alias lpath='echo $PATH | tr ":" "\n"' # list the PATH separated by new lines
+alias untar='tar xvf'
 
 if [ -x "$(command -v nvim)" ]; then
     alias vim=nvim
@@ -88,10 +89,11 @@ alias tg='terragrunt'
 alias nv_compute_cap="nvidia-smi --query-gpu=compute_cap --format=csv"
 
 # overrides
+alias mv='mv -i'
 alias rm='rm -rf'
 alias mkdir='mkdir -p'
 alias mkdd='mkdir $(date +%Y%m%d)' # create a dir with date from today
-alias cp='cp -r'
+alias cp='cp -ir'
 alias du='du -kh'
 alias df='df -kTh'
 alias less='less -R'

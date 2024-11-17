@@ -13,7 +13,7 @@ The dotfiles are managed by `gnu stow`. Install [git](https://git-scm.com/) and 
 Clone repo to a new machine
 
 ```bash
-git clone https://github.com/thatmlopsguy/dotfiles.git ~/.dotfiles
+git clone --recurse-submodules https://github.com/thatmlopsguy/dotfiles.git ~/.dotfiles
 ```
 
 Run `bootstrap.sh` to symlink all the config with `stow`.
@@ -56,7 +56,9 @@ This is a long list, so here is a table of content with tl;dr summaries:
 - [sshs](https://github.com/quantumsheep/sshs) - terminal user interface for SSH
 - [sd](https://github.com/chmln/sd) - intuitive find & replace CLI (sed alternative)
 - [yq](https://github.com/kislyuk/yq) - command-line YAML, XML, TOML processor
-- [jqp](https://github.com/noahgorstein/jqp) - TUI playground to experiment with jq 
+- [jqp](https://github.com/noahgorstein/jqp) - TUI playground to experiment with jq
+- [dog](https://github.com/ogham/dog) - command-line DNS client
+- [hey](https://github.com/rakyll/hey) - HTTP load generator
 
 ### package manager
 
@@ -74,6 +76,12 @@ This is a long list, so here is a table of content with tl;dr summaries:
 - [ncdu](https://dev.yorhel.nl/ncdu) - disk usage analyzer
 - [bottom](https://github.com/ClementTsang/bottom)
 
+### Kubernetes
+
+- [k9s](https://k9scli.io/)
+- [krew](https://github.com/kubernetes-sigs/krew/)
+- [kubectx](https://github.com/ahmetb/kubectx)
+
 ### Azure
 
 - [azure cli](https://github.com/Azure/azure-cli)
@@ -84,6 +92,11 @@ This is a long list, so here is a table of content with tl;dr summaries:
 - [aws cli](https://github.com/aws/aws-cli)
 - [eksctl](https://eksctl.io/)
 - [eks-node-viewer](https://github.com/awslabs/eks-node-viewer)
+
+### GUI programs
+
+- [mRemoteNG (Windows)](https://mremoteng.org/) - next generation of mRemote, open source, tabbed, multi-protocol, remote connections manager
+- [DBeaver](https://dbeaver.io/) - Free universal database tool and SQL client
 
 ## References
 

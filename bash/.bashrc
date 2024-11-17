@@ -147,3 +147,13 @@ eval "$(devbox global shellenv)"
 
 # thefuck
 eval $(thefuck --alias)
+
+if hash kubectl 2>/dev/null; then
+	# shellcheck source=/dev/null
+	source <(kubectl completion bash)
+fi
+
+# get the rustup completions
+if hash rustup 2>/dev/null; then
+	eval "$(rustup completions bash)"
+fi

@@ -2,6 +2,26 @@
 # ~/.functions
 #
 
+# Linux specific aliases, work on both MacOS and Linux.
+function pbcopy() {
+	stdin=$(</dev/stdin);
+	pbcopy="$(which pbcopy)";
+	if [[ -n "$pbcopy" ]]; then
+		echo "$stdin" | "$pbcopy"
+	else
+		echo "$stdin" | xclip -selection clipboard
+	fi
+}
+
+function pbpaste() {
+	pbpaste="$(which pbpaste)";
+	if [[ -n "$pbpaste" ]]; then
+		"$pbpaste"
+	else
+		xclip -selection clipboard
+	fi
+}
+
 function extract() {
   if [ -f $1 ]; then
     case $1 in
@@ -162,4 +182,9 @@ function harden_eks() {
   source "${HOME}/.venv/bin/activate"
 
   hardeneks --config "${HOME}/.config/hardeneks/config.yaml" "$@"
+}
+
+# Bash into running container
+function dbash() { 
+  docker exec -it $(docker ps -aqf "name=$1") bash; 
 }

@@ -74,3 +74,6 @@ yarn.lock
 
 # Ignore Terragrunt cache
 .terragrunt-cache
+
+# direnv
+.envrc
