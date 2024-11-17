@@ -40,7 +40,6 @@ Visit `https://webinstall.dev/nerdfont` and follow the instructions to install t
 
 This is a long list, so here is a table of content with tl;dr summaries:
 
-- [Rust Utilities](https://rustutils.com/)
 - [starship](https://starship.rs/) - great cross shell prompt that requires no setup
 - [fzf](https://github.com/junegunn/fzf) - general-purpose fuzzy search
 - [lf](https://github.com/gokcehan/lf) - terminal file manager
@@ -54,6 +53,10 @@ This is a long list, so here is a table of content with tl;dr summaries:
 - [lsd](https://github.com/lsd-rs/lsd) - next gen ls command
 - [git delta](https://github.com/dandavison/delta) - diff viewer with syntax highlighting
 - [ripgrep (rg)](https://github.com/BurntSushi/ripgrep) - like grep but better
+- [sshs](https://github.com/quantumsheep/sshs) - terminal user interface for SSH
+- [sd](https://github.com/chmln/sd) - intuitive find & replace CLI (sed alternative)
+- [yq](https://github.com/kislyuk/yq) - command-line YAML, XML, TOML processor
+- [jqp](https://github.com/noahgorstein/jqp) - TUI playground to experiment with jq 
 
 ### package manager
 
@@ -71,8 +74,20 @@ This is a long list, so here is a table of content with tl;dr summaries:
 - [ncdu](https://dev.yorhel.nl/ncdu) - disk usage analyzer
 - [bottom](https://github.com/ClementTsang/bottom)
 
+### Azure
+
+- [azure cli](https://github.com/Azure/azure-cli)
+- [azure Storage Explorer](https://github.com/microsoft/AzureStorageExplorer)
+
+### AWS
+
+- [aws cli](https://github.com/aws/aws-cli)
+- [eksctl](https://eksctl.io/)
+- [eks-node-viewer](https://github.com/awslabs/eks-node-viewer)
+
 ## References
 
 Articles and other links that helped me create these dotfiles:
 
 - [andrenbrandao/dotfiles](https://github.com/andrenbrandao/dotfiles/)
+- [rust utilities](https://rustutils.com/)
