@@ -110,7 +110,9 @@
     "helmsman@latest",
     "helmfile@latest",
     "kubent@latest",
-    "azure-storage-azcopy@latest"
+    "azure-storage-azcopy@latest",
+    "sshs@latest",
+    "kubebuilder@latest"
   ],
   "shell": {
     "init_hook": [
