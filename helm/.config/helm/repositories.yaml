@@ -1189,3 +1189,12 @@ repositories:
   password: ""
   url: https://azure.github.io/azure-workload-identity/charts
   username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: enix
+  pass_credentials_all: false
+  password: ""
+  url: https://charts.enix.io
+  username: ""

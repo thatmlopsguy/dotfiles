@@ -101,6 +101,7 @@ helm repo add kraan https://fidelity.github.io/kraan
 helm repo add emberstack https://emberstack.github.io/helm-charts
 helm repo add perses https://perses.github.io/helm-charts
 helm repo add numaflow https://numaproj.io/helm-charts
+helm repo add enix https://charts.enix.io
 # ML
 helm repo add nvidia https://helm.ngc.nvidia.com/nvidia
 helm repo add kuberay https://ray-project.github.io/kuberay-helm
