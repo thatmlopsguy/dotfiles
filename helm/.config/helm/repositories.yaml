@@ -1198,3 +1198,12 @@ repositories:
   password: ""
   url: https://charts.enix.io
   username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: kube-vip
+  pass_credentials_all: false
+  password: ""
+  url: https://kube-vip.github.io/helm-charts
+  username: ""
