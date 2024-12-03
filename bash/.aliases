@@ -30,9 +30,10 @@ fi
 
 # machine info
 alias hdu='ncdu --color dark -rr -x --exclude .git --exclude node_modules'
-alias disk-usage='sudo ncdu --color dark -rr -x --exclude .git --exclude node_modules /'
+alias disk_usage='sudo ncdu --color dark -rr -x --exclude .git --exclude node_modules /'
 alias meminfo="free -m -l -t"
 alias cpufreq='watch grep \"cpu MHz\" /proc/cpuinfo'
+alias ip_ext="curl https://icanhazip.com"
 
 # homebrew
 alias bclean='brew cleanup -s'
@@ -123,7 +124,7 @@ alias gpl='git pull'
 alias track='git branch --set-upstream-to=origin/$(git symbolic-ref --short HEAD)'
 
 # Utilities
-alias it-tools='docker run -d --name it-tools --restart unless-stopped -p 8765:80 corentinth/it-tools:latest'
+alias it_tools='docker run -d --name it-tools --restart unless-stopped -p 8765:80 corentinth/it-tools:latest'
 
 # wsl
 alias dzi='find . -name "*Zone.Identifier" -type f -delete'
