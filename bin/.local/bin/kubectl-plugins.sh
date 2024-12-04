@@ -18,5 +18,6 @@ krew install score
 krew install safe
 krew install pv-migrate
 krew install duplicate
+# krew install kuttl
 
 krew upgrade

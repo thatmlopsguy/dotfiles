@@ -113,7 +113,8 @@
     "azure-storage-azcopy@latest",
     "sshs@latest",
     "kubebuilder@latest",
-    "jqp@latest"
+    "jqp@latest",
+    "kuttl@latest"
   ],
   "shell": {
     "init_hook": [
