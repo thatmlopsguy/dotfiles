@@ -98,6 +98,12 @@ helm repo add crowdstrike https://crowdstrike.github.io/falcon-helm
 helm repo add falcosecurity https://falcosecurity.github.io/charts
 helm repo add aquasecurity https://aquasecurity.github.io/helm-charts
 helm repo add qualys-helm-chart https://qualys.github.io/Qualys-Helm-Charts
+# Platform
+helm repo add rig https://charts.rig.dev
+helm repo add kusionstack https://kusionstack.github.io/charts
+helm repo add kubechecks https://zapier.github.io/kubechecks
+helm repo add xm-global-templates https://xmcyber.github.io/helm-global-templates
+helm repo add epinio https://epinio.github.io/helm-charts
 # Network
 helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
 helm repo add cilium https://helm.cilium.io
