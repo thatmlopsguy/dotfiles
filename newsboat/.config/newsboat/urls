@@ -118,6 +118,7 @@ https://sysdig.com/feed/                                      "security" "~Sysdi
 https://blog.timescale.com/feed                               "data" "~Timescale"
 https://altinity.com/feed/                                    "data" "~Altinity"
 https://weaviate.io/blog/rss.xml                              "data" "~Weaviate"
+https://www.pinecone.io/rss/                                  "data" "~Pinecone"
 
 "* Research --------------------------------------------------------------------------------"
 https://huggingface.co/blog/feed.xml                          "ResearchBlog" "~Huggingface"
