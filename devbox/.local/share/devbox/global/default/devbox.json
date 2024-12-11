@@ -114,7 +114,8 @@
     "sshs@latest",
     "kubebuilder@latest",
     "jqp@latest",
-    "kuttl@latest"
+    "kuttl@latest",
+    "vault@latest"
   ],
   "shell": {
     "init_hook": [
