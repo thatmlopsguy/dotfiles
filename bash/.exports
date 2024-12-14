@@ -12,6 +12,7 @@ export NOTE_DIR="${HOME}/documents/notes"
 
 # Zsh
 export ZSH_CUSTOM="${HOME}/.oh-my-zsh/custom"
+export HISTORY_IGNORE="(ls|cd|pwd|exit|cd ..|cd -|..|...|clear|reset|exit|code .|ga .|gp|reload|history)"
 
 # Krew is the plugin manager for kubectl command-line tool
 # https://krew.sigs.k8s.io/

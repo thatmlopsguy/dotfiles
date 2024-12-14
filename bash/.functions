@@ -106,7 +106,6 @@ function delete_crd_by_match() {
   kubectl get crds -oname | grep "$match_string" | xargs kubectl delete
 }
 
-
 # colorized man output
 function man() {
     env \
@@ -187,4 +186,42 @@ function harden_eks() {
 # Bash into running container
 function dbash() { 
   docker exec -it $(docker ps -aqf "name=$1") bash; 
+}
+
+# Clone repo and install dependencies
+function clone() {
+	git clone "$1"
+	cd "$(basename "$_" .git)" || exit
+
+	if test -f "./package.json"; then
+    package_manager=$(get_node_package_manager)
+		echo "Installing NPM dependencies.. Using $package_manager packagee manager"
+	  "$package_manager" install
+		return 0
+	elif test -f "./pyproject.toml"; then
+		echo "Installing Poetry dependencies..."
+    poetry init
+		poetry install
+		return 0
+	elif test -f "./requirements.txt"; then
+		python3 -m venv ./venv
+		source venv/bin/activate
+		pip install -r requirements.txt
+		echo "Installing dependenciesfrom requirements.txt..."
+		return 0
+	elif test -f "./composer.json"; then
+		echo "Installing composer dependencies..."
+		composer install
+		return 0
+	fi
+}
+
+# Git: Https to SSH
+function github-ssh() {
+	git remote set-url origin git@github.com:$(git remote get-url origin | sed 's/https:\/\/github.com\///' | sed 's/git@github.com://')
+}
+
+# Get .gitignore file for specific lang
+function gitignore() {
+	curl -sL "https://www.gitignore.io/api/$@" >> .gitignore
 }

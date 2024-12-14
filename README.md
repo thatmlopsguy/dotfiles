@@ -103,4 +103,5 @@ This is a long list, so here is a table of content with tl;dr summaries:
 Articles and other links that helped me create these dotfiles:
 
 - [andrenbrandao/dotfiles](https://github.com/andrenbrandao/dotfiles/)
+- [victory-sokolov/dotfiles](https://github.com/victory-sokolov/dotfiles)
 - [rust utilities](https://rustutils.com/)

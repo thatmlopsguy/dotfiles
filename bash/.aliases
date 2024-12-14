@@ -136,3 +136,6 @@ alias az_extensions="az extension list --output table --query '[].{Name:name}'"
 
 # dotnet/nuget
 alias nuget_config='$EDITOR "$HOME/.nuget/NuGet/NuGet.Config"'
+
+# network
+alias ports="sudo lsof -i -P -n | grep LISTEN"
