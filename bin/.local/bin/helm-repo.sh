@@ -95,6 +95,7 @@ helm repo add signoz https://charts.signoz.io
 helm repo add fluent https://fluent.github.io/helm-charts
 helm repo add splunk-otel-collector-chart https://signalfx.github.io/splunk-otel-collector-chart
 helm repo add netdata https://netdata.github.io/helmchart
+helm repo add kube-logging https://kube-logging.github.io/helm-charts
 # Security
 helm repo add external-secrets https://charts.external-secrets.io
 helm repo add secrets-store-csi-driver https://kubernetes-sigs.github.io/secrets-store-csi-driver/charts
