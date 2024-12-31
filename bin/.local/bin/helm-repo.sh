@@ -36,10 +36,12 @@ helm repo add bakito https://charts.bakito.net
 helm repo add kanister https://charts.kanister.io
 helm repo add kraan https://fidelity.github.io/kraan
 helm repo add emberstack https://emberstack.github.io/helm-charts
-helm repo add perses https://perses.github.io/helm-charts
 helm repo add numaflow https://numaproj.io/helm-charts
 helm repo add enix https://charts.enix.io
 helm repo add temporal https://go.temporal.io/helm-charts
+# Platform
+helm repo add kubevela https://kubevela.github.io/charts
+helm repo add onechart https://chart.onechart.dev
 # Infrastructure
 helm repo add hashicorp https://helm.releases.hashicorp.com
 helm repo add atlantis https://runatlantis.github.io/helm-charts
@@ -96,6 +98,7 @@ helm repo add fluent https://fluent.github.io/helm-charts
 helm repo add splunk-otel-collector-chart https://signalfx.github.io/splunk-otel-collector-chart
 helm repo add netdata https://netdata.github.io/helmchart
 helm repo add kube-logging https://kube-logging.github.io/helm-charts
+helm repo add perses https://perses.github.io/helm-charts
 # Security
 helm repo add external-secrets https://charts.external-secrets.io
 helm repo add secrets-store-csi-driver https://kubernetes-sigs.github.io/secrets-store-csi-driver/charts
