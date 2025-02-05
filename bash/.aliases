@@ -131,7 +131,7 @@ alias it_tools='docker run -d --name it-tools --restart unless-stopped -p 8765:8
 alias dzi='find . -name "*Zone.Identifier" -type f -delete'
 
 # aws
-alias aws_creds='$EDITOR "$HOME/.aws/credentials"'
+alias aws_creds='code "$HOME/.aws/credentials"'
 alias aws_id='aws sts get-caller-identity'
 alias aws_s3='aws s3 ls'
 alias aws_eks_cluster='eksctl get cluster'

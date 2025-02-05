@@ -47,7 +47,7 @@ export STARSHIP_CACHE="${HOME}/.starship/cache"
 # export XDG_STATE_HOME=$HOME/.local/state
 
 # Default Apps
-export EDITOR='code'
+# export EDITOR='code'
 #export VISUAL=$EDITOR
 #export TERMINAL="kitty"
 #export BROWSER="firefox"
@@ -80,6 +80,7 @@ export GNUPGHOME="${XDG_DATA_HOME}/.gnupg"
 export GPG_TTY=$(tty)
 
 # Kubernetes
+export KUBE_EDITOR="nano"
 # Set the default kube context if present
 DEFAULT_KUBE_CONTEXTS="$HOME/.kube/config"
 if [ -f "${DEFAULT_KUBE_CONTEXTS}" ]

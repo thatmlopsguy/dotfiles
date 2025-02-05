@@ -90,6 +90,7 @@ https://circleci.com/blog/feed.xml                            "Blog" "~CircleCI"
 https://blog.min.io/rss/                                      "Blog" "~Minio"
 https://craftech.io/feed/                                     "Blog" "~Craftech"
 https://grafana.com/blog/index.xml                            "Blog" "~Grafana"
+https://blog.gruntwork.io/feed                                "Blog" "~Gruntwork"
 
 "* cncf ------------------------------------------------------------------------------------"
 https://kubernetes.io/feed.xml                                "cncf" "~Kubernetes"
