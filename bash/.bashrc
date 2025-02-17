@@ -147,3 +147,6 @@ eval "$(devbox global shellenv)"
 
 # thefuck
 eval $(thefuck --alias)
+
+# direnv
+eval "$(direnv hook bash)"

@@ -95,10 +95,12 @@ plugins=(
   kubectl
   history
   # plugins below require install
+  # zsh-ssh
   # zsh-autosuggestions
   zsh-syntax-highlighting
   fast-syntax-highlighting
   zsh-autocomplete
+
   # autoswitch_virtualenv
  )
 
@@ -161,3 +163,9 @@ eval "$(thefuck --alias)"
 
 # zoxide
 eval "$(zoxide init zsh)"
+
+# Load Angular CLI autocompletion.
+#source <(ng completion script)
+
+# direnv
+eval "$(direnv hook zsh)"
