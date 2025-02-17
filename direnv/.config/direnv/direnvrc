@@ -1,0 +1,24 @@
+# Function to initialize uv environment
+use_uv() {
+    # Load environment variables from .env if present
+    if [ -f ".env" ]; then
+        dotenv_if_exists
+    fi
+
+    # Initialize uv environment
+    if [ -f "pyproject.toml" ] || [ -f "uv.lock" ]; then
+        uv sync --quiet
+    fi
+
+    # Show active Python version
+    if command -v uv &> /dev/null; then
+        uv python --version
+    fi
+}
+
+# Function to activate specific Python version
+use_python() {
+    if command -v uv &> /dev/null; then
+        uv python pin "$1"
+    fi
+}
