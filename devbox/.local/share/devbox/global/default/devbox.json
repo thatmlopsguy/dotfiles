@@ -117,8 +117,8 @@
     "vault@latest",
     "terraform@latest",
     "addlicense@latest",
-    "gitleaks@latest",
-    "gh@latest"
+    "gh@latest",
+    "gum@latest"
   ],
   "shell": {
     "init_hook": [
