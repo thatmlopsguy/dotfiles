@@ -54,7 +54,6 @@
     "vite@latest",
     "pnpm@latest",
     "helm-docs@latest",
-    "terraform@latest",
     "yq-go@latest",
     "glasskube@latest",
     "k6@latest",
@@ -115,7 +114,11 @@
     "kubebuilder@latest",
     "jqp@latest",
     "kuttl@latest",
-    "vault@latest"
+    "vault@latest",
+    "terraform@latest",
+    "addlicense@latest",
+    "gitleaks@latest",
+    "gh@latest"
   ],
   "shell": {
     "init_hook": [
