@@ -1,0 +1,4 @@
+# install the copilot extension
+# gh extension install github/gh-copilot
+optional_analytics: false
+suggest_execute_confirm_default: false

@@ -1,0 +1,6 @@
+version: "1"
+git_protocol: ssh
+editor: code --wait
+aliases:
+  c: pr checkout
+  co: pr checkout
