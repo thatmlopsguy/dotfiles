@@ -35,12 +35,16 @@
 	ignored = !git ls-files -v | grep "^[[:lower:]]"
 
 [core]
-	excludesfile = ~/.gitignore_global
 	pager = delta
+  #excludesfile = ~/.gitignore_global
   #attributesfile = ~/.gitattributes
 
-[interactive]
-  diffFilter = delta --color-only
+#[interactive]
+#  diffFilter = delta --color-only
+
+[apply]
+  # Remove trailing whitespaces
+  whitespace = fix
 
 [delta]
   navigate = true    # use n and N to move between diff sections
@@ -54,10 +58,19 @@
   # light = true
 
 [merge]
-	conflictstyle = diff3
+	conflictstyle = zdiff3
 
 [diff]
-	colorMoved = default
+  algorithm = histogram
+  colorMoved = plain
+  mnemonicPrefix = true
+  renames = true
+
+[tag]
+  sort = version:refname
+
+[log]
+  date = iso-local
 
 [color]
 	ui = auto
@@ -85,10 +98,26 @@
 [commit]
 	template = ~/.gitmessage
 
+[column]
+  ui = auto
+
 [push]
-	default = current
+	default = simple
 	autoSetupRemote = true
   followTags = true
+
+[fetch]
+  prune = true
+  pruneTags = true
+  all = true
+
+[branch]
+  sort = -committerdate
+
+[rebase]
+  autoSquash = true
+  autoStash = true
+  updateRefs = true
 
 [includeIf "gitdir:~/code/github/"]
 	path = ~/.config/git/accounts/github
