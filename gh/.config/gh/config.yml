@@ -1,6 +1,8 @@
 version: "1"
-git_protocol: ssh
+git_protocol: https
 editor: code --wait
+# gh alias list
 aliases:
-  c: pr checkout
-  co: pr checkout
+    c: pr checkout
+    co: pr checkout
+    create-draft-pr: pr create --draft --assignee @me
