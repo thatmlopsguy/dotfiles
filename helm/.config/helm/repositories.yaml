@@ -1252,3 +1252,12 @@ repositories:
   password: ""
   url: https://kyverno.github.io/policy-reporter
   username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: k3k
+  pass_credentials_all: false
+  password: ""
+  url: https://rancher.github.io/k3k
+  username: ""

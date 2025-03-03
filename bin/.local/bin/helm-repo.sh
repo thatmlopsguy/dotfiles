@@ -56,6 +56,7 @@ helm repo add eraser https://eraser-dev.github.io/eraser/charts
 helm repo add descheduler https://kubernetes-sigs.github.io/descheduler
 helm repo add karpenter https://charts.karpenter.sh
 helm repo add autoscaler https://kubernetes.github.io/autoscaler
+helm repo add k3k https://rancher.github.io/k3k
 # Deployment Lifecycle
 helm repo add cdf https://cdfoundation.github.io/tekton-helm-chart
 helm repo add argo https://argoproj.github.io/argo-helm
