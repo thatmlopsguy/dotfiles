@@ -1261,3 +1261,12 @@ repositories:
   password: ""
   url: https://rancher.github.io/k3k
   username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: awspca
+  pass_credentials_all: false
+  password: ""
+  url: https://cert-manager.github.io/aws-privateca-issuer
+  username: ""
