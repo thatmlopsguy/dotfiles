@@ -39,6 +39,8 @@ helm repo add emberstack https://emberstack.github.io/helm-charts
 helm repo add numaflow https://numaproj.io/helm-charts
 helm repo add enix https://charts.enix.io
 helm repo add temporal https://go.temporal.io/helm-charts
+# FinOps
+helm repo add cloudhealth https://cloudhealth.github.io/helm
 # Platform
 helm repo add kubevela https://kubevela.github.io/charts
 helm repo add onechart https://chart.onechart.dev
@@ -77,6 +79,7 @@ helm repo add dragonfly https://dragonflyoss.github.io/helm-charts
 helm repo add rook https://charts.rook.io/release
 helm repo add lakefs https://charts.lakefs.io
 helm repo add openebs https://openebs.github.io/openebs
+helm repo add altinity-clickhouse-operator https://altinity.github.io/clickhouse-operator
 # Policy
 helm repo add openfga https://openfga.github.io/helm-charts
 helm repo add kyverno https://kyverno.github.io/kyverno
@@ -126,6 +129,7 @@ helm repo add ngrok https://ngrok.github.io/kubernetes-ingress-controller
 helm repo add kube-vip https://kube-vip.github.io/helm-charts
 helm repo add projectcalico https://docs.tigera.io/calico/charts
 helm repo add kong https://charts.konghq.com
+helm repo add gadget https://inspektor-gadget.github.io/charts
 # ML
 helm repo add seldonio https://storage.googleapis.com/seldon-charts
 helm repo add nvidia https://helm.ngc.nvidia.com/nvidia
@@ -145,6 +149,7 @@ helm repo add aws-efs-csi-driver https://kubernetes-sigs.github.io/aws-efs-csi-d
 helm repo add aws-fsx-csi-driver https://kubernetes-sigs.github.io/aws-fsx-csi-driver
 helm repo add aws-ebs-csi-driver https://kubernetes-sigs.github.io/aws-ebs-csi-driver
 helm repo add awspca https://cert-manager.github.io/aws-privateca-issuer
+helm repo add aws-observability https://aws-observability.github.io/helm-charts
 # Azure
 helm repo add azurefile-csi-driver https://raw.githubusercontent.com/kubernetes-sigs/azurefile-csi-driver/master/charts
 helm repo add blob-csi-driver https://raw.githubusercontent.com/kubernetes-sigs/blob-csi-driver/master/charts
