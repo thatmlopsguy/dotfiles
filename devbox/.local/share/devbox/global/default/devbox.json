@@ -111,14 +111,22 @@
     "kubent@latest",
     "azure-storage-azcopy@latest",
     "sshs@latest",
-    "kubebuilder@latest",
     "jqp@latest",
     "kuttl@latest",
     "vault@latest",
     "terraform@latest",
     "addlicense@latest",
     "gh@latest",
-    "gum@latest"
+    "gum@latest",
+    "checkov@latest",
+    "kubescape@latest",
+    "yarn@latest",
+    "fluxcd@latest",
+    "adrgen@latest",
+    "scorecard@latest",
+    "cilium-cli@latest",
+    "hubble@latest",
+    "zizmor@latest"
   ],
   "shell": {
     "init_hook": [
