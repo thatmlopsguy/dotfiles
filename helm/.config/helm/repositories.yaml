@@ -1342,3 +1342,12 @@ repositories:
   password: ""
   url: https://kubescape.github.io/helm-charts
   username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: podinfo
+  pass_credentials_all: false
+  password: ""
+  url: https://stefanprodan.github.io/podinfo
+  username: ""
