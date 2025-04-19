@@ -19,5 +19,6 @@ krew install safe
 krew install pv-migrate
 krew install duplicate
 krew install gadget
+krew install view-secret
 
 krew upgrade

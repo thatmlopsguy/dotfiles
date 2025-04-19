@@ -1351,3 +1351,12 @@ repositories:
   password: ""
   url: https://stefanprodan.github.io/podinfo
   username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: roadie
+  pass_credentials_all: false
+  password: ""
+  url: https://charts.roadie.io
+  username: ""
