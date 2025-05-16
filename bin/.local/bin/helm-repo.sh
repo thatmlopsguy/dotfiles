@@ -45,6 +45,7 @@ helm repo add cloudhealth https://cloudhealth.github.io/helm
 helm repo add kubevela https://kubevela.github.io/charts
 helm repo add onechart https://chart.onechart.dev
 # Infrastructure
+helm repo add ocm https://open-cluster-management.io/helm-charts
 helm repo add hashicorp https://helm.releases.hashicorp.com
 helm repo add atlantis https://runatlantis.github.io/helm-charts
 helm repo add chartmuseum https://chartmuseum.github.io/charts
@@ -133,6 +134,7 @@ helm repo add gadget https://inspektor-gadget.github.io/charts
 # ML
 helm repo add seldonio https://storage.googleapis.com/seldon-charts
 helm repo add nvidia https://helm.ngc.nvidia.com/nvidia
+helm repo add gpu-helm-charts https://nvidia.github.io/dcgm-exporter/helm-charts
 helm repo add kuberay https://ray-project.github.io/kuberay-helm
 helm repo add weaviate https://weaviate.github.io/weaviate-helm
 helm repo add milvus https://milvus-io.github.io/milvus-helm
