@@ -1405,3 +1405,12 @@ repositories:
   password: ""
   url: https://nvidia.github.io/dcgm-exporter/helm-charts
   username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: otwld
+  pass_credentials_all: false
+  password: ""
+  url: https://helm.otwld.com
+  username: ""

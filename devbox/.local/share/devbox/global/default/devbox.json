@@ -2,7 +2,6 @@
   "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.11.0/.schema/devbox.schema.json",
   "packages": [
     "ripgrep@latest",
-    "kind@latest",
     "lf@latest",
     "tmux@latest",
     "fzf@latest",
@@ -92,12 +91,10 @@
     "protolint@latest",
     "kubectl@latest",
     "awscli2@latest",
-    "k3d@latest",
     "terragrunt@latest",
     "snyk@latest",
     "lefthook@latest",
     "atlantis@latest",
-    "clusterctl@latest",
     "localstack@latest",
     "age@latest",
     "rage@latest",
@@ -126,7 +123,9 @@
     "scorecard@latest",
     "cilium-cli@latest",
     "hubble@latest",
-    "zizmor@latest"
+    "zizmor@latest",
+    "falcoctl@latest",
+    "karmor@latest"
   ],
   "shell": {
     "init_hook": [

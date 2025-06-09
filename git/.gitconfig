@@ -58,7 +58,7 @@
   # light = true
 
 [merge]
-	conflictstyle = zdiff3
+	conflictstyle = diff3
 
 [diff]
   algorithm = histogram
@@ -113,6 +113,7 @@
 
 [branch]
   sort = -committerdate
+	autoSetupMerge = simple
 
 [rebase]
   autoSquash = true
@@ -127,3 +128,6 @@
 
 [includeIf "gitdir:~/code/gitlab/"]
 	path = ~/.config/git/accounts/gitlab
+
+[includeIf "gitdir:~/code/bitbucket/"]
+	path = ~/.config/git/accounts/bitbucket
