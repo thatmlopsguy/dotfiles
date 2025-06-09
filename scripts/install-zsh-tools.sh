@@ -13,6 +13,7 @@ git clone https://github.com/marlonrichert/zsh-autocomplete.git "${ZSH_CUSTOM}/p
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git "${ZSH_CUSTOM}/plugins/zsh-syntax-highlighting"
 git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git "${ZSH_CUSTOM}/plugins/fast-syntax-highlighting"
 git clone https://github.com/MichaelAquilina/zsh-autoswitch-virtualenv.git "${ZSH_CUSTOM}/plugins/autoswitch_virtualenv"
+git clone https://github.com/sunlei/zsh-ssh ${ZSH_CUSTOM}/plugins/zsh-ssh
 
 echo '[*] Install themes oh-my-zsh'
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "${ZSH_CUSTOM}/themes/powerlevel10k"

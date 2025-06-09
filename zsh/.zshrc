@@ -1,6 +1,7 @@
 #
 # ~/.zshrc
 #
+set +H
 
 # devbox
 eval "$(devbox global shellenv)"
@@ -97,10 +98,9 @@ plugins=(
   # plugins below require install
   # zsh-ssh
   # zsh-autosuggestions
-  zsh-syntax-highlighting
-  fast-syntax-highlighting
-  zsh-autocomplete
-
+  #zsh-syntax-highlighting
+  #fast-syntax-highlighting
+  #zsh-autocomplete
   # autoswitch_virtualenv
  )
 
@@ -131,7 +131,7 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-if [ -f ~/.aliases ]; then
+if [[ -f ~/.aliases ]]; then
     source ~/.aliases
 fi
 
@@ -159,13 +159,17 @@ eval "$(starship init zsh)"
 eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 
 # thefuck
-eval "$(thefuck --alias)"
+#eval "$(thefuck --alias)"
 
 # zoxide
-eval "$(zoxide init zsh)"
+#eval "$(zoxide init zsh)"
 
 # Load Angular CLI autocompletion.
 #source <(ng completion script)
 
 # direnv
 eval "$(direnv hook zsh)"
+
+# nvm
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

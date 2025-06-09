@@ -3,3 +3,4 @@ git/.config/git/accounts/*
 ssh/.ssh/keys
 tmux/.tmux/plugins/*
 *.lock
+bin/.local/bin
