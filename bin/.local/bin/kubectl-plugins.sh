@@ -20,5 +20,7 @@ krew install pv-migrate
 krew install duplicate
 krew install gadget
 krew install view-secret
+krew install access-matrix
+krew install np-viewer
 
 krew upgrade

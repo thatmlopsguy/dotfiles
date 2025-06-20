@@ -1,4 +1,4 @@
-#! /usr/bin/env bash
+#! /usr/bin/env zsh
 
 apply=false
 backup=false
@@ -26,7 +26,7 @@ if [ "$backup" = false ] && [ "$apply" = false ]; then
     backup=true
 fi
 
-windowsUserProfile=/mnt/c/Users/$(cmd.exe /c "echo %USERNAME%" 2>/dev/null | tr -d '\r')
+windowsUserProfile="/mnt/c/Users/${USERNAME}"
 
 if [ "$backup" = true ]; then
     echo "backup existing settings"

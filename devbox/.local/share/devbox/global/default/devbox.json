@@ -125,7 +125,8 @@
     "hubble@latest",
     "zizmor@latest",
     "falcoctl@latest",
-    "karmor@latest"
+    "karmor@latest",
+    "kyverno-chainsaw@latest"
   ],
   "shell": {
     "init_hook": [
