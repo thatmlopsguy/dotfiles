@@ -1414,3 +1414,12 @@ repositories:
   password: ""
   url: https://helm.otwld.com
   username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: mend-renovate-ce-ee
+  pass_credentials_all: false
+  password: ""
+  url: https://mend.github.io/renovate-ce-ee
+  username: ""
