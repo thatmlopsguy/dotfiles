@@ -71,6 +71,11 @@ This is a long list, so here is a table of content with tl;dr summaries:
 - [ncdu](https://dev.yorhel.nl/ncdu) - disk usage analyzer
 - [bottom](https://github.com/ClementTsang/bottom)
 
+### DBA
+
+- [dbeaver](https://dbeaver.io)
+- [pgadmin](https://www.pgadmin.org)
+
 ## References
 
 Articles and other links that helped me create these dotfiles:
