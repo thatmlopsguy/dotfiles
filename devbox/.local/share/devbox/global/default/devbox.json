@@ -128,7 +128,9 @@
     "karmor@latest",
     "kyverno-chainsaw@latest",
     "newsraft@latest",
-    "fabric-ai@latest"
+    "fabric-ai@latest",
+    "minio-client@latest",
+    "just@latest"
   ],
   "shell": {
     "init_hook": [
