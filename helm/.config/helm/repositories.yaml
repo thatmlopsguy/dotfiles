@@ -1423,3 +1423,21 @@ repositories:
   password: ""
   url: https://mend.github.io/renovate-ce-ee
   username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: argocd-rbac-operator
+  pass_credentials_all: false
+  password: ""
+  url: https://argoproj-labs.github.io/argocd-rbac-operator
+  username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: krateo
+  pass_credentials_all: false
+  password: ""
+  url: https://charts.krateo.io
+  username: ""
