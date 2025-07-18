@@ -130,7 +130,9 @@
     "newsraft@latest",
     "fabric-ai@latest",
     "minio-client@latest",
-    "just@latest"
+    "just@latest",
+    "oras@latest",
+    "skopeo@latest"
   ],
   "shell": {
     "init_hook": [
