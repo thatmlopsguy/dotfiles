@@ -1441,3 +1441,12 @@ repositories:
   password: ""
   url: https://charts.krateo.io
   username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: feast-charts
+  pass_credentials_all: false
+  password: ""
+  url: https://feast-helm-charts.storage.googleapis.com
+  username: ""
