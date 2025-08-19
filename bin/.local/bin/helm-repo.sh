@@ -168,6 +168,8 @@ helm plugin install https://github.com/helm-unittest/helm-unittest.git
 helm plugin install https://github.com/jtyr/kubeconform-helm
 helm plugin install https://github.com/chartmuseum/helm-push
 helm plugin install https://github.com/sigstore/helm-sigstore
+helm plugin install https://github.com/idsulik/helm-cel
+helm plugin install https://github.com/nikhilsbhat/helm-images
 helm plugin update dashboard
 
 # S3: https://github.com/hypnoglow/helm-s3
