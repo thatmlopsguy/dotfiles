@@ -1468,3 +1468,39 @@ repositories:
   password: ""
   url: https://vllm-project.github.io/production-stack
   username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: temporalio
+  pass_credentials_all: false
+  password: ""
+  url: https://go.temporal.io/helm-charts
+  username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: kubefledged-charts
+  pass_credentials_all: false
+  password: ""
+  url: https://senthilrch.github.io/kubefledged-charts
+  username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: mariadb-operator
+  pass_credentials_all: false
+  password: ""
+  url: https://helm.mariadb.com/mariadb-operator
+  username: ""
+- caFile: ""
+  certFile: ""
+  insecure_skip_tls_verify: false
+  keyFile: ""
+  name: portainer
+  pass_credentials_all: false
+  password: ""
+  url: https://portainer.github.io/k8s
+  username: ""

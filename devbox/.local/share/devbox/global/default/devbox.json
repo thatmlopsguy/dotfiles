@@ -132,7 +132,8 @@
     "minio-client@latest",
     "just@latest",
     "oras@latest",
-    "skopeo@latest"
+    "skopeo@latest",
+    "weaver@latest"
   ],
   "shell": {
     "init_hook": [
