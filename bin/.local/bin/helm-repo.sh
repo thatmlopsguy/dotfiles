@@ -86,6 +86,7 @@ helm repo add openfga https://openfga.github.io/helm-charts
 helm repo add kyverno https://kyverno.github.io/kyverno
 helm repo add gatekeeper https://open-policy-agent.github.io/gatekeeper/charts
 helm repo add permitio https://permitio.github.io/opal-helm-chart
+helm repo add sigstore https://sigstore.github.io/helm-charts
 # Observability
 helm repo add elastic https://helm.elastic.co
 helm repo add vector https://helm.vector.dev
