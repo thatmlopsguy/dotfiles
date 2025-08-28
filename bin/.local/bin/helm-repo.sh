@@ -40,8 +40,7 @@ helm repo add numaflow https://numaproj.io/helm-charts
 helm repo add enix https://charts.enix.io
 helm repo add temporal https://go.temporal.io/helm-charts
 # FinOps
-helm repo add cloudhealth https://cloudhealth.github.io/helm
-# Platform
+helm repo add cloudhealth https://cloudhealth.github.io/helm# Platform
 helm repo add kubevela https://kubevela.github.io/charts
 helm repo add onechart https://chart.onechart.dev
 # Infrastructure
@@ -60,6 +59,7 @@ helm repo add descheduler https://kubernetes-sigs.github.io/descheduler
 helm repo add karpenter https://charts.karpenter.sh
 helm repo add autoscaler https://kubernetes.github.io/autoscaler
 helm repo add k3k https://rancher.github.io/k3k
+helm repo add project-zot http://zotregistry.dev/helm-charts
 # Deployment Lifecycle
 helm repo add cdf https://cdfoundation.github.io/tekton-helm-chart
 helm repo add argo https://argoproj.github.io/argo-helm
@@ -104,6 +104,8 @@ helm repo add splunk-otel-collector-chart https://signalfx.github.io/splunk-otel
 helm repo add netdata https://netdata.github.io/helmchart
 helm repo add kube-logging https://kube-logging.github.io/helm-charts
 helm repo add perses https://perses.github.io/helm-charts
+helm repo add hyperdx https://hyperdxio.github.io/helm-charts
+helm repo add odigos https://odigos-io.github.io/odigos
 # Security
 helm repo add external-secrets https://charts.external-secrets.io
 helm repo add secrets-store-csi-driver https://kubernetes-sigs.github.io/secrets-store-csi-driver/charts
