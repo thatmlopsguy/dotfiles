@@ -134,7 +134,8 @@
     "oras@latest",
     "skopeo@latest",
     "weaver@latest",
-    "mkcert@latest"
+    "mkcert@latest",
+    "jjui@latest"
   ],
   "shell": {
     "init_hook": [
