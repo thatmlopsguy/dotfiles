@@ -158,6 +158,9 @@ eval "$(starship init zsh)"
 # homebrew
 eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 
+# mise
+eval "$(~/.local/bin/mise activate zsh)"
+
 # thefuck
 #eval "$(thefuck --alias)"
 
