@@ -135,7 +135,8 @@
     "skopeo@latest",
     "weaver@latest",
     "mkcert@latest",
-    "jjui@latest"
+    "jjui@latest",
+    "slsa-verifier@latest"
   ],
   "shell": {
     "init_hook": [
