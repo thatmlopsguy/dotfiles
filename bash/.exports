@@ -29,6 +29,7 @@ export PATH="${HOME}/.cargo/bin:$PATH"
 # https://go.dev/doc/install
 export PATH=$PATH:/usr/local/go/bin
 export PATH="$PATH:${HOME}/go/bin"
+export GO111MODULE=on
 
 # Node
 export NVM_DIR="$HOME/.nvm"
@@ -51,7 +52,7 @@ export STARSHIP_CACHE="${HOME}/.starship/cache"
 # export XDG_STATE_HOME=$HOME/.local/state
 
 # Default Apps
-# export EDITOR='code'
+#export EDITOR='code -w'
 #export VISUAL=$EDITOR
 #export TERMINAL="kitty"
 #export BROWSER="firefox"
@@ -120,3 +121,7 @@ fi
 # export AWS_SECRET_ACCESS_KEY=
 # export AWS_DEFAULT_REGION=us-west-2
 # export AWS_DEFAULT_OUTPUT="json"
+
+# K9s
+# K9s is a terminal-based UI to manage your Kubernetes clusters
+#export K9S_EDITOR="code -w"

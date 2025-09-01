@@ -1,7 +1,10 @@
 # Editor specific files
-.vscode/*
-!.vscode/settings.json
-!.vscode/extensions.json
+#.vscode/*
+#!.vscode/settings.json
+#!.vscode/extensions.json
+#!.vscode/tasks.json
+#!.vscode/launch.json
+#!.vscode/mcp.json
 .idea
 notes.txt
 

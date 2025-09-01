@@ -159,7 +159,7 @@ eval "$(starship init zsh)"
 eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 
 # mise
-eval "$(~/.local/bin/mise activate zsh)"
+#eval "$(~/.local/bin/mise activate zsh)"
 
 # thefuck
 #eval "$(thefuck --alias)"
@@ -173,6 +173,12 @@ eval "$(~/.local/bin/mise activate zsh)"
 # direnv
 eval "$(direnv hook zsh)"
 
+# kubectl
+source <(kubectl completion zsh)
+
 # nvm
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+export GOPROXY=https://proxy.golang.org,direct
+export GOSUMDB=sum.golang.org
+export PRE_COMMIT_ALLOW_NO_CONFIG=1

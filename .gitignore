@@ -4,3 +4,4 @@ ssh/.ssh/keys
 tmux/.tmux/plugins/*
 *.lock
 bin/.local/bin
+repositories.yaml
