@@ -136,7 +136,9 @@
     "weaver@latest",
     "mkcert@latest",
     "jjui@latest",
-    "slsa-verifier@latest"
+    "slsa-verifier@latest",
+    "gping@latest",
+    "doggo@latest"
   ],
   "shell": {
     "init_hook": [
