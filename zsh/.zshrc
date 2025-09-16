@@ -25,7 +25,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 # https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#oh-my-zsh
 #ZSH_THEME="powerlevel10k/powerlevel10k"
-ZSH_THEME="agnoster"
+ZSH_THEME="nanotech"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -153,7 +153,7 @@ fi
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # starship
-eval "$(starship init zsh)"
+#eval "$(starship init zsh)"
 
 # homebrew
 eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)

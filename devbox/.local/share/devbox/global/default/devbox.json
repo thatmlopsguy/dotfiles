@@ -138,7 +138,8 @@
     "jjui@latest",
     "slsa-verifier@latest",
     "gping@latest",
-    "doggo@latest"
+    "doggo@latest",
+    "sngrep@latest"
   ],
   "shell": {
     "init_hook": [

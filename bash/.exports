@@ -80,6 +80,9 @@ export DOCKER_SCAN_SUGGEST=false
 # Shopify
 export SHOPIFY_CLI_NO_ANALYTICS=1
 
+# Huggingface
+export HF_HUB_DISABLE_TELEMETRY=1
+
 # GPG
 export GNUPGHOME="${XDG_DATA_HOME}/.gnupg"
 export GPG_TTY=$(tty)
