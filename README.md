@@ -62,6 +62,7 @@ This is a long list, so here is a table of content with tl;dr summaries:
 - [asdf](https://asdf-vm.com/) - multiple Runtime Version Manager
 - [homebrew](https://brew.sh/)
 - [devbox](https://www.jetify.com/devbox) - package manager using Nix
+- [eget](https://github.com/zyedidia/eget) - install executables from GitHub releases
 
 ### system monitoring tools
 
