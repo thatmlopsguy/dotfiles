@@ -41,6 +41,7 @@ Visit `https://webinstall.dev/nerdfont` and follow the instructions to install t
 This is a long list, so here is a table of content with tl;dr summaries:
 
 - [Rust Utilities](https://rustutils.com/)
+- [Terminal Trove](https://terminaltrove.com/list/) - terminal tools
 - [starship](https://starship.rs/) - great cross shell prompt that requires no setup
 - [fzf](https://github.com/junegunn/fzf) - general-purpose fuzzy search
 - [lf](https://github.com/gokcehan/lf) - terminal file manager
@@ -54,6 +55,7 @@ This is a long list, so here is a table of content with tl;dr summaries:
 - [lsd](https://github.com/lsd-rs/lsd) - next gen ls command
 - [git delta](https://github.com/dandavison/delta) - diff viewer with syntax highlighting
 - [ripgrep (rg)](https://github.com/BurntSushi/ripgrep) - like grep but better
+- [dog](https://github.com/ogham/dog) - command-line DNS client
 
 ### package manager
 

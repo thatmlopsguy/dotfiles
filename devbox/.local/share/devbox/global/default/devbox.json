@@ -139,7 +139,9 @@
     "slsa-verifier@latest",
     "gping@latest",
     "doggo@latest",
-    "sngrep@latest"
+    "sngrep@latest",
+    "dogdns@latest",
+    "lazyjournal@latest"
   ],
   "shell": {
     "init_hook": [
