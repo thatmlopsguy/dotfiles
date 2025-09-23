@@ -141,7 +141,8 @@
     "doggo@latest",
     "sngrep@latest",
     "dogdns@latest",
-    "lazyjournal@latest"
+    "lazyjournal@latest",
+    "atmos@latest"
   ],
   "shell": {
     "init_hook": [

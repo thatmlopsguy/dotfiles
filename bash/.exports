@@ -83,6 +83,9 @@ export SHOPIFY_CLI_NO_ANALYTICS=1
 # Huggingface
 export HF_HUB_DISABLE_TELEMETRY=1
 
+# Atmos
+ATMOS_TELEMETRY_ENABLED=false
+
 # GPG
 export GNUPGHOME="${XDG_DATA_HOME}/.gnupg"
 export GPG_TTY=$(tty)
