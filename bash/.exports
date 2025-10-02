@@ -86,6 +86,9 @@ export HF_HUB_DISABLE_TELEMETRY=1
 # Atmos
 ATMOS_TELEMETRY_ENABLED=false
 
+# charmbracelet/crush
+export CRUSH_DISABLE_METRICS=1
+
 # GPG
 export GNUPGHOME="${XDG_DATA_HOME}/.gnupg"
 export GPG_TTY=$(tty)
