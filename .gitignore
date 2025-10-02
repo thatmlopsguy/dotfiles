@@ -5,3 +5,4 @@ tmux/.tmux/plugins/*
 *.lock
 bin/.local/bin
 repositories.yaml
+gh/.config/gh/hosts.yml
