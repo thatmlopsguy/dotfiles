@@ -33,6 +33,10 @@
 	ignore = update-index --assume-unchanged
 	unignore = update-index --no-assume-unchanged
 	ignored = !git ls-files -v | grep "^[[:lower:]]"
+  # https://www.nickyt.co/blog/git-worktrees-git-done-right-2p7f/
+	wta = "!f() { git worktree add -b \"$1\" \"../$1\"; }; f"
+	wtr = "!f() { git worktree remove \"../$1\"; }; f"
+	wtl = "!git worktree list"
 
 [core]
 	pager = delta
