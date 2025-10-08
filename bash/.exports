@@ -59,6 +59,9 @@ export STARSHIP_CACHE="${HOME}/.starship/cache"
 #export VIDEO="mpv"
 #export COLORTERM="truecolor"
 
+# https://mobeigi.com/blog/security/osint/what-github-exposes-about-you/
+export TZ=UTC
+
 # Console Do Not Track (DNT)
 # https://consoledonottrack.com/
 export DO_NOT_TRACK=1
