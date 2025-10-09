@@ -142,7 +142,8 @@
     "sngrep@latest",
     "dogdns@latest",
     "lazyjournal@latest",
-    "atmos@latest"
+    "atmos@latest",
+    "jd-diff-patch@latest"
   ],
   "shell": {
     "init_hook": [
