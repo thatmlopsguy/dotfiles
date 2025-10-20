@@ -39,6 +39,7 @@ helm repo add emberstack https://emberstack.github.io/helm-charts
 helm repo add numaflow https://numaproj.io/helm-charts
 helm repo add enix https://charts.enix.io
 helm repo add temporal https://go.temporal.io/helm-charts
+helm repo add harbor-container-webhook https://indeedeng.github.io/harbor-container-webhook/
 # FinOps
 helm repo add cloudhealth https://cloudhealth.github.io/helm# Platform
 helm repo add kubevela https://kubevela.github.io/charts
@@ -60,6 +61,7 @@ helm repo add karpenter https://charts.karpenter.sh
 helm repo add autoscaler https://kubernetes.github.io/autoscaler
 helm repo add k3k https://rancher.github.io/k3k
 helm repo add project-zot http://zotregistry.dev/helm-charts
+helm repo add harbor https://helm.goharbor.io
 # Deployment Lifecycle
 helm repo add cdf https://cdfoundation.github.io/tekton-helm-chart
 helm repo add argo https://argoproj.github.io/argo-helm
