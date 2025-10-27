@@ -149,6 +149,7 @@ helm repo add langchain https://langchain-ai.github.io/helm
 helm repo add substratusai https://substratusai.github.io/helm
 helm repo add kubeai https://www.kubeai.org
 helm repo add langfuse https://langfuse.github.io/langfuse-k8s
+helm repo add vllm https://vllm-project.github.io/production-stack
 # AWS
 helm repo add eks https://aws.github.io/eks-charts
 helm repo add localstack-repo https://helm.localstack.cloud
