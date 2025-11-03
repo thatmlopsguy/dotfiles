@@ -109,6 +109,7 @@ helm repo add kube-logging https://kube-logging.github.io/helm-charts
 helm repo add perses https://perses.github.io/helm-charts
 helm repo add hyperdx https://hyperdxio.github.io/helm-charts
 helm repo add odigos https://odigos-io.github.io/odigos
+helm repo add opensearch https://opensearch-project.github.io/helm-charts/
 # Security
 helm repo add external-secrets https://charts.external-secrets.io
 helm repo add secrets-store-csi-driver https://kubernetes-sigs.github.io/secrets-store-csi-driver/charts
