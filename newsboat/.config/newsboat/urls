@@ -100,6 +100,7 @@ https://www.tinybird.co/blog-posts/rss.xml                    "Blog" "~Tinybird"
 https://www.groundcover.com/blog/rss.xml                      "Blog" "~Groundcover"
 https://blog.livekit.io/rss/                                  "Blog" "~Livekit"
 https://scaleops.com/feed/                                    "Blog" "~ScaleOps"
+https://victoriametrics.com/index.xml                         "Blog" "~VictoriaMetrics"
 
 "* cncf ------------------------------------------------------------------------------------"
 https://kubernetes.io/feed.xml                                "cncf" "~Kubernetes"
