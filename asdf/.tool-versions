@@ -3,7 +3,7 @@ lazydocker           0.23.1
 kubectl              1.29.2
 kind                 0.22.0
 krew                 0.4.4
-terraform            1.7.4
+# terraform            1.7.4
 vault                1.15.6+ent
 argocd               2.10.2
 helm                 3.14.2

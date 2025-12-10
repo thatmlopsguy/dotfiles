@@ -41,9 +41,10 @@ helm repo add enix https://charts.enix.io
 helm repo add temporal https://go.temporal.io/helm-charts
 helm repo add harbor-container-webhook https://indeedeng.github.io/harbor-container-webhook/
 # FinOps
-helm repo add cloudhealth https://cloudhealth.github.io/helm# Platform
+helm repo add cloudhealth https://broadcom.github.io/helm/
 helm repo add kubevela https://kubevela.github.io/charts
 helm repo add onechart https://chart.onechart.dev
+helm repo add moonbeam https://moonbeam-nyc.github.io/helm-charts
 # Infrastructure
 helm repo add ocm https://open-cluster-management.io/helm-charts
 helm repo add hashicorp https://helm.releases.hashicorp.com
@@ -127,6 +128,7 @@ helm repo add kubechecks https://zapier.github.io/kubechecks
 helm repo add xm-global-templates https://xmcyber.github.io/helm-global-templates
 helm repo add epinio https://epinio.github.io/helm-charts
 helm repo add infracloud-charts https://infracloudio.github.io/charts
+helm repo add namespace-configuration-operator https://redhat-cop.github.io/namespace-configuration-operator
 # Network
 helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
 helm repo add cilium https://helm.cilium.io
