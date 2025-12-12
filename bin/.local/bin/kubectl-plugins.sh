@@ -22,5 +22,6 @@ krew install gadget
 krew install view-secret
 krew install access-matrix
 krew install np-viewer
+krew install deprecations # https://github.com/kubepug/kubepug
 
 krew upgrade
