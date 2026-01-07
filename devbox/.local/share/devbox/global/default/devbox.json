@@ -144,7 +144,8 @@
     "lazyjournal@latest",
     "atmos@latest",
     "jd-diff-patch@latest",
-    "tenv@latest"
+    "tenv@latest",
+    "git-sizer@latest"
   ],
   "shell": {
     "init_hook": [
