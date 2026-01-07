@@ -10,3 +10,15 @@ https://github.com/terraform-aws-modules/terraform-aws-ecr/releases.atom "Terraf
 https://github.com/terraform-aws-modules/terraform-aws-route53/releases.atom "Terraform AWS Route53"
 https://github.com/terraform-aws-modules/terraform-aws-kms/releases.atom "Terraform AWS KMS"
 https://github.com/aws-ia/terraform-aws-eks-blueprints/releases.atom "Terraform AWS EKS Blueprints"
+
+@ Third Party Tools
+https://www.githubstatus.com/history.rss "GitHub Status"
+https://www.dockerstatus.com/pages/533c6539221ae15e3f000031/rss "Docker Status"
+https://status.synthflow.ai/feed.rss "SynthFlow Status"
+https://status.temporal.io/history.rss "Temporal Status"
+https://status.pinecone.io/history.rss "Pinecone Status"
+https://status.apify.com/history.rss "Apify Status"
+https://status.clickhouse.com/feed.rss "ClickHouse Status"
+https://status.snyk.io/history.rss "Snyk Status"
+https://status.huggingface.co/feed.rss "Hugging Face Status"
+https://status.bigpanda.io/history.rss "BigPanda Status"
