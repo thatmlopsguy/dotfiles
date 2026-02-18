@@ -92,6 +92,18 @@ ATMOS_TELEMETRY_ENABLED=false
 # charmbracelet/crush
 export CRUSH_DISABLE_METRICS=1
 
+# Next.js
+export NEXT_TELEMETRY_DISABLED=1
+
+# Prisma
+export CHECKPOINT_DISABLE=1
+
+# Astro
+export ASTRO_TELEMETRY_DISABLED=1
+
+# Gatsby
+export GATSBY_TELEMETRY_DISABLED=1
+
 # GPG
 export GNUPGHOME="${XDG_DATA_HOME}/.gnupg"
 export GPG_TTY=$(tty)
