@@ -1,1 +1,4 @@
+## Atuin configuration
+## Full reference: https://docs.atuin.sh/configuration/config/
+
 update_check = false
