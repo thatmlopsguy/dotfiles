@@ -95,7 +95,6 @@
     "snyk@latest",
     "lefthook@latest",
     "atlantis@latest",
-    "localstack@latest",
     "age@latest",
     "rage@latest",
     "lychee@latest",
