@@ -56,11 +56,13 @@ This is a long list, so here is a table of content with tl;dr summaries:
 - [git delta](https://github.com/dandavison/delta) - diff viewer with syntax highlighting
 - [ripgrep (rg)](https://github.com/BurntSushi/ripgrep) - like grep but better
 - [dog](https://github.com/ogham/dog) - command-line DNS client
+- [worktrunk](https://worktrunk.dev/) - git worktree management for parallel AI agent workflows
 
 ### package manager
 
 - [asdf](https://asdf-vm.com/) - multiple Runtime Version Manager
-- [homebrew](https://brew.sh/)
+- [mise](https://mise.jdx.dev/) - tool to manage multiple versions of Rust
+- [homebrew](https://brew.sh/) - package manager for macOS and Linux
 - [devbox](https://www.jetify.com/devbox) - package manager using Nix
 - [eget](https://github.com/zyedidia/eget) - install executables from GitHub releases
 
@@ -78,6 +80,12 @@ This is a long list, so here is a table of content with tl;dr summaries:
 
 - [dbeaver](https://dbeaver.io)
 - [pgadmin](https://www.pgadmin.org)
+
+## Software TUIs
+
+- [lazydocker](https://github.com/jesseduffield/lazydocker) - terminal UI for Docker
+- [lazygit](https://github.com/jesseduffield/lazygit) - terminal UI for Git
+- [lazyworktree](https://chmouel.github.io/lazyworktree) - terminal UI for Git worktrees
 
 ## References
 

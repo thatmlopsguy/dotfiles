@@ -25,7 +25,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 # https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#oh-my-zsh
 #ZSH_THEME="powerlevel10k/powerlevel10k"
-ZSH_THEME="agnoster"
+ZSH_THEME="robbyrussell"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -182,3 +182,7 @@ source <(kubectl completion zsh)
 export GOPROXY=https://proxy.golang.org,direct
 export GOSUMDB=sum.golang.org
 export PRE_COMMIT_ALLOW_NO_CONFIG=1
+export GOTOOLCHAIN=auto
+
+# worktrunk
+if command -v wt >/dev/null 2>&1; then eval "$(command wt config shell init zsh)"; fi
