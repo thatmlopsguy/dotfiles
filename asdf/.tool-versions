@@ -1,19 +1,15 @@
 azure-cli      2.84.0
 lazydocker     0.24.4
-# kubectl              1.29.2
 kind           0.31.0
 krew           0.5.0
-# terraform            1.7.4
 vault          1.21.4
 argocd         3.3.2
 helm           4.1.1
 hadolint       2.14.0
-# k9s                  0.32.3
 mc             2025-08-13T08-35-41Z
 stern          1.33.1
 trivy          0.69.3
 yq             4.52.4
-# yt-dlp               2024.03.10
 checkov        3.2.506
 kyverno        1.17.1
 terraform-docs 0.21.0
@@ -23,12 +19,5 @@ tfsec          1.28.14
 istioctl       1.29.0
 kubeseal       0.36.0
 velero         1.13.1
-opentofu       1.6.2
 k3d            5.6.0
 crossplane-cli 2.2.0
-# poetry               1.8.2
-# rye                  0.29.0
-# uv                   0.2.26
-# argocd-image-updater 0.14.0
-# nodejs 22.11.0
-# python               3.10.11
