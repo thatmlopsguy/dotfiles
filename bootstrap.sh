@@ -68,10 +68,13 @@ if [[ "${OS}" == "Linux" ]] && [[ "${DISTRO}" == "debian" || "${DISTRO}" == "ubu
     echo "✅ System package updates"
 fi
 
+mkdir -p "${HOME}"/documents/{articles,notes}
+
 # Set up repos directory
 if [[ ! -d "${HOME}/code" ]]; then
-    mkdir -p "${HOME}/code/{github,gitlab,bitbucket,azure}"
+    mkdir -p "${HOME}"/code/{github,gitlab,bitbucket,azure}
 fi
+
 
 # Clone & install dotfiles
 echo "Configuring dotfiles"
