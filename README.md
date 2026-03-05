@@ -60,7 +60,7 @@ This is a long list, so here is a table of content with tl;dr summaries:
 
 ### package manager
 
-- [asdf](https://asdf-vm.com/) - multiple Runtime Version Manager
+- ~~[asdf](https://asdf-vm.com/) - multiple Runtime Version Manager~~
 - [mise](https://mise.jdx.dev/) - tool to manage multiple versions of Rust
 - [homebrew](https://brew.sh/) - package manager for macOS and Linux
 - [devbox](https://www.jetify.com/devbox) - package manager using Nix

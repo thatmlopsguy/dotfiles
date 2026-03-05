@@ -12,8 +12,20 @@
     "**/kube/.kube/kubectx": true
   },
   "cSpell.words": [
+    "btop",
+    "ctop",
+    "dbeaver",
+    "devbox",
+    "eget",
+    "lazydocker",
+    "lazyworktree",
+    "ncdu",
+    "neofetch",
+    "nvitop",
+    "pgadmin",
     "shellcheck",
     "worktree",
+    "worktrees",
     "worktrunk"
   ]
 }

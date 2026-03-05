@@ -144,10 +144,10 @@ if [ -f ~/.functions ]; then
 fi
 
 # asdf
-if [ -f ~/.asdf/asdf.sh ]; then
-    . "$HOME/.asdf/asdf.sh"
-    . "$HOME/.asdf/completions/asdf.bash"
-fi
+# if [ -f ~/.asdf/asdf.sh ]; then
+#     . "$HOME/.asdf/asdf.sh"
+#     . "$HOME/.asdf/completions/asdf.bash"
+# fi
 
 # Set up fzf key bindings and fuzzy completion
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
@@ -159,7 +159,7 @@ fi
 eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 
 # mise
-#eval "$(~/.local/bin/mise activate zsh)"
+eval "$(~/.local/bin/mise activate zsh)"
 
 # thefuck
 #eval "$(thefuck --alias)"

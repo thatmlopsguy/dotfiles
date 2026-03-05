@@ -13,6 +13,7 @@ DOTFILES="${HOME}/code/github/dotfiles"
 DEFAULT_SHELL="/usr/bin/zsh"
 ENABLE_OH_MY_ZSH=true
 ENABLE_BASH_IT=false
+ENABLE_STARSHIP=false
 ENABLE_DEVBOX=true
 ENABLE_ASDF=true
 ENABLE_MISE=true
@@ -128,6 +129,49 @@ if [[ ! -d "${HOME}/.oh-my-zsh" && "${ENABLE_OH_MY_ZSH}" = true ]]; then
     chsh -s "$(command -v zsh)"
 else
     echo "✅ oh-my-zsh already installed"
+fi
+
+# Install Mise
+if ! command -v mise &>/dev/null && [[ "${ENABLE_MISE}" = true ]]; then
+    echo "Installing Mise ..."
+    curl -fsSL https://mise.run | sh
+else
+    echo "✅ Mise already installed."
+fi
+
+# Install Homebrew
+if ! command -v brew &>/dev/null && [[ "${ENABLE_HOMEBREW}" = true ]]; then
+    echo "Installing Homebrew..."
+    # Use NONINTERACTIVE=1 to run without prompts, matching the script's style.
+    NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+    # Add Homebrew to the PATH for the rest of this script's execution.
+    # The location is architecture-dependent.
+    if [[ -x "/opt/homebrew/bin/brew" ]]; then # Apple Silicon macOS
+        eval "$(/opt/homebrew/bin/brew shellenv)"
+    elif [[ -x "/usr/local/bin/brew" ]]; then # Intel macOS
+        eval "$(/usr/local/bin/brew shellenv)"
+    elif [[ -x "/home/linuxbrew/.linuxbrew/bin/brew" ]]; then # Linux
+        eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+    fi
+    echo "✅ Homebrew installed"
+else
+    echo "✅ Homebrew/Linuxbrew already installed."
+fi
+
+# --- Homebrew packages
+if [[ "${ENABLE_HOMEBREW}" = true ]]; then
+    echo "Installing Homebrew packages..."
+    brew install max-sixty/worktrunk/wt
+    echo "✅ Homebrew packages installed."
+fi
+
+# Install starship
+if ! command -v starship &>/dev/null && [[ "${ENABLE_STARSHIP}" = true ]]; then
+    echo "Installing starship ..."
+    sh -c "$(curl -fsSL https://starship.rs/install.sh)" -- --yes
+else
+    echo "✅ starship already installed."
 fi
 
 # Install Rust via rustup
