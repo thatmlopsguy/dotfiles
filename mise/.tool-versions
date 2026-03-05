@@ -18,6 +18,6 @@ tflint         0.61.0
 tfsec          1.28.14
 istioctl       1.29.0
 kubeseal       0.36.0
-velero         1.13.1
-k3d            5.6.0
+velero         1.17.2
+k3d            5.8.3
 crossplane-cli 2.2.0
