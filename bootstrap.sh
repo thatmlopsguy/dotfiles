@@ -64,7 +64,7 @@ if [[ "${OS}" == "Linux" ]] && [[ "${DISTRO}" == "debian" || "${DISTRO}" == "ubu
     echo "Updating system packages ..."
     sudo apt update
     sudo apt -y upgrade
-    sudo apt -y install build-essential curl git stow
+    sudo apt -y install build-essential apt-transport-https ca-certificates gnupg curl git stow
     echo "✅ System package updates"
 fi
 
