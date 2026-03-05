@@ -16,8 +16,18 @@ _darcs
 \.hg
 
 \.git
-!\.gitignore
+\.gitignore
+\.gitmodules
+
+\.editorconfig
+
+\.vscode
 
 ^/README.*
 ^/LICENSE.*
 ^/COPYING
+^/CHANGELOG.*
+^/AGENTS.*
+
+^/scripts
+^/wsl

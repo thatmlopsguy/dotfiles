@@ -165,7 +165,7 @@ eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 #eval "$(thefuck --alias)"
 
 # zoxide
-#eval "$(zoxide init zsh)"
+eval "$(zoxide init zsh)"
 
 # Load Angular CLI autocompletion.
 #source <(ng completion script)
@@ -179,10 +179,6 @@ source <(kubectl completion zsh)
 # nvm
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-export GOPROXY=https://proxy.golang.org,direct
-export GOSUMDB=sum.golang.org
-export PRE_COMMIT_ALLOW_NO_CONFIG=1
-export GOTOOLCHAIN=auto
 
 # worktrunk
 if command -v wt >/dev/null 2>&1; then eval "$(command wt config shell init zsh)"; fi

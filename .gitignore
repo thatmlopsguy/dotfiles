@@ -6,3 +6,6 @@ tmux/.tmux/plugins/*
 bin/.local/bin
 repositories.yaml
 gh/.config/gh/hosts.yml
+kube/.kube/cache
+kube/.kube/config*
+kube/.kube/kubectx

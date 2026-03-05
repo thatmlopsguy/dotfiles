@@ -47,7 +47,6 @@ alias tat='tmux attach -t'
 alias tns='tmux new-session -s'
 
 # zellij
-alias z='zellij'
 alias zn='zellij --layout ~/.config/zellij/layouts/news.kdl' # --session news' # attach news'
 
 # Python

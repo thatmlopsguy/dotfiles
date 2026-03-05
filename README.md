@@ -92,3 +92,4 @@ This is a long list, so here is a table of content with tl;dr summaries:
 Articles and other links that helped me create these dotfiles:
 
 - [andrenbrandao/dotfiles](https://github.com/andrenbrandao/dotfiles/)
+- [elithrar/dotfiles](https://github.com/elithrar/dotfiles/)

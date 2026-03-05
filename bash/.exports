@@ -7,7 +7,7 @@
 #export LANG="en_US"
 
 # Path to your dotfiles.
-export DOTFILES="${HOME}/dotfiles"
+export DOTFILES="${HOME}/code/github/dotfiles"
 export NOTE_DIR="${HOME}/documents/notes"
 
 # Zsh
@@ -30,6 +30,9 @@ export PATH="${HOME}/.cargo/bin:$PATH"
 export PATH=$PATH:/usr/local/go/bin
 export PATH="$PATH:${HOME}/go/bin"
 export GO111MODULE=on
+export GOPROXY=https://proxy.golang.org,direct
+export GOSUMDB=sum.golang.org
+export GOTOOLCHAIN=auto
 
 # Node
 export NVM_DIR="$HOME/.nvm"
@@ -87,7 +90,7 @@ export SHOPIFY_CLI_NO_ANALYTICS=1
 export HF_HUB_DISABLE_TELEMETRY=1
 
 # Atmos
-ATMOS_TELEMETRY_ENABLED=false
+export ATMOS_TELEMETRY_ENABLED=false
 
 # charmbracelet/crush
 export CRUSH_DISABLE_METRICS=1
@@ -138,6 +141,11 @@ fi
 # daprd runtime
 if [ -d "$HOME/.dapr/bin" ]; then
   export PATH="$HOME/.dapr/bin:$PATH"
+fi
+
+# opencode
+if [ -d "$HOME/.opencode/bin" ]; then
+  export PATH="$HOME/.opencode/bin:$PATH"
 fi
 
 # AWS cli

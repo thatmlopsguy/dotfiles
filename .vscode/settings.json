@@ -6,9 +6,13 @@
     "**/CVS": true,
     "**/.DS_Store": true,
     "**/Thumbs.db": true,
-    "**/npm/.global-modules": true
+    "**/npm/.global-modules": true,
+    "**/kube/.kube/cache": true,
+    "**/kube/.kube/config*": true,
+    "**/kube/.kube/kubectx": true
   },
   "cSpell.words": [
+    "shellcheck",
     "worktree",
     "worktrunk"
   ]

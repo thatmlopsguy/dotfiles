@@ -144,7 +144,8 @@
     "atmos@latest",
     "jd-diff-patch@latest",
     "tenv@latest",
-    "git-sizer@latest"
+    "git-sizer@latest",
+    "atuin@latest"
   ],
   "shell": {
     "init_hook": [
