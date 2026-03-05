@@ -8,13 +8,12 @@ emeraldwalk.runonsave
 exiasr.hadolint
 fcrespo82.markdown-table-formatter
 fnando.linter
-github.copilot
 github.copilot-chat
 github.vscode-github-actions
 golang.go
 hashicorp.terraform
 inercia.vscode-k3d
-jetpack-io.devbox
+james-yu.latex-workshop
 kubescape.kubescape
 mechatroner.rainbow-csv
 mhutchie.git-graph
@@ -37,6 +36,7 @@ ms-vscode-remote.remote-ssh
 ms-vscode-remote.remote-ssh-edit
 ms-vscode.remote-explorer
 njpwerner.autodocstring
+philstainer.git-worktree
 qwtel.sqlite-viewer
 redhat.vscode-yaml
 rust-lang.rust-analyzer
