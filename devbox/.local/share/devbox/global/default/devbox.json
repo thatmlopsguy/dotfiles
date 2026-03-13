@@ -145,7 +145,8 @@
     "jd-diff-patch@latest",
     "tenv@latest",
     "git-sizer@latest",
-    "atuin@latest"
+    "atuin@latest",
+    "_1password@latest"
   ],
   "shell": {
     "init_hook": [

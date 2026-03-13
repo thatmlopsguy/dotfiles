@@ -101,6 +101,7 @@ https://www.groundcover.com/blog/rss.xml                      "Blog" "~Groundcov
 https://blog.livekit.io/rss/                                  "Blog" "~Livekit"
 https://scaleops.com/feed/                                    "Blog" "~ScaleOps"
 https://victoriametrics.com/index.xml                         "Blog" "~VictoriaMetrics"
+https://www.perfectscale.io/blog/rss.xml                      "Blog" "~PerfectScale"
 
 "* cncf ------------------------------------------------------------------------------------"
 https://kubernetes.io/feed.xml                                "cncf" "~Kubernetes"
