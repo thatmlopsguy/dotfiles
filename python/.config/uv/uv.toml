@@ -1,0 +1,5 @@
+# uv configuration
+# https://docs.astral.sh/uv/reference/settings/
+
+# Exclude packages newer than this duration
+exclude-newer = "7 days"

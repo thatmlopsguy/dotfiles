@@ -146,7 +146,8 @@
     "tenv@latest",
     "git-sizer@latest",
     "atuin@latest",
-    "_1password@latest"
+    "_1password@latest",
+    "cue@latest"
   ],
   "shell": {
     "init_hook": [
