@@ -143,6 +143,7 @@ https://pytorch.org/feed.xml                                  "ResearchBlog" "~p
 https://modal.com/blog/atom.xml                               "ResearchBlog" "~Modal"
 
 "* Personal Blogs --------------------------------------------------------------------------"
+https://devopstoolkit.live/index.xml                  "PersonalBlog" "~DevOps Toolkit"
 https://jvns.ca/atom.xml                              "PersonalBlog" "~Julia Evans"
 http://blog.cleancoder.com/atom.xml                   "PersonalBlog" "~Robert C. Martin"
 https://a-cup-of.coffee/index.xml                     "PersonalBlog" "~A Cup of Coffee"
