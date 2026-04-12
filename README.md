@@ -65,6 +65,7 @@ This is a long list, so here is a table of content with tl;dr summaries:
 - [homebrew](https://brew.sh/) - package manager for macOS and Linux
 - [devbox](https://www.jetify.com/devbox) - package manager using Nix
 - [eget](https://github.com/zyedidia/eget) - install executables from GitHub releases
+- [fnm](https://github.com/Schniz/fnm) - Fast Node Manager
 
 ### system monitoring tools
 
@@ -93,3 +94,4 @@ Articles and other links that helped me create these dotfiles:
 
 - [andrenbrandao/dotfiles](https://github.com/andrenbrandao/dotfiles/)
 - [elithrar/dotfiles](https://github.com/elithrar/dotfiles/)
+- [this-is-tobi/dotfiles](https://github.com/this-is-tobi/dotfiles)

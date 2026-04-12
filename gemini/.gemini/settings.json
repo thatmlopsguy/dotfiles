@@ -1,0 +1,19 @@
+{
+  "tools": {
+    "autoAccept": true
+  },
+  "context": {
+    "fileName": "AGENTS.md"
+  },
+  "ide": {
+    "hasSeenNudge": true
+  },
+  "security": {
+    "auth": {
+      "selectedType": "oauth-personal"
+    }
+  },
+  "ui": {
+    "theme": "GitHub"
+  }
+}
