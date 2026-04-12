@@ -65,7 +65,8 @@ This is a long list, so here is a table of content with tl;dr summaries:
 - [homebrew](https://brew.sh/) - package manager for macOS and Linux
 - [devbox](https://www.jetify.com/devbox) - package manager using Nix
 - [eget](https://github.com/zyedidia/eget) - install executables from GitHub releases
-- [fnm](https://github.com/Schniz/fnm) - Fast Node Manager
+- [fnm](https://github.com/Schniz/fnm) - fast Node Manager
+- [proto](https://moonrepo.dev/docs/proto) - version manager for all of your favorite programming languages
 
 ### system monitoring tools
 
