@@ -147,7 +147,10 @@
     "git-sizer@latest",
     "atuin@latest",
     "_1password@latest",
-    "cue@latest"
+    "cue@latest",
+    "pluto@latest",
+    "argo-workflows@latest",
+    "tektoncd-cli@latest"
   ],
   "shell": {
     "init_hook": [
