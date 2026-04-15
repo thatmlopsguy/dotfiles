@@ -150,7 +150,9 @@
     "cue@latest",
     "pluto@latest",
     "argo-workflows@latest",
-    "tektoncd-cli@latest"
+    "tektoncd-cli@latest",
+    "grype@latest",
+    "syft@latest"
   ],
   "shell": {
     "init_hook": [

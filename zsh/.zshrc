@@ -165,13 +165,17 @@ eval "$(~/.local/bin/mise activate zsh)"
 #eval "$(thefuck --alias)"
 
 # zoxide
-eval "$(zoxide init zsh)"
+if command -v zoxide &> /dev/null; then
+    eval "$(zoxide init zsh)"
+fi
 
 # Load Angular CLI autocompletion.
 #source <(ng completion script)
 
 # direnv
-eval "$(direnv hook zsh)"
+if command -v direnv &> /dev/null; then
+    eval "$(direnv hook zsh)"
+fi
 
 # kubectl
 source <(kubectl completion zsh)
@@ -179,6 +183,8 @@ source <(kubectl completion zsh)
 # nvm
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+
 
 # worktrunk
 if command -v wt >/dev/null 2>&1; then eval "$(command wt config shell init zsh)"; fi
