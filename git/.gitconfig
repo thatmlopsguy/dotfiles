@@ -39,8 +39,8 @@
 	wtl = "!git worktree list"
 
 [core]
-	pager = delta
-  #excludesfile = ~/.gitignore_global
+  pager = delta
+  excludesFile = ~/.config/git/.gitignore_global
   #attributesfile = ~/.gitattributes
 
 #[interactive]
