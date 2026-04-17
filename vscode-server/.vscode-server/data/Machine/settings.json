@@ -1,0 +1,91 @@
+{
+  "workbench.activityBar.autoHide": true,
+  "workbench.activityBar.compact": true,
+  "workbench.activityBar.location": "top",
+  "workbench.statusBar.visible": true,
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "extensions.ignoreRecommendations": true,
+  "vscode-kubernetes.helm-path-linux": "${userHome}/.local/share/devbox/global/default/.devbox/nix/profile/default/bin/helm",
+  "vscode-kubernetes.kubectl-path-linux": "${userHome}/.local/share/devbox/global/default/.devbox/nix/profile/default/bin/kubectl",
+  "editor.formatOnSave": true,
+  "python.defaultInterpreterPath": "/home/linuxbrew/.linuxbrew/bin/python3.11",
+  "python-envs.alwaysUseUv": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/node_modules": true
+  },
+  "cSpell.userWords": [
+    "akuity",
+    "awscli",
+    "bigpanda",
+    "clickhouse",
+    "codespell",
+    "crossplane",
+    "docstrings",
+    "fluentbit",
+    "gitops",
+    "intermedia",
+    "Kargo",
+    "karpenter",
+    "kubeconfig",
+    "Kubelet",
+    "kyverno",
+    "langfuse",
+    "litellm",
+    "livekit",
+    "mkdocs",
+    "mlflow",
+    "opensips",
+    "prek",
+    "pyproject",
+    "runbook",
+    "tamasfe",
+    "tika",
+    "tolerations",
+    "torchvision",
+    "vcluster",
+    "velero"
+  ],
+  // GitHub Copilot settings
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false,
+    "env": false,
+    "dotenv": false,
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.rulers": [
+      80,
+      120
+    ],
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[toml]": {
+    "editor.defaultFormatter": "tamasfe.even-better-toml"
+  }
+}
