@@ -3,6 +3,12 @@
 #
 set +H
 
+# Start the profiler at the top of the .zshrc file to capture the entire startup time,
+# including plugins and themes.
+if [ -n "${ZSH_PROFILE_STARTUP:+x}" ]; then
+  zmodload zsh/zprof
+fi
+
 # devbox
 eval "$(devbox global shellenv)"
 
@@ -25,7 +31,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 # https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#oh-my-zsh
 #ZSH_THEME="powerlevel10k/powerlevel10k"
-ZSH_THEME="robbyrussell"
+ZSH_THEME=""
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -93,8 +99,12 @@ DISABLE_AUTO_TITLE="true"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
+  gh
+  docker
+  docker-compose
   kubectl
   history
+  mise
   # plugins below require install
   # zsh-ssh
   # zsh-autosuggestions
@@ -153,13 +163,13 @@ fi
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # starship
-#eval "$(starship init zsh)"
+eval "$(starship init zsh)"
 
 # homebrew
 eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 
 # mise
-eval "$(~/.local/bin/mise activate zsh)"
+#eval "$(~/.local/bin/mise activate zsh)"
 
 # thefuck
 #eval "$(thefuck --alias)"
@@ -178,13 +188,19 @@ if command -v direnv &> /dev/null; then
 fi
 
 # kubectl
-source <(kubectl completion zsh)
+# source <(kubectl completion zsh)
 
 # nvm
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+#[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+#[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-
+# fnm
+eval "$(fnm env --use-on-cd --shell zsh)"
 
 # worktrunk
 if command -v wt >/dev/null 2>&1; then eval "$(command wt config shell init zsh)"; fi
+
+# Finish the profiler and print the results
+if [ -n "${ZSH_PROFILE_STARTUP:+x}" ]; then
+  zprof
+fi

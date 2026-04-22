@@ -1,6 +1,14 @@
 #
 # ~/.aliases
 #
+# Set personal aliases, overriding those provided by oh-my-zsh libs,
+# plugins, and themes. Aliases can be placed here, though oh-my-zsh
+# users are encouraged to define aliases within the ZSH_CUSTOM folder.
+# For a full list of active aliases, run `alias`.
+#
+# Example aliases
+# alias zshconfig="mate ~/.zshrc"
+# alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias ..='cd ..'
 
@@ -52,7 +60,6 @@ alias zn='zellij --layout ~/.config/zellij/layouts/news.kdl' # --session news' #
 # Python
 alias py='python'
 alias ipy='ipython'
-alias pvenv='python3 -m venv .venv && source .venv/bin/activate && pip install -U pip'
 alias pips='pip freeze'
 
 # php
@@ -61,7 +68,7 @@ alias art='php artisan'
 alias fresh='php artisan migrate:fresh --seed'
 alias seed='php artisan db:seed'
 
-# nodejs, npm, pnpm
+# nodejs, npm, pnpm, bun, deno
 alias pn='pnpm'
 alias npm_install='npm install --verbose'
 

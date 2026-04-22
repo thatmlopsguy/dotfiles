@@ -152,7 +152,11 @@
     "argo-workflows@latest",
     "tektoncd-cli@latest",
     "grype@latest",
-    "syft@latest"
+    "syft@latest",
+    "rabbitmq-server@latest",
+    "fnm@latest",
+    "yazi@latest",
+    "sesh@latest"
   ],
   "shell": {
     "init_hook": [
