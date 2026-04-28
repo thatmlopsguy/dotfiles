@@ -20,7 +20,6 @@
     "neofetch@latest",
     "ncdu@latest",
     "krew@latest",
-    "k9s@latest",
     "delta@latest",
     "kubernetes-helm@latest",
     "argocd@latest",
@@ -156,7 +155,8 @@
     "rabbitmq-server@latest",
     "fnm@latest",
     "yazi@latest",
-    "sesh@latest"
+    "sesh@latest",
+    "gonzo@latest"
   ],
   "shell": {
     "init_hook": [

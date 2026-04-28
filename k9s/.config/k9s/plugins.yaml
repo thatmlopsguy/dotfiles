@@ -14,6 +14,7 @@ plugins:
       - $NAMESPACE
       - --context
       - $CONTEXT
+
   duplik8s-deploy:
     shortCut: Ctrl-T
     description: Duplicate Deployment
@@ -29,3 +30,182 @@ plugins:
       - $NAMESPACE
       - --context
       - $CONTEXT
+
+  # allows visualizing pod and node metrics
+  kube-metrics-pod:
+    shortCut: m
+    confirm: false
+    description: "Metrics"
+    scopes:
+      - pods
+      - nodes
+    command: sh
+    background: false
+    args:
+      - -c
+      - |
+        if [ -n "$NAMESPACE" ]; then
+          kube-metrics pod --namespace=$NAMESPACE $NAME
+        else
+          kube-metrics node $NAME
+        fi
+
+  # allows visualizing pod logs with gonzo log analysis tool
+  gonzo:
+    shortCut: Ctrl-L
+    description: "Gonzo log analysis"
+    scopes:
+      - po
+    command: sh
+    background: false
+    args:
+      - -c
+      - "kubectl logs -f $NAME -n $NAMESPACE --context $CONTEXT | gonzo"
+
+  # allows syncing an ArgoCD application from K9s. Requires argocd CLI to be installed and configured on the machine running K9s.
+  argocd:
+    shortCut: "s"
+    description: Sync ArgoCD Application
+    scopes:
+      - application
+    command: argocd
+    args:
+    - app
+    - sync
+    - $NAME
+    - --app-namespace
+    - $NAMESPACE
+    background: true
+    confirm: true
+
+  refresh-apps:
+    shortCut: Shift-R
+    confirm: false
+    scopes:
+      - apps
+    description: Refresh a argocd app hard
+    command: bash
+    background: false
+    args:
+      - -c
+      - "kubectl annotate applications -n argocd $NAME argocd.argoproj.io/refresh=hard"
+
+  #--- Create debug container for selected pod in current namespace
+  # See https://kubernetes.io/docs/tasks/debug/debug-application/debug-running-pod/#ephemeral-container
+  debug:
+    shortCut: Shift-D
+    description: Add debug container
+    dangerous: true
+    scopes:
+      - containers
+    command: bash
+    background: false
+    confirm: true
+    inputs:
+      - name: image
+        label: Debug image
+        type: dropdown
+        required: true
+        default: nicolaka/netshoot:v0.15
+        options:
+          - nicolaka/netshoot:v0.15
+          - busybox:1.37
+          - alpine:3.23
+          - ubuntu:26.04
+      - name: profile
+        label: Debug profile
+        type: dropdown
+        required: true
+        default: sysadmin
+        options:
+          - general
+          - baseline
+          - restricted
+          - netadmin
+          - sysadmin
+          - legacy
+      - name: share_processes
+        label: Share processes
+        type: bool
+        required: true
+        default: true
+    args:
+      - -c
+      - >-
+        kubectl debug -it --context $CONTEXT -n=$NAMESPACE $POD
+        --target=$NAME
+        --image=$INPUT_IMAGE
+        --profile=$INPUT_PROFILE
+        $([ "$INPUT_SHARE_PROCESSES" = "true" ] && echo "--share-processes")
+        -- sh
+
+  # allows syncing an ExternalSecret from K9s by adding a timestamp annotation to force the controller to sync the secret.
+  refresh-external-secrets:
+    shortCut: Shift-R
+    confirm: false
+    scopes:
+      - externalsecrets
+    description: Refresh the externalsecret
+    command: bash
+    background: true
+    args:
+      - -c
+      - "kubectl annotate externalsecrets.external-secrets.io --context $CONTEXT -n $NAMESPACE $NAME force-sync=$(date +%s) --overwrite"
+
+  # Author: Daniel Rubin
+  # Get recommendations for CPU/Memory requests and limits using Robusta KRR
+  # Requires Prometheus in the Cluster and Robusta KRR (https://github.com/robusta-dev/krr) on your system
+  # Open K9s in deployments/daemonsets/statefulsets view, then:
+  # Shift-K to get recommendations
+  krr:
+    shortCut: Shift-K
+    description: Get CPU/Memory recommendations Robusta KRR
+    scopes:
+      - deployments
+      - daemonsets
+      - statefulsets
+      - cronjobs
+    command: bash
+    background: false
+    confirm: false
+    inputs:
+      - name: history_duration
+        label: History duration (hours)
+        type: dropdown
+        required: true
+        default: "24"
+        options:
+          - "1"
+          - "2"
+          - "6"
+          - "12"
+          - "24"
+          - "48"
+          - "72"
+          - "168"
+    args:
+      - -c
+      - |
+        LABELS=$(kubectl get $RESOURCE_NAME $NAME -n $NAMESPACE --context $CONTEXT --show-labels | awk '{print $NF}' | awk '{if(NR>1)print}')
+        krr simple-limit --cluster $CONTEXT --selector $LABELS --namespace $NAMESPACE --history-duration $INPUT_HISTORY_DURATION
+        echo "Press 'q' to exit"
+        while : ; do
+        read -n 1 k <&1
+        if [[ $k = q ]] ; then
+        break
+        fi
+        done
+
+  # remove finalizers from a stuck namespace
+  rm-ns:
+    shortCut: n
+    confirm: true
+    dangerous: true
+    description: Remove NS Finalizers
+    scopes:
+    - namespace
+    command: sh
+    background: false
+    args:
+    - -c
+    - "kubectl get namespace $NAME -o json | jq '.spec.finalizers=[]' | kubectl replace --raw /api/v1/namespaces/$NAME/finalize -f - > /dev/null"

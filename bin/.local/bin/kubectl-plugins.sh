@@ -5,6 +5,7 @@ set -Eeuo pipefail
 krew update
 krew install ctx
 krew install ns
+krew install get-all
 krew install ktop
 krew install kubescape
 krew install oomd
