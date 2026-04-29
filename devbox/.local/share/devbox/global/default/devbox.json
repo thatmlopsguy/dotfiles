@@ -156,7 +156,8 @@
     "fnm@latest",
     "yazi@latest",
     "sesh@latest",
-    "gonzo@latest"
+    "gonzo@latest",
+    "kube-linter@latest"
   ],
   "shell": {
     "init_hook": [
