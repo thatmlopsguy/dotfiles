@@ -157,7 +157,8 @@
     "yazi@latest",
     "sesh@latest",
     "gonzo@latest",
-    "kube-linter@latest"
+    "kube-linter@latest",
+    "lfk@latest"
   ],
   "shell": {
     "init_hook": [

@@ -27,5 +27,6 @@ krew install deprecations # https://github.com/kubepug/kubepug
 krew install crd-wizard
 krew install szero
 krew install stern
+krew install kimspect
 
 krew upgrade
