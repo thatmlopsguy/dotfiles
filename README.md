@@ -40,8 +40,6 @@ Visit `https://webinstall.dev/nerdfont` and follow the instructions to install t
 
 This is a long list, so here is a table of content with tl;dr summaries:
 
-- [Rust Utilities](https://rustutils.com/)
-- [Terminal Trove](https://terminaltrove.com/list/) - terminal tools
 - [starship](https://starship.rs/) - great cross shell prompt that requires no setup
 - [fzf](https://github.com/junegunn/fzf) - general-purpose fuzzy search
 - [lf](https://github.com/gokcehan/lf) - terminal file manager
@@ -77,6 +75,7 @@ This is a long list, so here is a table of content with tl;dr summaries:
 - [ctop](https://github.com/bcicen/ctop) and [lazydocker](https://github.com/jesseduffield/lazydocker) for Docker
 - [ncdu](https://dev.yorhel.nl/ncdu) - disk usage analyzer
 - [bottom](https://github.com/ClementTsang/bottom)
+- [netwatch](https://github.com/matthart1983/netwatch) - terminal network traffic monitor
 
 ### DBA
 
@@ -96,3 +95,5 @@ Articles and other links that helped me create these dotfiles:
 - [andrenbrandao/dotfiles](https://github.com/andrenbrandao/dotfiles/)
 - [elithrar/dotfiles](https://github.com/elithrar/dotfiles/)
 - [this-is-tobi/dotfiles](https://github.com/this-is-tobi/dotfiles)
+- [Rust Utilities](https://rustutils.com/)
+- [Terminal Trove](https://terminaltrove.com/list/) - terminal tools
