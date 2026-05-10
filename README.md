@@ -56,7 +56,7 @@ This is a long list, so here is a table of content with tl;dr summaries:
 - [dog](https://github.com/ogham/dog) - command-line DNS client
 - [worktrunk](https://worktrunk.dev/) - git worktree management for parallel AI agent workflows
 
-### package manager
+### Package Manager
 
 - ~~[asdf](https://asdf-vm.com/) - multiple Runtime Version Manager~~
 - [mise](https://mise.jdx.dev/) - tool to manage multiple versions of Rust
@@ -66,7 +66,7 @@ This is a long list, so here is a table of content with tl;dr summaries:
 - [fnm](https://github.com/Schniz/fnm) - fast Node Manager
 - [proto](https://moonrepo.dev/docs/proto) - version manager for all of your favorite programming languages
 
-### system monitoring tools
+### System Monitoring Tools
 
 - [fastfetch](https://github.com/fastfetch-cli/fastfetch) - neofetch like system information tool
 - [htop](https://htop.dev/)
@@ -82,11 +82,13 @@ This is a long list, so here is a table of content with tl;dr summaries:
 - [dbeaver](https://dbeaver.io)
 - [pgadmin](https://www.pgadmin.org)
 
-## Software TUIs
+## Software Development TUIs
 
 - [lazydocker](https://github.com/jesseduffield/lazydocker) - terminal UI for Docker
 - [lazygit](https://github.com/jesseduffield/lazygit) - terminal UI for Git
 - [lazyworktree](https://chmouel.github.io/lazyworktree) - terminal UI for Git worktrees
+- [k9s](https://k9scli.io/) & [lfk](https://github.com/janosmiko/lfk) - terminal UI for Kubernetes
+- [vau](https://github.com/janosmiko/vau) - terminal UI for Hashicorp Vault
 
 ## References
 
@@ -97,3 +99,4 @@ Articles and other links that helped me create these dotfiles:
 - [this-is-tobi/dotfiles](https://github.com/this-is-tobi/dotfiles)
 - [Rust Utilities](https://rustutils.com/)
 - [Terminal Trove](https://terminaltrove.com/list/) - terminal tools
+- [Awesome Modern CLI](https://github.com/thegdsks/awesome-modern-cli) - awesome modern CLI tools
