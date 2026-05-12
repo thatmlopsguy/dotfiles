@@ -1,0 +1,3 @@
+log:
+  # suppress all logging output (env: GRYPE_LOG_QUIET)
+  quiet: false

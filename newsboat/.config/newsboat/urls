@@ -127,6 +127,8 @@ https://www.fairwinds.com/blog/rss.xml                        "security" "~Fairw
 https://jfrog.com/blog/feed/                                  "security" "~Jfrog"
 https://snyk.io/blog/feed/                                    "security" "~Snyk"
 https://sysdig.com/feed/                                      "security" "~Sysdig"
+https://anchore.com/feed/                                     "security" "~Anchore"
+https://www.aquasecurity.com/feed/                            "security" "~Aqua Security"
 
 "* Data ------------------------------------------------------------------------------------"
 https://blog.timescale.com/feed                               "data" "~Timescale"

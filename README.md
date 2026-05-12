@@ -77,6 +77,13 @@ This is a long list, so here is a table of content with tl;dr summaries:
 - [bottom](https://github.com/ClementTsang/bottom)
 - [netwatch](https://github.com/matthart1983/netwatch) - terminal network traffic monitor
 
+### Security & Compliance Tools
+
+- [trivy](https://github.com/aquasecurity/trivy) - vulnerability scanner for containers and other artifacts
+- [grype](https://github.com/anchore/grype) - vulnerability scanner for container images and filesystems
+- [syft](https://github.com/anchore/syft) - generates SBOMs (Software Bill of Materials)
+- [grant](https://github.com/anchore/grant) - license scanner for container images and filesystems
+
 ### DBA
 
 - [dbeaver](https://dbeaver.io)

@@ -1,0 +1,3 @@
+log:
+  # suppress all logging output (env: SYFT_LOG_QUIET)
+  quiet: false
