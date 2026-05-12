@@ -17,3 +17,4 @@ brew install azure-cli
 brew install datadog/mkat/managed-kubernetes-auditing-toolkit
 brew install gitversion
 brew install grant
+brew install bazelisk
