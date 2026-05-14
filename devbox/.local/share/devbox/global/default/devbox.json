@@ -158,7 +158,9 @@
     "sesh@latest",
     "gonzo@latest",
     "kube-linter@latest",
-    "lfk@latest"
+    "lfk@latest",
+    "jsonnet-bundler@latest",
+    "go-jsonnet@latest"
   ],
   "shell": {
     "init_hook": [
