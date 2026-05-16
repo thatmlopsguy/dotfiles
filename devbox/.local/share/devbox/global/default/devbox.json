@@ -160,7 +160,8 @@
     "kube-linter@latest",
     "lfk@latest",
     "jsonnet-bundler@latest",
-    "go-jsonnet@latest"
+    "go-jsonnet@latest",
+    "packer@latest"
   ],
   "shell": {
     "init_hook": [
