@@ -162,7 +162,8 @@
     "jsonnet-bundler@latest",
     "go-jsonnet@latest",
     "packer@latest",
-    "pinact@latest"
+    "pinact@latest",
+    "ghalint@latest"
   ],
   "shell": {
     "init_hook": [
