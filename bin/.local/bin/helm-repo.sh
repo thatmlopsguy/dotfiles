@@ -155,6 +155,7 @@ helm repo add kubeai https://www.kubeai.org
 helm repo add langfuse https://langfuse.github.io/langfuse-k8s
 helm repo add vllm https://vllm-project.github.io/production-stack
 helm repo add open-webui https://open-webui.github.io/helm-charts
+helm repo add l9gpu https://last9.github.io/gpu-telemetry
 # AWS
 helm repo add eks https://aws.github.io/eks-charts
 helm repo add localstack-repo https://helm.localstack.cloud
