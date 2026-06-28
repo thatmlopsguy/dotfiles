@@ -103,6 +103,7 @@ https://scaleops.com/feed/                                    "Blog" "~ScaleOps"
 https://victoriametrics.com/index.xml                         "Blog" "~VictoriaMetrics"
 https://www.perfectscale.io/blog/rss.xml                      "Blog" "~PerfectScale"
 https://www.spectrocloud.com/blog/rss.xml                     "Blog" "~Spectro Cloud"
+https://modelplane.ai/feed.xml                                "Blog" "~ModelPlane"
 
 "* cncf ------------------------------------------------------------------------------------"
 https://kubernetes.io/feed.xml                                "cncf" "~Kubernetes"
