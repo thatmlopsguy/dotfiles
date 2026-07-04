@@ -124,6 +124,7 @@
     "mkdocs",
     "mlflow",
     "mlops",
+    "nbomber",
     "nbstripout",
     "newrelic",
     "nextauth",
