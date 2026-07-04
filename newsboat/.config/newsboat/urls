@@ -124,6 +124,7 @@ https://istio.io/latest/blog/feed.xml                         "cncf" "~Istio"
 https://medium.com/feed/kialiproject                          "cncf" "~Kiali"
 https://llm-d.ai/blog/rss.xml                                 "cncf" "~llm-d"
 https://tekton.dev/blog/index.xml                             "cncf" "~tekton"
+https://buoyant.io/blog/rss.xml                               "cncf" "~Linkerd"
 
 "* Security --------------------------------------------------------------------------------"
 https://www.armosec.io/blog/feed/                             "security" "~Armosec"
