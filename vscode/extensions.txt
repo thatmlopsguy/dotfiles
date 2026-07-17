@@ -8,10 +8,10 @@ emeraldwalk.runonsave
 exiasr.hadolint
 fcrespo82.markdown-table-formatter
 fnando.linter
-github.copilot-chat
 github.vscode-github-actions
 golang.go
 hashicorp.terraform
+immanueltikhonov.droast
 inercia.vscode-k3d
 james-yu.latex-workshop
 kubescape.kubescape
@@ -22,6 +22,7 @@ mongodb.mongodb-vscode
 ms-azuretools.vscode-azure-github-copilot
 ms-azuretools.vscode-azure-mcp-server
 ms-azuretools.vscode-azureresourcegroups
+ms-azuretools.vscode-azurestorage
 ms-azuretools.vscode-containers
 ms-kubernetes-tools.kind-vscode
 ms-kubernetes-tools.vscode-aks-tools
@@ -35,14 +36,17 @@ ms-python.vscode-python-envs
 ms-vscode-remote.remote-ssh
 ms-vscode-remote.remote-ssh-edit
 ms-vscode.remote-explorer
+ms-windows-ai-studio.windows-ai-studio
 njpwerner.autodocstring
 philstainer.git-worktree
 qwtel.sqlite-viewer
 redhat.vscode-yaml
 rust-lang.rust-analyzer
+sanjulaganepola.github-local-actions
 snyk-security.snyk-vulnerability-scanner
 stevenchen.vscode-adr-manager
 streetsidesoftware.code-spell-checker
 streetsidesoftware.code-spell-checker-portuguese
+tamasfe.even-better-toml
 tim-koehler.helm-intellisense
 yzhang.markdown-all-in-one

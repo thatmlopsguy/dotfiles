@@ -77,6 +77,13 @@ This is a long list, so here is a table of content with tl;dr summaries:
 - [bottom](https://github.com/ClementTsang/bottom)
 - [netwatch](https://github.com/matthart1983/netwatch) - terminal network traffic monitor
 
+### Linters
+
+- [shellcheck](https://github.com/koalaman/shellcheck) - shell script linter
+- [hadolint](https://github.com/hadolint/hadolint) - Dockerfile linter
+- [dockerfile-roast](https://github.com/immanuwell/dockerfile-roast) - Dockerfile linter
+- [markdownlint](https://github.com/DavidAnson/markdownlint) - Markdown linter
+
 ### Security & Compliance Tools
 
 - [trivy](https://github.com/aquasecurity/trivy) - vulnerability scanner for containers and other artifacts

@@ -13,6 +13,7 @@
 	c = commit
 	cm = commit -m
 	co = checkout
+	cob = !git checkout $(git branch | fzf)
 	d = diff
 	ds = diff --staged
 	p = push
