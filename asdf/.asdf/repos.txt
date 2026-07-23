@@ -1,1 +1,0 @@
-nodejs	https://github.com/asdf-vm/asdf-nodejs.git	23.2.0
