@@ -113,7 +113,6 @@
     "addlicense@latest",
     "gh@latest",
     "gum@latest",
-    "checkov@latest",
     "kubescape@latest",
     "yarn@latest",
     "fluxcd@latest",
@@ -163,7 +162,8 @@
     "go-jsonnet@latest",
     "packer@latest",
     "pinact@latest",
-    "ghalint@latest"
+    "ghalint@latest",
+    "newsboat@latest"
   ],
   "shell": {
     "init_hook": [
