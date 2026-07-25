@@ -127,6 +127,7 @@
     "mkdocs",
     "mlflow",
     "mlops",
+    "mypy",
     "nbomber",
     "nbstripout",
     "newrelic",
