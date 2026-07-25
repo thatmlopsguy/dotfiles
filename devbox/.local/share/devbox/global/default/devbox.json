@@ -167,7 +167,8 @@
     "k3s@latest",
     "k3d@latest",
     "opencode@latest",
-    "jujutsu@latest"
+    "jujutsu@latest",
+    "procs@latest"
   ],
   "shell": {
     "init_hook": [
