@@ -165,7 +165,8 @@
     "kind@latest",
     "k9s@latest",
     "k3s@latest",
-    "k3d@latest"
+    "k3d@latest",
+    "opencode@latest"
   ],
   "shell": {
     "init_hook": [
