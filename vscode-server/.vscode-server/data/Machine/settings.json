@@ -29,7 +29,7 @@
     "**/.devbox": true,
     "**/.ipynb_checkpoints": true
   },
-  "python.defaultInterpreterPath": "/home/linuxbrew/.linuxbrew/bin/python3.11",
+  "python.defaultInterpreterPath": "/usr/bin/python",
   "python-envs.alwaysUseUv": true,
   "files.exclude": {
     "**/.git": true,
