@@ -1,1 +1,1 @@
-hardeneks==0.10.4
+hardeneks==1.1.1
