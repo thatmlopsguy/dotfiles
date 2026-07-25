@@ -8,6 +8,8 @@
 #!.vscode/mcp.json
 .idea
 notes.txt
+todo.txt
+TODO.md
 
 # vim
 *.swp

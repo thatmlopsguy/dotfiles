@@ -136,3 +136,6 @@
 
 [includeIf "gitdir:~/code/bitbucket/"]
 	path = ~/.config/git/accounts/bitbucket
+
+[includeIf "gitdir:~/code/codeberg/"]
+	path = ~/.config/git/accounts/codeberg

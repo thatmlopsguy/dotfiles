@@ -15,9 +15,8 @@ DOTFILES="${HOME}/code/github/dotfiles"
 DEFAULT_SHELL="/usr/bin/zsh"
 ENABLE_OH_MY_ZSH=true
 ENABLE_BASH_IT=false
-ENABLE_STARSHIP=false
+ENABLE_STARSHIP=true
 ENABLE_DEVBOX=true
-ENABLE_ASDF=true
 ENABLE_MISE=true
 ENABLE_HOMEBREW=true
 
@@ -55,10 +54,10 @@ Running...
 EOF
 
 
-
 # Check environments
 OS=$(uname -s 2>/dev/null)
 echo "Operating System: $OS"
+echo "Current default shell: $SHELL"
 
 # On Linux, we may need to install some packages.
 DISTRO=""
@@ -78,7 +77,7 @@ if [[ "${OS}" == "Linux" ]] && [[ "${DISTRO}" == "debian" || "${DISTRO}" == "ubu
     echo "Updating system packages ..."
     sudo apt update
     sudo apt -y upgrade
-    sudo apt -y install build-essential apt-transport-https ca-certificates gnupg curl git stow
+    sudo apt -y install build-essential apt-transport-https ca-certificates gnupg curl git stow zsh
     echo "✅ System package updates"
 fi
 
@@ -86,12 +85,12 @@ mkdir -p "${HOME}"/documents/{articles,notes}
 
 # Set up repos directory
 if [[ ! -d "${HOME}/code" ]]; then
-    mkdir -p "${HOME}"/code/{github,gitlab,bitbucket,azure}
+    mkdir -p "${HOME}"/code/{github,gitlab,bitbucket,azure,codeberg}
 fi
 
 
 # Clone & install dotfiles
-echo "Configuring dotfiles"
+echo "⏳ Configuring dotfiles ..."
 if command -v stow &>/dev/null; then
     echo "✅ GNU Stow is installed."
 else
@@ -115,12 +114,7 @@ fi
 
 
 # if [[ -z $STOW_FOLDERS ]]; then
-#     STOW_FOLDERS="git,tmux,zsh,bin"
-# fi
-
-# if [[ -z $DOTFILES ]]; then
-#     DOTFILES=$HOME/code/github/dotfiles
-#     mkdir -p "${DOTFILES}"
+#     STOW_FOLDERS="agents,angular,direnv,shell,git,curl,bat"
 # fi
 
 # STOW_FOLDERS=$STOW_FOLDERS DOTFILES=$DOTFILES
@@ -135,17 +129,26 @@ fi
 #     stow $folder
 # done
 
+#
+# stow */
 
 # --- Configure zsh
 if [[ ! -d "${HOME}/.oh-my-zsh" && "${ENABLE_OH_MY_ZSH}" = true ]]; then
     echo "Installing oh-my-zsh ..."
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
+else
+    echo "✅ oh-my-zsh already installed"
+fi
+
+# Set default shell to zsh
+if command -v zsh &>/dev/null && [[ "$SHELL" != "$(command -v zsh)" ]]; then
     if ! grep -q "$(command -v zsh)" /etc/shells; then
         command -v zsh | sudo tee -a /etc/shells
     fi
     chsh -s "$(command -v zsh)"
+    success "Default shell changed to zsh"
 else
-    echo "✅ oh-my-zsh already installed"
+    echo "✅ zsh is already the default shell"
 fi
 
 # Install Mise
@@ -176,12 +179,12 @@ else
     echo "✅ Homebrew/Linuxbrew already installed."
 fi
 
-# --- Homebrew packages
-if [[ "${ENABLE_HOMEBREW}" = true ]]; then
-    echo "Installing Homebrew packages..."
-    brew install max-sixty/worktrunk/wt
-    echo "✅ Homebrew packages installed."
-fi
+# # --- Homebrew packages
+# if [[ "${ENABLE_HOMEBREW}" = true ]]; then
+#     echo "Installing Homebrew packages..."
+#     brew install max-sixty/worktrunk/wt
+#     echo "✅ Homebrew packages installed."
+# fi
 
 # Install starship
 if ! command -v starship &>/dev/null && [[ "${ENABLE_STARSHIP}" = true ]]; then

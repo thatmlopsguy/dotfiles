@@ -57,7 +57,6 @@
     "k6@latest",
     "litmusctl@latest",
     "argo@latest",
-    "argocd-autopilot@latest",
     "kustomize@latest",
     "chart-testing@latest",
     "shellspec@latest",
@@ -100,7 +99,6 @@
     "jp@latest",
     "hey@latest",
     "eks-node-viewer@latest",
-    "copilot-cli@latest",
     "helmsman@latest",
     "helmfile@latest",
     "kubent@latest",
@@ -163,7 +161,9 @@
     "packer@latest",
     "pinact@latest",
     "ghalint@latest",
-    "newsboat@latest"
+    "newsboat@latest",
+    "kind@latest",
+    "k9s@latest"
   ],
   "shell": {
     "init_hook": [

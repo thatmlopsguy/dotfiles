@@ -9,3 +9,5 @@ gh/.config/gh/hosts.yml
 kube/.kube/cache
 kube/.kube/config*
 kube/.kube/kubectx
+*.db
+devbox/.local/share

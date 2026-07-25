@@ -153,12 +153,6 @@ if [ -f ~/.functions ]; then
     . ~/.functions
 fi
 
-# asdf
-# if [ -f ~/.asdf/asdf.sh ]; then
-#     . "$HOME/.asdf/asdf.sh"
-#     . "$HOME/.asdf/completions/asdf.bash"
-# fi
-
 # Set up fzf key bindings and fuzzy completion
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
@@ -189,10 +183,6 @@ fi
 
 # kubectl
 # source <(kubectl completion zsh)
-
-# nvm
-#[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-#[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # fnm
 eval "$(fnm env --use-on-cd --shell zsh)"

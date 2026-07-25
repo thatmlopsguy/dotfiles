@@ -6,3 +6,5 @@ nix-shell -p nix-info --run "nix-info -m"
 
 # https://www.jetify.com/devbox/docs/installing_devbox/
 curl -fsSL https://get.jetify.com/devbox | bash
+
+# devbox global install
