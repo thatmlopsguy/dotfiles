@@ -166,7 +166,8 @@
     "k9s@latest",
     "k3s@latest",
     "k3d@latest",
-    "opencode@latest"
+    "opencode@latest",
+    "jujutsu@latest"
   ],
   "shell": {
     "init_hook": [
