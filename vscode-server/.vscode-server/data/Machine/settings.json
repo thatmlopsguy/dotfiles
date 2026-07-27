@@ -278,5 +278,6 @@
     "editor.formatOnSave": true,
     "editor.formatOnSaveMode": "file",
   },
-  "workbench.browser.enableChatTools": true
+  "workbench.browser.enableChatTools": true,
+  "python.analysis.typeCheckingMode": "standard"
 }
