@@ -179,6 +179,7 @@
     "syft",
     "synthflow",
     "tamasfe",
+    "terralist",
     "tfvars",
     "tika",
     "tolerations",
@@ -194,6 +195,7 @@
     "virtualenv",
     "vmagent",
     "vmalert",
+    "vmselect",
     "vmsingle",
     "yace",
     "yazi"

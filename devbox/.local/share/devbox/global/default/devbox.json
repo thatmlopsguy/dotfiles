@@ -169,7 +169,8 @@
     "opencode@latest",
     "jujutsu@latest",
     "procs@latest",
-    "direnv@latest"
+    "direnv@latest",
+    "ssm-session-manager-plugin@latest"
   ],
   "shell": {
     "init_hook": [
