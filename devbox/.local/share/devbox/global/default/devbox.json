@@ -170,7 +170,8 @@
     "jujutsu@latest",
     "procs@latest",
     "direnv@latest",
-    "ssm-session-manager-plugin@latest"
+    "ssm-session-manager-plugin@latest",
+    "gcx@latest"
   ],
   "shell": {
     "init_hook": [

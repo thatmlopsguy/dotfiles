@@ -7,7 +7,7 @@ cmake
 curl
 file
 git
-golang
+golang-go
 g++
 make
 net-tools
