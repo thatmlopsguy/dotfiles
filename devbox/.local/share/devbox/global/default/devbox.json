@@ -168,7 +168,8 @@
     "k3d@latest",
     "opencode@latest",
     "jujutsu@latest",
-    "procs@latest"
+    "procs@latest",
+    "direnv@latest"
   ],
   "shell": {
     "init_hook": [
