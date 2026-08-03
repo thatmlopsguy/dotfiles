@@ -1,7 +1,7 @@
 #! /usr/bin/env bash
 
 # Check if the packages file exists
-if [ ! -f "packages.txt" ]; then
+if [[ ! -f "packages.txt" ]]; then
     echo "packages.txt file not found."
     exit 1
 fi

@@ -1,5 +1,4 @@
 arahata.linter-actionlint
-bierner.markdown-mermaid
 charliermarsh.ruff
 davidanson.vscode-markdownlint
 docker.docker

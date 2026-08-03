@@ -58,9 +58,13 @@ export STARSHIP_CACHE="${HOME}/.starship/cache"
 #export EDITOR='code -w'
 #export VISUAL=$EDITOR
 #export TERMINAL="kitty"
-#export BROWSER="firefox"
 #export VIDEO="mpv"
 #export COLORTERM="truecolor"
+
+# Open URLs in Windows default browser when running in WSL
+if [[ -n "${WSL_DISTRO_NAME}" ]]; then
+    export BROWSER="/mnt/c/Windows/explorer.exe"
+fi
 
 # https://mobeigi.com/blog/security/osint/what-github-exposes-about-you/
 export TZ=UTC

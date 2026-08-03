@@ -281,5 +281,6 @@
     "editor.formatOnSaveMode": "file",
   },
   "workbench.browser.enableChatTools": true,
-  "python.analysis.typeCheckingMode": "standard"
+  "python.analysis.typeCheckingMode": "standard",
+  "chat.agent.maxRequests": 80
 }

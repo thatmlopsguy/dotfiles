@@ -11,7 +11,6 @@ golang-go
 g++
 make
 net-tools
-nvtop
 ncdu
 python3-pip
 python3-venv
@@ -26,6 +25,5 @@ unzip
 zsh
 zsh-autosuggestions
 zsh-syntax-highlighting
-wslu
 xclip
 xsel

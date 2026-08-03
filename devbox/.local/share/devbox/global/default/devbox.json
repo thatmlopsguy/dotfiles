@@ -171,7 +171,8 @@
     "procs@latest",
     "direnv@latest",
     "ssm-session-manager-plugin@latest",
-    "gcx@latest"
+    "gcx@latest",
+    "azure-cli@latest"
   ],
   "shell": {
     "init_hook": [

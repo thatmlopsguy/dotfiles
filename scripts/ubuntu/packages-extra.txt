@@ -1,5 +1,6 @@
 emacs
 feh
 mpv
+nvtop
 newsboat
 task-spooler
