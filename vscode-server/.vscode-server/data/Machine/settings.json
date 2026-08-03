@@ -119,6 +119,7 @@
     "kubeai",
     "kubeconfig",
     "kubelet",
+    "kubevirt",
     "kwok",
     "kyverno",
     "lakefs",
@@ -151,6 +152,7 @@
     "otlphttp",
     "pgbouncer",
     "pinact",
+    "portkey",
     "pprint",
     "prek",
     "privateca",
@@ -279,6 +281,10 @@
     "editor.defaultFormatter": "hashicorp.terraform",
     "editor.formatOnSave": true,
     "editor.formatOnSaveMode": "file",
+  },
+  "terraform.languageServer.enable": true,
+  "files.associations": {
+    "*.tfvars": "terraform-vars"
   },
   "workbench.browser.enableChatTools": true,
   "python.analysis.typeCheckingMode": "standard",
