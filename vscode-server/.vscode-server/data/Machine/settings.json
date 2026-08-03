@@ -29,7 +29,9 @@
     "**/.devbox": true,
     "**/.ipynb_checkpoints": true
   },
+  // Python settings
   "python.defaultInterpreterPath": "/usr/bin/python",
+  "python.analysis.typeCheckingMode": "standard",
   "python-envs.alwaysUseUv": true,
   "files.exclude": {
     "**/.git": true,
@@ -287,6 +289,5 @@
     "*.tfvars": "terraform-vars"
   },
   "workbench.browser.enableChatTools": true,
-  "python.analysis.typeCheckingMode": "standard",
   "chat.agent.maxRequests": 80
 }
