@@ -1,0 +1,9 @@
+#!/bin/sh
+
+rm -f "${HOME}/.bash_history"*
+rm -f "${HOME}/.zsh_history"
+rm -f "${HOME}/.viminfo.tmp"
+rm -f "${HOME}/.python_history"
+rm -f "${HOME}/.ghc/ghci_history"
+rm -rf "${HOME}/.cache/pypoetry/virtualenvs"
+rm -f "${HOME}/.psql_history"
