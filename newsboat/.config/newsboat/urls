@@ -12,6 +12,7 @@
 "query:YouTube - Programming :tags # \"YT-Programming\""
 "query:Newsletter :tags # \"Newsletter\""
 "query:Tools :tags # \"Tools\""
+"query:Python :tags # \"Python\""
 # Get rss feeds
 # https://getrssfeed.com/
 # https://lighthouseapp.io/tools/feed-finder
@@ -240,6 +241,9 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UC4JX40jDee_tINbkjycV4Sg "YT
 https://lwkd.info/feed.xml                                                   "Newsletter" "~LWKD"
 https://www.cncf.io/feed/?post_type=lf_kubeweekly                            "Newsletter" "~KubeWeekly"
 https://www.lastweekinaws.com/newsletter/feed/                               "Newsletter" "~lastweekinaws"
+
+"* Python -----------------------------------------------------------------------------------"
+https://labs.quansight.org/rss.xml                                           "Python" "~Quansight Labs"
 
 "* Others ----------------------------------------------------------------------------------"
 https://8thlight.com/blog/feed/atom.xml "EngineeringBlogs"

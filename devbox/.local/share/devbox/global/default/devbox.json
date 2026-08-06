@@ -111,7 +111,6 @@
     "addlicense@latest",
     "gh@latest",
     "gum@latest",
-    "kubescape@latest",
     "yarn@latest",
     "fluxcd@latest",
     "adrgen@latest",
@@ -172,7 +171,8 @@
     "direnv@latest",
     "ssm-session-manager-plugin@latest",
     "gcx@latest",
-    "azure-cli@latest"
+    "azure-cli@latest",
+    "rtk@latest"
   ],
   "shell": {
     "init_hook": [
