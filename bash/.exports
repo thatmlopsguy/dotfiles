@@ -55,7 +55,7 @@ export STARSHIP_CACHE="${HOME}/.starship/cache"
 # export XDG_STATE_HOME=$HOME/.local/state
 
 # Default Apps
-#export EDITOR='code -w'
+export EDITOR='code -w'
 #export VISUAL=$EDITOR
 #export TERMINAL="kitty"
 #export VIDEO="mpv"
