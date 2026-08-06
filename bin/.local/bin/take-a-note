@@ -8,7 +8,7 @@ if [ -z ${NOTE_DIR+x} ]; then
 fi
 
 function usage() {
-  echo "Usage: note.sh [action]"
+  echo "Usage: take-a-note [action]"
   echo
   echo "  actions:"
   echo "    grep [pattern]"
