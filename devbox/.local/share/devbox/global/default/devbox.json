@@ -172,7 +172,12 @@
     "ssm-session-manager-plugin@latest",
     "gcx@latest",
     "azure-cli@latest",
-    "rtk@latest"
+    "rtk@latest",
+    "betterleaks@latest",
+    "flux9s@latest",
+    "kargo@latest",
+    "clusterctl@latest",
+    "k0sctl@latest"
   ],
   "shell": {
     "init_hook": [
