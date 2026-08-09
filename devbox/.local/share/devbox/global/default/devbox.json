@@ -177,7 +177,8 @@
     "flux9s@latest",
     "kargo@latest",
     "clusterctl@latest",
-    "k0sctl@latest"
+    "k0sctl@latest",
+    "crossplane-cli@latest"
   ],
   "shell": {
     "init_hook": [
