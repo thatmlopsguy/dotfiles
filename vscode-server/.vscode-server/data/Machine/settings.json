@@ -64,6 +64,7 @@
     "blackbox",
     "cadvisor",
     "certifi",
+    "cicd",
     "clickhouse",
     "cloudhealth",
     "clusteradm",
@@ -212,6 +213,7 @@
     "vmalert",
     "vmselect",
     "vmsingle",
+    "webp",
     "xlarge",
     "yace",
     "yazi"
