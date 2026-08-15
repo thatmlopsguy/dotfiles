@@ -175,6 +175,7 @@
     "pycache",
     "pydantic",
     "pylock",
+    "pypi",
     "pyproject",
     "pytest",
     "PYTHONUNBUFFERED",
