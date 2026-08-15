@@ -3,6 +3,7 @@
 #
 "query:Blogs:tags # \"Blog\""
 "query:CNCF:tags # \"cncf\""
+"query:SRE:tags # \"SRE\""
 "query:Security:tags # \"security\""
 "query:Data:tags # \"data\""
 "query:EngBlogs:tags # \"EngineeringBlogs\""
@@ -13,6 +14,7 @@
 "query:Newsletter :tags # \"Newsletter\""
 "query:Tools :tags # \"Tools\""
 "query:Python :tags # \"Python\""
+
 # Get rss feeds
 # https://getrssfeed.com/
 # https://lighthouseapp.io/tools/feed-finder
@@ -145,6 +147,10 @@ https://blog.timescale.com/feed                               "data" "~Timescale
 https://altinity.com/feed/                                    "data" "~Altinity"
 https://weaviate.io/blog/rss.xml                              "data" "~Weaviate"
 https://www.pinecone.io/rss/                                  "data" "~Pinecone"
+
+"* SRE -------------------------------------------------------------------------------------"
+https://www.honeycomb.io/rss/blog.xml                         "SRE" "~Honeycomb"
+https://incident.io/blog.xml                                  "SRE" "~Incident.io"
 
 "* Research --------------------------------------------------------------------------------"
 https://huggingface.co/blog/feed.xml                          "ResearchBlog" "~Huggingface"
