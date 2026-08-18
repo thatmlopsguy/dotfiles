@@ -140,6 +140,7 @@ https://www.stepsecurity.io/blog/rss.xml                      "security" "~Step 
 https://semgrep.dev/blog/rss                                  "security" "~Semgrep"
 https://security.googleblog.com/feeds/posts/default           "security" "~Google Security"
 https://umbrella.cisco.com/blog/feed/                         "security" "~Cisco Umbrella"
+https://www.wiz.io/blog/rss                                   "security" "~Wiz"
 
 "* Data ------------------------------------------------------------------------------------"
 https://planetscale.com/blog/rss.xml                          "data" "~Planetscale"
