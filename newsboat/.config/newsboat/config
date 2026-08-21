@@ -31,6 +31,11 @@ reload-time 60
 ## parameter syntax: [yes/no]
 confirm-exit no
 
+## configuration option: confirm-mark-feed-read
+## description: If set to yes, then newsbeuter will ask for confirmation whether the user really wants to mark all articles in a feed as read.
+## parameter syntax: [yes/no]
+confirm-mark-feed-read no
+
 ## configuration option: bookmark-cmd
 ## description: If set, then <bookmark-command> will be used as bookmarking plugin. See the documentation on bookmarking for further information.
 ## parameter syntax: <bookmark-command>
