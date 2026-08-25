@@ -1,4 +1,5 @@
 apt-transport-https
+bind9-dnsutils
 build-essential
 ca-certificates
 cifs-utils

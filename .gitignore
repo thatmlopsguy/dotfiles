@@ -12,3 +12,6 @@ kube/.kube/kubectx
 *.db
 devbox/.local/share
 !devbox/.local/share/devbox/global/*
+# migrate to another repository
+opencode/*
+claude/*

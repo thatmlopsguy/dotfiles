@@ -138,6 +138,7 @@ https://semgrep.dev/blog/rss                                  "security" "~Semgr
 https://security.googleblog.com/feeds/posts/default           "security" "~Google Security"
 https://umbrella.cisco.com/blog/feed/                         "security" "~Cisco Umbrella"
 https://www.wiz.io/blog/rss                                   "security" "~Wiz"
+https://cloudsmith.com/rss/blog.xml                           "security" "~Cloudsmith"
 
 "* Data ------------------------------------------------------------------------------------"
 https://planetscale.com/blog/rss.xml                          "data" "~Planetscale"
@@ -184,6 +185,7 @@ https://eugeneyan.com/rss/                            "PersonalBlog" "~Eugene Ya
 
 "* Youtube ---------------------------------------------------------------------------------"
 # https://www.youtube.com/feeds/videos.xml?channel_id=
+https://www.youtube.com/feeds/videos.xml?channel_id=UCP7cCrat-mRYOf8JYRr1qHA "Youtube" "~ML Visualized"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCZgt6AzoyjslHTC9dz0UoTw "Youtube" "~BytebyteGo"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC-4nsAH5j9AIhv5tHoQSP9g "Youtube" "~Interview Pen"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCfz8x0lVzJpb_dgWm9kPVrw "Youtube" "~DevOps Toolkit"
