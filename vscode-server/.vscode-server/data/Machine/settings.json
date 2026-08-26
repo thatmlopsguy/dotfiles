@@ -6,6 +6,7 @@
   "workbench.activityBar.autoHide": true,
   "workbench.activityBar.compact": true,
   "workbench.activityBar.location": "top",
+  "workbench.browser.enableChatTools": true,
   "workbench.colorTheme": "One Dark Pro Flat",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.tips.enabled": false,
@@ -303,6 +304,10 @@
   "files.associations": {
     "*.tfvars": "terraform-vars"
   },
-  "workbench.browser.enableChatTools": true,
-  "chat.agent.maxRequests": 80
+  // Chat settings
+  "chat.agent.maxRequests": 80,
+  "chat.planAgent.defaultModel": "Claude Opus 4.6 (copilot)",
+  "inlineChat.defaultModel": "Claude Opus 4.6 (copilot)",
+  "chat.agent.autoApprove": true,
+  "chat.permissions.default": "autopilot"
 }
