@@ -55,6 +55,7 @@
   "cSpell.userWords": [
     "akuity",
     "alertmanager",
+    "apify",
     "applicationset",
     "atuin",
     "awscli",
@@ -67,6 +68,7 @@
     "certifi",
     "cicd",
     "clickhouse",
+    "clickhousectl",
     "cloudhealth",
     "clusteradm",
     "codespell",
