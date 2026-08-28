@@ -1,13 +1,5 @@
 {
-  "model": "opus",
-  "enabledPlugins": {
-    "feature-dev@claude-code-plugins": true,
-    "hookify@claude-code-plugins": true,
-    "learning-output-style@claude-code-plugins": true,
-    "plugin-dev@claude-code-plugins": true,
-    "security-guidance@claude-code-plugins": true
-  },
-  "alwaysThinkingEnabled": true,
+  "model": "opus[1m]",
   "hooks": {
     "PreToolUse": [
       {
@@ -20,5 +12,13 @@
         ]
       }
     ]
-  }
+  },
+  "enabledPlugins": {
+    "feature-dev@claude-code-plugins": true,
+    "hookify@claude-code-plugins": true,
+    "learning-output-style@claude-code-plugins": true,
+    "plugin-dev@claude-code-plugins": true,
+    "security-guidance@claude-code-plugins": true
+  },
+  "alwaysThinkingEnabled": true
 }
