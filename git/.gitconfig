@@ -103,6 +103,9 @@
 [commit]
 	template = ~/.gitmessage
 
+[checkout]
+	workers = 4
+
 [column]
   ui = auto
 
@@ -139,3 +142,4 @@
 
 [includeIf "gitdir:~/code/codeberg/"]
 	path = ~/.config/git/accounts/codeberg
+
