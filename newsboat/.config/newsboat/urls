@@ -105,6 +105,7 @@ https://www.spectrocloud.com/blog/rss.xml                     "Blog" "~Spectro C
 https://modelplane.ai/feed.xml                                "Blog" "~ModelPlane"
 https://control-plane.io/posts/index.xml                      "Blog" "~Control Plane"
 https://blogs.janestreet.com/feed.xml                         "Blog" "~Jane Street"
+https://radarhq.io/blog/rss.xml                               "Blog" "~RadarHQ"
 
 "* cncf ------------------------------------------------------------------------------------"
 https://kubernetes.io/feed.xml                                "cncf" "~Kubernetes"
