@@ -89,7 +89,6 @@ https://www.infracloud.io/feed.xml                            "Blog" "~Infraclou
 https://last9.io/rss.xml                                      "Blog" "~Last9"
 https://medium.com/feed/inside-wallapop                       "Blog" "~Wallapop"
 https://blog.bytebytego.com/feed                              "Blog" "~Bytebytego"
-https://www.datadoghq.com/blog/index.xml                      "Blog" "~Datadog"
 https://platformengineering.org/blog/rss.xml                  "Blog" "~Platform Engineering"
 https://circleci.com/blog/feed.xml                            "Blog" "~CircleCI"
 https://craftech.io/feed/                                     "Blog" "~Craftech"
@@ -153,8 +152,10 @@ https://clickhouse.com/rss.xml                                "data" "~Clickhous
 https://qdrant.tech/blog/index.xml                            "data" "~Qdrant"
 
 "* SRE -------------------------------------------------------------------------------------"
+https://www.datadoghq.com/blog/index.xml                      "SRE" "~Datadog"
 https://www.honeycomb.io/rss/blog.xml                         "SRE" "~Honeycomb"
 https://incident.io/blog.xml                                  "SRE" "~Incident.io"
+# https://openobserve.ai/blog/rss.xml                           "SRE" "~OpenObserve"
 
 "* Research --------------------------------------------------------------------------------"
 https://lfaidata.foundation/feed/                             "ResearchBlog" "~LF AI"
@@ -257,6 +258,7 @@ https://kube.fm/podcast.xml                                                  "Po
 https://lwkd.info/feed.xml                                                   "Newsletter" "~LWKD"
 https://www.cncf.io/feed/?post_type=lf_kubeweekly                            "Newsletter" "~KubeWeekly"
 https://www.lastweekinaws.com/newsletter/feed/                               "Newsletter" "~lastweekinaws"
+https://kube.today/learn-kubernetes-weekly.xml                               "Newsletter" "~Kube Today"
 
 "* Python -----------------------------------------------------------------------------------"
 https://labs.quansight.org/rss.xml                                           "Python" "~Quansight Labs"
