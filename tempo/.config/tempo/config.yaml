@@ -1,0 +1,7 @@
+theme: tokyonight-night
+active_profile: local
+
+profiles:
+  local:
+    address: localhost:7233
+    namespace: default
