@@ -88,3 +88,8 @@ yarn.lock
 # Claude
 .claude/settings.local.json
 .changelog.d/
+
+# Clickhouse
+.clickhouse/
+token.json
+
