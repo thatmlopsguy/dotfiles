@@ -12,6 +12,7 @@
 "query:YouTube - DevOps:tags # \"Youtube\""
 "query:YouTube - Programming :tags # \"YT-Programming\""
 "query:Newsletter :tags # \"Newsletter\""
+"query:Podcast :tags # \"Podcast\""
 "query:Tools :tags # \"Tools\""
 "query:Python :tags # \"Python\""
 
@@ -106,6 +107,7 @@ https://modelplane.ai/feed.xml                                "Blog" "~ModelPlan
 https://control-plane.io/posts/index.xml                      "Blog" "~Control Plane"
 https://blogs.janestreet.com/feed.xml                         "Blog" "~Jane Street"
 https://radarhq.io/blog/rss.xml                               "Blog" "~RadarHQ"
+https://kedify.io/rss.xml                                     "Blog" "~Kedify"
 
 "* cncf ------------------------------------------------------------------------------------"
 https://kubernetes.io/feed.xml                                "cncf" "~Kubernetes"
@@ -247,6 +249,9 @@ https://www.youtube.com/feeds/videos.xml?channel_id=UCVhQ2NnY5Rskt6UjCUkJ_DA "YT
 https://www.youtube.com/feeds/videos.xml?channel_id=UCvkM2esSMJTZVtPo8NVtP4g "YT-Programming" "~Hynek Schlawack"
 https://www.youtube.com/feeds/videos.xml?channel_id=UCuudpdbKmQWq2PPzYgVCWlA "YT-Programming" "~Indently"
 https://www.youtube.com/feeds/videos.xml?channel_id=UC4JX40jDee_tINbkjycV4Sg "YT-Programming" "~Tech With Tim"
+
+"* Podcasts --------------------------------------------------------------------------------"
+https://kube.fm/podcast.xml                                                  "Podcast" "~Kube.fm"
 
 "* Newsletters -----------------------------------------------------------------------------"
 https://lwkd.info/feed.xml                                                   "Newsletter" "~LWKD"
