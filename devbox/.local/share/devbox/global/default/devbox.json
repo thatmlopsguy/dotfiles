@@ -177,7 +177,8 @@
     "kargo@latest",
     "clusterctl@latest",
     "k0sctl@latest",
-    "crossplane-cli@latest"
+    "crossplane-cli@latest",
+    "prek@latest"
   ],
   "shell": {
     "init_hook": [
