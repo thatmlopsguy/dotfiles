@@ -107,6 +107,8 @@ https://control-plane.io/posts/index.xml                      "Blog" "~Control P
 https://blogs.janestreet.com/feed.xml                         "Blog" "~Jane Street"
 https://radarhq.io/blog/rss.xml                               "Blog" "~RadarHQ"
 https://kedify.io/rss.xml                                     "Blog" "~Kedify"
+https://www.siderolabs.com/feed/                              "Blog" "~Sidero Labs"
+https://www.solo.io/blog/rss.xml                              "Blog" "~Solo.io"
 
 "* cncf ------------------------------------------------------------------------------------"
 https://kubernetes.io/feed.xml                                "cncf" "~Kubernetes"
@@ -127,6 +129,7 @@ https://medium.com/feed/kialiproject                          "cncf" "~Kiali"
 https://llm-d.ai/blog/rss.xml                                 "cncf" "~llm-d"
 https://tekton.dev/blog/index.xml                             "cncf" "~tekton"
 https://buoyant.io/blog/rss.xml                               "cncf" "~Linkerd"
+https://agentgateway.dev/blog/index.xml                        "cncf" "~Agent Gateway"
 
 "* Security --------------------------------------------------------------------------------"
 https://www.fairwinds.com/blog/rss.xml                        "security" "~Fairwinds"

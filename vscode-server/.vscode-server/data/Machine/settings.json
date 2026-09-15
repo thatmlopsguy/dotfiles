@@ -199,6 +199,7 @@
     "skopeo",
     "slurm",
     "sonarqube",
+    "sslmode",
     "statefulset",
     "streamlit",
     "syft",

@@ -28,5 +28,6 @@ krew install crd-wizard
 krew install szero
 krew install stern
 krew install kimspect
+krew install resource-capacity
 
 krew upgrade

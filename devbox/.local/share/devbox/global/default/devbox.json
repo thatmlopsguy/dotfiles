@@ -178,7 +178,8 @@
     "clusterctl@latest",
     "k0sctl@latest",
     "crossplane-cli@latest",
-    "prek@latest"
+    "prek@latest",
+    "talosctl@latest"
   ],
   "shell": {
     "init_hook": [
