@@ -32,6 +32,7 @@ alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
 alias fzf="fzf --preview 'bat --style=numbers --color=always --line-range :500 {}'"
 alias lpath='echo $PATH | tr ":" "\n"' # list the PATH separated by new lines
+alias spf="superfile"
 
 if [ -x "$(command -v nvim)" ]; then
     alias vim=nvim
