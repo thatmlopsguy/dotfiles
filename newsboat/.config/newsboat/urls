@@ -1,6 +1,7 @@
 #
 # ~/.config/newsboat/urls
 #
+"query:Unread:unread = \"yes\""
 "query:Blogs:tags # \"Blog\""
 "query:CNCF:tags # \"cncf\""
 "query:SRE:tags # \"SRE\""
