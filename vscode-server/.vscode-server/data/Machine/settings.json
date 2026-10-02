@@ -181,6 +181,7 @@
     "onnx",
     "oomkill",
     "openbao",
+    "opencode",
     "opensips",
     "otlphttp",
     "pgbouncer",
