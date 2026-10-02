@@ -180,7 +180,8 @@
     "crossplane-cli@latest",
     "prek@latest",
     "talosctl@latest",
-    "superfile@latest"
+    "superfile@latest",
+    "dive@latest"
   ],
   "shell": {
     "init_hook": [
