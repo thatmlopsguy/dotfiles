@@ -2,6 +2,7 @@
 
 set -Eeuo pipefail
 
+krew index add netshoot https://github.com/nilic/kubectl-netshoot.git
 krew update
 krew install ctx
 krew install ns
@@ -29,5 +30,6 @@ krew install szero
 krew install stern
 krew install kimspect
 krew install resource-capacity
+krew install netshoot/netshoot
 
 krew upgrade
