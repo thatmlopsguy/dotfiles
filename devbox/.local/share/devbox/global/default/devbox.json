@@ -181,7 +181,8 @@
     "prek@latest",
     "talosctl@latest",
     "superfile@latest",
-    "dive@latest"
+    "dive@latest",
+    "rclone@latest"
   ],
   "shell": {
     "init_hook": [
