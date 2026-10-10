@@ -182,7 +182,8 @@
     "talosctl@latest",
     "superfile@latest",
     "dive@latest",
-    "rclone@latest"
+    "rclone@latest",
+    "jfrog-cli@latest"
   ],
   "shell": {
     "init_hook": [

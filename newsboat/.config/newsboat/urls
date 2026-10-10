@@ -187,7 +187,6 @@ https://devopstoolkit.live/index.xml                  "PersonalBlog" "~DevOps To
 https://jvns.ca/atom.xml                              "PersonalBlog" "~Julia Evans"
 http://blog.cleancoder.com/atom.xml                   "PersonalBlog" "~Robert C. Martin"
 https://a-cup-of.coffee/index.xml                     "PersonalBlog" "~A Cup of Coffee"
-https://realpython.com/atom.xml                       "PersonalBlog" "~Real Python"
 https://piotrminkowski.com/feed/                      "PersonalBlog" "~Piotr's TechBlog"
 https://pradeepl.com/blog/feed.xml                    "PersonalBlog" "~Pradeep Loganathan"
 https://sylhare.github.io/feed.xml                    "PersonalBlog" "~Sylhare"
@@ -277,7 +276,10 @@ https://www.lastweekinaws.com/newsletter/feed/                               "Ne
 https://kube.today/learn-kubernetes-weekly.xml                               "Newsletter" "~Kube Today"
 
 "* Python -----------------------------------------------------------------------------------"
+https://blog.python.org/feeds/posts/default?alt=rss                          "Python" "~Python Blog"
 https://labs.quansight.org/rss.xml                                           "Python" "~Quansight Labs"
+https://astral.sh/blog/rss.xml                                               "Python" "~Astral"
+https://realpython.com/atom.xml                                              "Python" "~Real Python"
 
 "* Others ----------------------------------------------------------------------------------"
 # https://8thlight.com/blog/feed/atom.xml "EngineeringBlogs"
