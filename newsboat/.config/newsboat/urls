@@ -133,7 +133,7 @@ https://llm-d.ai/blog/rss.xml                                 "cncf" "~llm-d"
 https://tekton.dev/blog/index.xml                             "cncf" "~tekton"
 https://buoyant.io/blog/rss.xml                               "cncf" "~Linkerd"
 https://agentgateway.dev/blog/index.xml                       "cncf" "~Agent Gateway"
-https://opentofu.org/blog/rss.xml                             "" "~OpenTofu"
+https://opentofu.org/blog/rss.xml                             "cncf" "~OpenTofu"
 
 "* Security --------------------------------------------------------------------------------"
 https://slsa.dev/feed.xml                                     "security" "~SLSA"

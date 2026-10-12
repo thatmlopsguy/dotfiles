@@ -183,7 +183,8 @@
     "superfile@latest",
     "dive@latest",
     "rclone@latest",
-    "jfrog-cli@latest"
+    "jfrog-cli@latest",
+    "pack@latest"
   ],
   "shell": {
     "init_hook": [
