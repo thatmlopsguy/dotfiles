@@ -151,6 +151,7 @@ https://umbrella.cisco.com/blog/feed/                         "security" "~Cisco
 https://www.wiz.io/blog/rss                                   "security" "~Wiz"
 https://cloudsmith.com/rss/blog.xml                           "security" "~Cloudsmith"
 https://www.chainguard.dev/api/rss                            "security" "~Chainguard"
+https://www.aikido.dev/blog/rss.xml                           "security" "~Aikido"
 
 "* Identity --------------------------------------------------------------------------------"
 # https://www.okta.com/rss.xml                                 "identity" "~Okta"
