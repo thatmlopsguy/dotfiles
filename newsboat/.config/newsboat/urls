@@ -134,6 +134,7 @@ https://tekton.dev/blog/index.xml                             "cncf" "~tekton"
 https://buoyant.io/blog/rss.xml                               "cncf" "~Linkerd"
 https://agentgateway.dev/blog/index.xml                       "cncf" "~Agent Gateway"
 https://opentofu.org/blog/rss.xml                             "cncf" "~OpenTofu"
+https://medium.com/feed/buildpacks                            "cncf" "~Buildpacks"
 
 "* Security --------------------------------------------------------------------------------"
 https://slsa.dev/feed.xml                                     "security" "~SLSA"
