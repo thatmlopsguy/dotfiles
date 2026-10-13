@@ -1,6 +1,8 @@
 #
 # ~/.gitconfig
 #
+# References
+#  - https://blog.gitbutler.com/how-git-core-devs-configure-git
 
 # https://github.com/GitAlias/gitalias
 [alias]
@@ -102,6 +104,7 @@
 
 [commit]
 	template = ~/.gitmessage
+  verbose = true
 
 [checkout]
 	workers = 4
