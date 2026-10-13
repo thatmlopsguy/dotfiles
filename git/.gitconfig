@@ -3,7 +3,7 @@
 #
 # References
 #  - https://blog.gitbutler.com/how-git-core-devs-configure-git
-
+#
 # https://github.com/GitAlias/gitalias
 [alias]
 	git = !exec git
