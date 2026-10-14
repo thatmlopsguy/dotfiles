@@ -30,10 +30,7 @@
     "**/.devbox": true,
     "**/.ipynb_checkpoints": true
   },
-  // Python settings
-  "python.defaultInterpreterPath": "/usr/bin/python",
-  "python.analysis.typeCheckingMode": "standard",
-  "python-envs.alwaysUseUv": true,
+  // Files settings
   "files.autoSave": "afterDelay",
   "files.exclude": {
     "**/.git": true,
@@ -49,6 +46,12 @@
     "**/.venv": true,
     "**/.devbox": true,
     "**/.ipynb_checkpoints": true
+  },
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.associations": {
+    "*.tfvars": "terraform-vars"
   },
   // Dictionary
   "cSpell.language": "en,pt",
@@ -252,6 +255,7 @@
     "tflint",
     "tfsec",
     "tfstate",
+    "tftpl",
     "tfvars",
     "tika",
     "timoni",
@@ -260,6 +264,8 @@
     "trixie",
     "truststore",
     "upbound",
+    "upjet",
+    "uptest",
     "urllib",
     "uvicorn",
     "valkey",
@@ -303,13 +309,18 @@
   "[vue]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  // Python settings
   "[python]": {
     "editor.rulers": [
       80,
       120
     ],
     "editor.formatOnSave": true,
-    "editor.defaultFormatter": "charliermarsh.ruff"
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "languageServer": "None",
+    "defaultInterpreterPath": "/usr/bin/python",
+    "analysis.typeCheckingMode": "standard",
+    "envs.alwaysUseUv": true,
   },
   "[yaml]": {
     "editor.defaultFormatter": "redhat.vscode-yaml",
@@ -357,15 +368,11 @@
     "editor.defaultFormatter": "hashicorp.terraform",
     "editor.formatOnSave": true,
     "editor.formatOnSaveMode": "file",
-  },
-  "terraform.languageServer.enable": true,
-  "files.associations": {
-    "*.tfvars": "terraform-vars"
+    "languageServer.enable": true
   },
   // Chat settings
   "chat.agent.maxRequests": 80,
-  //"chat.planAgent.defaultModel": "Claude Opus 4.6 (copilot)",
-  //"inlineChat.defaultModel": "Claude Opus 4.6 (copilot)",
   "chat.agent.autoApprove": true,
-  "chat.permissions.default": "autopilot"
+  "chat.permissions.default": "autopilot",
+  "chat.planAgent.defaultModel": "Claude Haiku 5.5 (copilot)"
 }
