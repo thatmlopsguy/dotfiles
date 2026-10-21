@@ -184,7 +184,8 @@
     "dive@latest",
     "rclone@latest",
     "jfrog-cli@latest",
-    "pack@latest"
+    "pack@latest",
+    "uv@latest"
   ],
   "shell": {
     "init_hook": [
