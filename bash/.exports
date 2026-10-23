@@ -23,16 +23,16 @@ export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
 export PATH="${HOME}/.cargo/bin:$PATH"
 
 # Golang
-#export GOPATH="${HOME}/go"
-#export GOROOT=/usr/local/go
-#export PATH="$GOPATH/bin:$PATH"
-# https://go.dev/doc/install
-export PATH=$PATH:/usr/local/go/bin
+# Nothing below is exported except PATH; Go derives the rest itself:
+#   GOROOT     = ~/.local/go       Go distribution (auto-detected from the go binary)
+#   GOPATH     = ~/go              default ($HOME/go), kept separate from GOROOT
+#   GOMODCACHE = ~/go/pkg/mod      downloaded modules and toolchains
+#   GOBIN      = ~/go/bin          where `go install` puts gopls, goimports, golangci-lint
+# GO111MODULE (modules on), GOPROXY, GOSUMDB and GOTOOLCHAIN=auto are already
+# defaults (via $GOROOT/go.env), so they aren't exported; leaving them unset
+# also lets `go env -w` override them.
+export PATH="${HOME}/.local/go/bin:$PATH"
 export PATH="$PATH:${HOME}/go/bin"
-export GO111MODULE=on
-export GOPROXY=https://proxy.golang.org,direct
-export GOSUMDB=sum.golang.org
-export GOTOOLCHAIN=auto
 
 # Node
 export NVM_DIR="$HOME/.nvm"
