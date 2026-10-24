@@ -57,6 +57,7 @@
   "cSpell.language": "en,pt",
   "cSpell.userWords": [
     "agentgateway",
+    "agentshield",
     "akuity",
     "alertmanager",
     "anchore",
@@ -121,6 +122,7 @@
     "gitmessage",
     "gitops",
     "gitversion",
+    "gofmt",
     "golangci",
     "gomod",
     "gotest",
@@ -203,6 +205,7 @@
     "nodeclass",
     "nodepool",
     "numpy",
+    "nvmrc",
     "onnx",
     "oomkill",
     "openbao",
