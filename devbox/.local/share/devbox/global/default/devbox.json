@@ -186,7 +186,8 @@
     "jfrog-cli@latest",
     "pack@latest",
     "uv@latest",
-    "crane@latest"
+    "crane@latest",
+    "dapr-cli@latest"
   ],
   "shell": {
     "init_hook": [
