@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#MISE description="Add Python, uv and test tasks to the current project"
+#MISE dir="{{cwd}}"
+#USAGE arg "[version]" default="3.14" help="Python version"
+set -euo pipefail
+
+mise use "python@${usage_version}" uv@latest
+mise tasks add sync --description "Sync locked dependencies" -- uv sync --locked
+mise tasks add test --description "Run tests" -- uv run --locked pytest

@@ -64,7 +64,7 @@ This is a long list, so here is a table of content with tl;dr summaries:
 - [devbox](https://www.jetify.com/devbox) - package manager using Nix
 - ~~[eget](https://github.com/zyedidia/eget) - install executables from GitHub releases~~
 - [fnm](https://github.com/Schniz/fnm) - fast Node Manager
-- [proto](https://moonrepo.dev/docs/proto) - version manager for all of your favorite programming languages
+- ~~[proto](https://moonrepo.dev/docs/proto) - version manager for all of your favorite programming languages~~
 
 ### System Monitoring Tools
 
