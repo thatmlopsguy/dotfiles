@@ -84,6 +84,8 @@ This is a long list, so here is a table of content with tl;dr summaries:
 - [dockerfile-roast](https://github.com/immanuwell/dockerfile-roast) - Dockerfile linter
 - [markdownlint](https://github.com/DavidAnson/markdownlint) - Markdown linter
 
+See [superlinter](https://github.com/super-linter/super-linter) and [megalinter](https://github.com/oxsecurity/megalinter)
+
 ### Security & Compliance Tools
 
 - [trivy](https://github.com/aquasecurity/trivy) - vulnerability scanner for containers and other artifacts
