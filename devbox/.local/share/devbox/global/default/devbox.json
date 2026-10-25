@@ -187,7 +187,8 @@
     "pack@latest",
     "uv@latest",
     "crane@latest",
-    "dapr-cli@latest"
+    "dapr-cli@latest",
+    "nixfmt@latest"
   ],
   "shell": {
     "init_hook": [
