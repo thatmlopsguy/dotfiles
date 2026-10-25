@@ -123,7 +123,6 @@
     "kyverno-chainsaw@latest",
     "newsraft@latest",
     "fabric-ai@latest",
-    "minio-client@latest",
     "just@latest",
     "oras@latest",
     "skopeo@latest",
@@ -188,7 +187,9 @@
     "uv@latest",
     "crane@latest",
     "dapr-cli@latest",
-    "nixfmt@latest"
+    "nixfmt@latest",
+    "ty@latest",
+    "pyrefly@latest"
   ],
   "shell": {
     "init_hook": [
