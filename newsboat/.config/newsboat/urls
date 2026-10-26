@@ -112,6 +112,7 @@ https://www.solo.io/blog/rss.xml                              "Blog" "~Solo.io"
 https://www.g-ftech.com/feed.xml                              "Blog" "~G factor technologies"
 https://docs.litellm.ai/blog/rss.xml                          "Blog" "~LiteLLM"
 https://roadie.io/blog/rss.xml                                "Blog" "~Roadie"
+https://agentdesktop.dev/blog/index.xml                       "Blog" "~Agent Desktop"
 
 "* cncf ------------------------------------------------------------------------------------"
 https://kubernetes.io/feed.xml                                "cncf" "~Kubernetes"
