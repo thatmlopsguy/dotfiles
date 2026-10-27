@@ -136,6 +136,7 @@ https://buoyant.io/blog/rss.xml                               "cncf" "~Linkerd"
 https://agentgateway.dev/blog/index.xml                       "cncf" "~Agent Gateway"
 https://opentofu.org/blog/rss.xml                             "cncf" "~OpenTofu"
 https://medium.com/feed/buildpacks                            "cncf" "~Buildpacks"
+https://theagentrouter.ai/blog/rss.xml                        "cncf" "~Agent Router"
 
 "* Security --------------------------------------------------------------------------------"
 https://slsa.dev/feed.xml                                     "security" "~SLSA"
