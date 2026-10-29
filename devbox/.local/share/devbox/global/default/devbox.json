@@ -189,7 +189,8 @@
     "dapr-cli@latest",
     "nixfmt@latest",
     "ty@latest",
-    "pyrefly@latest"
+    "pyrefly@latest",
+    "git-lfs@latest"
   ],
   "shell": {
     "init_hook": [

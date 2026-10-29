@@ -118,6 +118,7 @@
     "finops",
     "flink",
     "fluentbit",
+    "freeswitch",
     "gitea",
     "gitmessage",
     "gitops",
@@ -167,6 +168,7 @@
     "keyspace",
     "kgateway",
     "kiali",
+    "kiro",
     "kokumi",
     "komoplane",
     "krisp",
@@ -222,6 +224,7 @@
     "pgbouncer",
     "pinact",
     "pipx",
+    "pjsip",
     "portkey",
     "pprint",
     "prek",
@@ -393,5 +396,6 @@
   "chat.agent.maxRequests": 80,
   "chat.agent.autoApprove": true,
   "chat.permissions.default": "autopilot",
+  "chat.tools.global.autoApprove": true,
   "chat.planAgent.defaultModel": "Claude Haiku 5.5 (copilot)"
 }
