@@ -41,6 +41,9 @@ export PATH="$HOME/.global-modules/bin:$PATH"
 # Angular
 export NG_CLI_ANALYTICS="false"
 
+# PHP / Composer
+# export COMPOSER_POLICY_COOLDOWN_PERIOD="7 days"
+
 # Mise
 export PATH="$HOME/.local/bin:$PATH"
 
